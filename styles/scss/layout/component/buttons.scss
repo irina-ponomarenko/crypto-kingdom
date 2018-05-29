@@ -1,0 +1,21 @@
+.buttons{
+  button{
+    padding: 20px 45px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    background: $background-button;
+    color: $select-color;
+    &:hover{
+      background: $hover-color;
+      color: black;
+    }
+  }
+  &:last-child{
+    margin-right: 30px;
+  }
+}
+.withdraw{
+  margin-right: 20px;
+}

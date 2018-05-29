@@ -1,0 +1,53 @@
+.discort{
+  background-image: url("../../images/discord.png");
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 15px;
+  background-position: center;
+ }
+.facebook{
+  background-image: url("../../images/facebook.png");
+  background-repeat: no-repeat;
+  width: 8px;
+  height: 15px;
+  background-position: center;
+}
+.tweeter{
+  background-image: url("../../images/tweeter.png");
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 13px;
+  background-position: center;
+}
+.dropdown-language{
+  border-radius: 78px;
+  padding: 11px 15px;
+  border: 4px solid $border-color;
+  background: transparent;
+  color: $select-color;
+  outline: none;
+  cursor: pointer;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.dropdown-language i{
+  font-size: 11px;
+  color: $border-color;
+}
+.language{
+  position: absolute;
+  color: $select-color;
+  padding: 15px 0;
+  width: 78px;
+  border: 4px solid $border-color;
+  border-radius: 73px;
+  right: 25px;
+  top: 78px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
