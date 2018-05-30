@@ -47,3 +47,18 @@
   padding-left: 10px;
   display: none !important;
 }
+.save{
+  text-align: center;
+  font-family: $font-roboto-medium;
+  font-size: 17px;
+  color: $select-color;
+  background: $light-green;
+  border: none;
+  border-radius: 5px;
+  max-width: 435px;
+  width: 100%;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,20 +1,21 @@
 /*
 Error: Undefined variable: "$color-nav".
-        on line 5 of E:/Crypto Kingdom/styles/scss/layout/component/left-content.scss
+        on line 6 of E:/Crypto Kingdom/styles/scss/layout/component/left-content.scss
 
 1: .left-content{
 2:   max-width: 365px;
 3:   width: 100%;
-4:   height: auto;
-5:   background: $color-nav;
-6:   font-family: $font-roboto-regular;
-7:   font-size: 15px;
-8:   color: $select-color;
-9:   position: relative;
-10: }
+4:   min-height: 1080px;
+5:   height: auto;
+6:   background: $color-nav;
+7:   font-family: $font-roboto-regular;
+8:   font-size: 15px;
+9:   color: $select-color;
+10:   position: relative;
+11: }
 
 Backtrace:
-E:/Crypto Kingdom/styles/scss/layout/component/left-content.scss:5
+E:/Crypto Kingdom/styles/scss/layout/component/left-content.scss:6
 C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -66,4 +67,4 @@ C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-nav\".\A         on line 5 of E:/Crypto Kingdom/styles/scss/layout/component/left-content.scss\A \A 1: .left-content{\A 2:   max-width: 365px;\A 3:   width: 100%;\A 4:   height: auto;\A 5:   background: $color-nav;\A 6:   font-family: $font-roboto-regular;\A 7:   font-size: 15px;\A 8:   color: $select-color;\A 9:   position: relative;\A 10: }"; }
+  content: "Error: Undefined variable: \"$color-nav\".\A         on line 6 of E:/Crypto Kingdom/styles/scss/layout/component/left-content.scss\A \A 1: .left-content{\A 2:   max-width: 365px;\A 3:   width: 100%;\A 4:   min-height: 1080px;\A 5:   height: auto;\A 6:   background: $color-nav;\A 7:   font-family: $font-roboto-regular;\A 8:   font-size: 15px;\A 9:   color: $select-color;\A 10:   position: relative;\A 11: }"; }

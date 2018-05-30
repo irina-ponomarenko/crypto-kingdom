@@ -413,9 +413,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: none !important;
 }
 
+.save {
+  text-align: center;
+  font-family: "robotomedium", Arial, sans-serif;
+  font-size: 17px;
+  color: #fff;
+  background: #1abe66;
+  border: none;
+  border-radius: 5px;
+  max-width: 435px;
+  width: 100%;
+  padding-bottom: 22px;
+  padding-top: 22px;
+  cursor: pointer;
+  outline: none;
+}
+
 .left-content {
   max-width: 365px;
   width: 100%;
+  min-height: 1080px;
   height: auto;
   background: #1c2125;
   font-family: "robotoregular", Arial, sans-serif;
@@ -561,6 +578,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 45px;
   margin-bottom: 141px;
   position: relative;
+}
+
+.change-width {
+  max-width: 677px;
 }
 
 .account {
@@ -735,4 +756,72 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 32px;
   height: 32px;
   margin-right: 23px;
+}
+
+.copy-address {
+  background: #23282c;
+  display: flex;
+  padding: 32px;
+  position: absolute;
+  right: -215px;
+}
+
+.img-clone {
+  width: 21px;
+  height: 21px;
+  background-image: url("../../images/clone.png");
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
+.sidebar {
+  max-width: 224px;
+  width: 100%;
+  max-height: 228px;
+  background: #1c2125;
+  font-family: "robotomedium", Arial, sans-serif;
+  font-size: 17px;
+  color: #7b7e80;
+  margin-left: 30px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.sidebar li {
+  padding: 30px 28px;
+  text-align: right;
+  border-bottom: 1px solid #43484b;
+}
+.sidebar li:last-child {
+  border-bottom: none;
+}
+.sidebar li a:hover {
+  color: #fff;
+}
+
+.new-margin h2 {
+  margin-top: 30px;
+}
+
+.form-setting {
+  background: #1c2125;
+  border-radius: 5px;
+  padding: 33px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.form-setting input {
+  border: none;
+  background: transparent;
+  width: 80%;
+  font-size: 17px;
+  color: #fff;
+  outline: none;
+}
+.form-setting input::placeholder {
+  color: #fff;
+  font-size: 17px;
+  font-family: "robotomedium", Arial, sans-serif;
 }

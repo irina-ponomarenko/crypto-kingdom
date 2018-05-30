@@ -70,3 +70,17 @@
   height: 32px;
   margin-right: 23px;
 }
+.copy-address{
+  background: $background-nav;
+  display: flex;
+  padding: 32px;
+  position: absolute;
+  right: -215px;
+}
+.img-clone{
+  width: 21px;
+  height: 21px;
+  background-image: url("../../images/clone.png");
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}

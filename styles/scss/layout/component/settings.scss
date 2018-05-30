@@ -1,0 +1,23 @@
+.form-setting{
+  background: $color-nav;
+  border-radius: 5px;
+  padding: 33px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  input{
+    border: none;
+    background: transparent;
+    width: 80%;
+    font-size: 17px;
+    color: $select-color;
+    outline: none;
+    &::placeholder{
+      color: $select-color;
+      font-size: 17px;
+      font-family: $font-roboto-medium;
+    }
+  }
+}

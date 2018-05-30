@@ -1,0 +1,30 @@
+.sidebar{
+  max-width: 224px;
+  width: 100%;
+  max-height: 228px;
+  background: $color-nav;
+  font-family: $font-roboto-medium;
+  font-size: 17px;
+  color: $color-text;
+  margin-left: 30px;
+  margin-top: 100px;
+  border-radius: 5px;
+  li{
+    padding: 30px 28px;
+    text-align: right;
+    border-bottom: 1px solid $border-color;
+    &:last-child{
+      border-bottom: none;
+    }
+    a{
+      &:hover{
+        color: $select-color;
+      }
+    }
+  }
+}
+.new-margin{
+  h2{
+    margin-top: 30px;
+  }
+}
