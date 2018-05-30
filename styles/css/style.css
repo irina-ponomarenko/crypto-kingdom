@@ -66,6 +66,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #181d21;
   max-width: 1920px;
   width: 100%;
+  min-height: 1080px;
   height: auto;
   margin: 0 auto;
   background-image: url("../../images/background-image.png");
@@ -351,10 +352,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: absolute;
   color: #fff;
   padding: 15px 0;
-  width: 78px;
+  width: 73px;
   border: 4px solid #43484b;
   border-radius: 73px;
-  right: 25px;
+  right: 27px;
   top: 78px;
   display: none;
   align-items: center;
