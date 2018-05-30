@@ -427,6 +427,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-top: 22px;
   cursor: pointer;
   outline: none;
+  margin-top: 20px;
 }
 
 .left-content {
@@ -824,4 +825,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #fff;
   font-size: 17px;
   font-family: "robotomedium", Arial, sans-serif;
+}
+
+.change-input-width input {
+  width: 60%;
 }
