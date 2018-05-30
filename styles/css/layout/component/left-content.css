@@ -10,8 +10,8 @@ Error: Undefined variable: "$color-nav".
 6:   font-family: $font-roboto-regular;
 7:   font-size: 15px;
 8:   color: $select-color;
-9: }
-10: .left-block{
+9:   position: relative;
+10: }
 
 Backtrace:
 E:/Crypto Kingdom/styles/scss/layout/component/left-content.scss:5
@@ -66,4 +66,4 @@ C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-nav\".\A         on line 5 of E:/Crypto Kingdom/styles/scss/layout/component/left-content.scss\A \A 1: .left-content{\A 2:   max-width: 365px;\A 3:   width: 100%;\A 4:   height: auto;\A 5:   background: $color-nav;\A 6:   font-family: $font-roboto-regular;\A 7:   font-size: 15px;\A 8:   color: $select-color;\A 9: }\A 10: .left-block{"; }
+  content: "Error: Undefined variable: \"$color-nav\".\A         on line 5 of E:/Crypto Kingdom/styles/scss/layout/component/left-content.scss\A \A 1: .left-content{\A 2:   max-width: 365px;\A 3:   width: 100%;\A 4:   height: auto;\A 5:   background: $color-nav;\A 6:   font-family: $font-roboto-regular;\A 7:   font-size: 15px;\A 8:   color: $select-color;\A 9:   position: relative;\A 10: }"; }

@@ -1,0 +1,72 @@
+.alert{
+  background: $select-color;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 31px;
+  max-width: 360px;
+  width: 100%;
+  p{
+    max-width: 230px;
+    width: 100%;
+    line-height: 20px;
+  }
+}
+.success{
+  border-bottom: 7px solid $light-green;
+}
+.error{
+  border-bottom: 7px solid $background-off;
+  top: 130px;
+}
+.img-block.success-img{
+  background-image: url("../../images/success.png");
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 38px;
+}
+.img-block.error-img{
+  background-image: url("../../images/error.png");
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+}
+.img-dismiss{
+  background: $select-color;
+  background-image: url("../../images/dissmiss.png");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.balance{
+  background: $background-nav;
+  position: absolute;
+  border-radius: 5px;
+  padding: 26px 28px;
+  left: 0;
+  right: 0;
+  top: 377px;
+  h2{
+    color: $select-color;
+    font-size: 20px;
+    font-family: $font-roboto-regular;
+  }
+}
+.wrapper-balance-info{
+  display: flex;
+  align-items: center;
+}
+.icon-balance{
+  background-image: url("../../images/balance.png");
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  margin-right: 23px;
+}

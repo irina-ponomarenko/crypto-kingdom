@@ -27,6 +27,9 @@
     margin-right: 0;
   }
 }
+.active-nav{
+  color: $hover-color;
+}
 
 
 /*----------right-top-social-block-----------*/
@@ -52,6 +55,9 @@
   }
   &:last-child{
     margin-right: 28px;
+  }
+  &:hover{
+    border: 4px solid $hover-color;
   }
 }
 
@@ -179,4 +185,22 @@
   p{
     margin-bottom: 10px;
   }
+}
+.nav-account{
+  display: flex;
+  margin-bottom: 40px;
+  li{
+    margin-right: 42px;
+    &:last-child{
+      margin-right: 0;
+    }
+    a{
+      &:hover{
+        color: $select-color;
+      }
+    }
+  }
+}
+.active{
+  color: $select-color;
 }

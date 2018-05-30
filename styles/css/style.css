@@ -73,6 +73,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-size: cover;
 }
 
+.content {
+  display: flex;
+  font-family: "robotomedium", Arial, sans-serif;
+  font-size: 17px;
+  color: #7b7e80;
+}
+
 * a {
   font-size: 17px;
   color: #7b7e80;
@@ -106,6 +113,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-right: 0;
 }
 
+.active-nav {
+  color: #e2c45e;
+}
+
 /*----------right-top-social-block-----------*/
 .navigation-top-right {
   display: flex;
@@ -131,6 +142,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 .social-navigation li:last-child {
   margin-right: 28px;
+}
+.social-navigation li:hover {
+  border: 4px solid #e2c45e;
 }
 
 /*-----------navigation-bottom-header-----------*/
@@ -271,6 +285,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 10px;
 }
 
+.nav-account {
+  display: flex;
+  margin-bottom: 40px;
+}
+.nav-account li {
+  margin-right: 42px;
+}
+.nav-account li:last-child {
+  margin-right: 0;
+}
+.nav-account li a:hover {
+  color: #fff;
+}
+
+.active {
+  color: #fff;
+}
+
 .discort {
   background-image: url("../../images/discord.png");
   background-repeat: no-repeat;
@@ -351,6 +383,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-right: 20px;
 }
 
+.status-notifications i {
+  font-size: 18px;
+}
+.status-notifications button {
+  width: 75px;
+  height: 30px;
+  display: flex;
+  border-radius: 30px;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.on {
+  background: #1abe66;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.off {
+  background: #c75353;
+  flex-direction: row-reverse;
+  padding-right: 15px;
+  padding-left: 10px;
+  display: none !important;
+}
+
 .left-content {
   max-width: 365px;
   width: 100%;
@@ -359,6 +420,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: "robotoregular", Arial, sans-serif;
   font-size: 15px;
   color: #fff;
+  position: relative;
 }
 
 .left-block {
@@ -392,6 +454,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   align-items: center;
   flex-direction: column;
   border-top: 1px solid #43484b;
+  position: absolute;
+  width: 305px;
+  bottom: 0;
 }
 .left-block-bottom .left-block {
   justify-content: space-between;
@@ -437,9 +502,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .chat-block {
   display: flex;
   align-items: center;
-  border-top: 1px solid #43484b;
   padding: 25px 30px;
   cursor: pointer;
+}
+
+.first-chat {
+  border-top: 1px solid #43484b;
 }
 
 .avatar {
@@ -484,4 +552,186 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #e2c45e;
   font-family: "robotomedium", Arial, sans-serif;
   margin-bottom: 12px;
+}
+
+.wrapper-account-info {
+  max-width: 958px;
+  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 141px;
+  position: relative;
+}
+
+.account {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.avatar-user {
+  display: flex;
+  align-items: center;
+}
+
+.img-user {
+  width: 103px;
+  height: 103px;
+  background-image: url("../../images/account-img.png");
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin-right: 17px;
+}
+
+.info-user h2 {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+.info-user span {
+  color: #e2c45e;
+}
+.info-user .wrapper-line-user {
+  width: 138px;
+  height: 5px;
+  margin-top: 18px;
+  background: #171b1f;
+  border-radius: 10px;
+}
+.info-user .wrapper-line-user .line-user {
+  height: 5px;
+  width: 80px;
+  margin: 0;
+  border-radius: 10px;
+  background: #e2c45e;
+  border: none;
+}
+
+.email-adress {
+  margin-top: 22px;
+  width: 100%;
+  display: flex;
+}
+.email-adress input {
+  padding: 35px 33px;
+  background: #1c2125;
+  border: none;
+  font-size: 17px;
+  width: 76%;
+  color: #7b7e80;
+  outline: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.email-adress button {
+  padding: 35px 33px;
+  display: flex;
+  background: #23282c;
+  border: none;
+  color: #7b7e80;
+  cursor: pointer;
+  outline: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: "robotomedium", Arial, sans-serif;
+}
+.email-adress button:hover {
+  background: #e2c45e;
+  color: #171b1f;
+}
+
+.category {
+  width: 100%;
+}
+.category h2 {
+  color: #fff;
+  margin-top: 45px;
+}
+.category li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.alert {
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 31px;
+  max-width: 360px;
+  width: 100%;
+}
+.alert p {
+  max-width: 230px;
+  width: 100%;
+  line-height: 20px;
+}
+
+.success {
+  border-bottom: 7px solid #1abe66;
+}
+
+.error {
+  border-bottom: 7px solid #c75353;
+  top: 130px;
+}
+
+.img-block.success-img {
+  background-image: url("../../images/success.png");
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 38px;
+}
+
+.img-block.error-img {
+  background-image: url("../../images/error.png");
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+}
+
+.img-dismiss {
+  background: #fff;
+  background-image: url("../../images/dissmiss.png");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.balance {
+  background: #23282c;
+  position: absolute;
+  border-radius: 5px;
+  padding: 26px 28px;
+  left: 0;
+  right: 0;
+  top: 377px;
+}
+.balance h2 {
+  color: #fff;
+  font-size: 20px;
+  font-family: "robotoregular", Arial, sans-serif;
+}
+
+.wrapper-balance-info {
+  display: flex;
+  align-items: center;
+}
+
+.icon-balance {
+  background-image: url("../../images/balance.png");
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  margin-right: 23px;
 }

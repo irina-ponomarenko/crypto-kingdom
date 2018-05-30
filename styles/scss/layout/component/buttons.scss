@@ -19,3 +19,31 @@
 .withdraw{
   margin-right: 20px;
 }
+.status-notifications{
+  i{
+    font-size: 18px;
+  }
+  button{
+    width: 75px;
+    height: 30px;
+    display: flex;
+    border-radius: 30px;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    color: $select-color;
+    cursor: pointer;
+  }
+}
+.on{
+  background: $light-green;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.off{
+  background: $background-off;
+  flex-direction: row-reverse;
+  padding-right: 15px;
+  padding-left: 10px;
+  display: none !important;
+}

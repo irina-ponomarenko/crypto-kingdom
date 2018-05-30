@@ -8,3 +8,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.content{
+  display: flex;
+  font-family: $font-roboto-medium;
+  font-size: 17px;
+  color: $color-text;
+}

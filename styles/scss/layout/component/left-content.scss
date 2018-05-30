@@ -6,6 +6,7 @@
   font-family: $font-roboto-regular;
   font-size: 15px;
   color: $select-color;
+  position: relative;
 }
 .left-block{
   font-size: 20px;
@@ -36,6 +37,9 @@
   align-items: center;
   flex-direction: column;
   border-top: 1px solid $border-color;
+  position: absolute;
+  width: 305px;
+  bottom: 0;
   .left-block{
     justify-content: space-between;
     width: 100%;
@@ -80,9 +84,11 @@
 .chat-block{
   display: flex;
   align-items: center;
-  border-top: 1px solid $border-color;
   padding: 25px 30px;
   cursor: pointer;
+}
+.first-chat{
+  border-top: 1px solid $border-color;
 }
 .avatar{
   border-radius: 5px;
