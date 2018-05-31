@@ -830,3 +830,161 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .change-input-width input {
   width: 60%;
 }
+
+.game-wrapper {
+  max-width: 894px;
+  width: 100%;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  background: #1c2125;
+  padding: 32px 49px;
+}
+.title-wrapper li {
+  border-right: 1px solid #43484b;
+  padding-right: 55px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 0;
+}
+.title-wrapper li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+.title-wrapper h2 {
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.change-width-game {
+  max-width: 833px;
+}
+
+.games {
+  margin-top: 22px;
+}
+.games ul {
+  display: flex;
+}
+.games ul li.dice {
+  max-width: 310px;
+  width: 100%;
+  height: 304px;
+  background-image: url("../../images/dice.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 34px 60px;
+  border-radius: 5px;
+}
+.games ul li.dice h2 {
+  color: #fff;
+  margin-top: 82px;
+  filter: progid:DXImageTransform.Microsoft.DropShadow(offX=2, offY=1, color=#000000, positive=true);
+  text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+  -webkit-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+  -moz-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+}
+.games ul li.roulette-game {
+  max-width: 310px;
+  width: 100%;
+  height: 304px;
+  background-image: url("../../images/rouletta-fon.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 34px 60px;
+  border-radius: 5px;
+}
+.games ul li.roulette-game h2 {
+  color: #fff;
+  margin-top: 82px;
+  filter: progid:DXImageTransform.Microsoft.DropShadow(offX=2, offY=1, color=#000000, positive=true);
+  text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+  -webkit-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+  -moz-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+}
+
+.games ul li:first-child {
+  margin-right: 35px;
+}
+.games ul li.blackjack-game {
+  max-width: 310px;
+  width: 100%;
+  height: 304px;
+  background-image: url("../../images/blackjack.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 34px 60px;
+  border-radius: 5px;
+}
+.games ul li.blackjack-game h2 {
+  color: #fff;
+  margin-top: 82px;
+  filter: progid:DXImageTransform.Microsoft.DropShadow(offX=2, offY=1, color=#000000, positive=true);
+  text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+  -webkit-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+  -moz-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+}
+.games ul li.crash-game {
+  max-width: 310px;
+  width: 100%;
+  height: 304px;
+  background-image: url("../../images/crash.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 34px 60px;
+  border-radius: 5px;
+}
+.games ul li.crash-game h2 {
+  color: #fff;
+  margin-top: 82px;
+  filter: progid:DXImageTransform.Microsoft.DropShadow(offX=2, offY=1, color=#000000, positive=true);
+  text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+  -webkit-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+  -moz-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
+}
+
+.games ul:last-child {
+  margin-top: 20px;
+}
+.games ul li {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.title-bottom {
+  width: 100%;
+  position: relative;
+  bottom: -100px;
+}
+.title-bottom p {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.stats li {
+  color: #e2c45e;
+}
+.stats li:first-child {
+  color: #1abe66;
+  margin-right: 0 !important;
+}
+.stats li:last-child {
+  color: #c75353;
+}
