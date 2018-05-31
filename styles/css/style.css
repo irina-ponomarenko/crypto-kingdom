@@ -695,6 +695,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   max-width: 230px;
   width: 100%;
   line-height: 20px;
+  color: black;
 }
 
 .success {
