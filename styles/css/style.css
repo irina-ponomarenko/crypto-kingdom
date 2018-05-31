@@ -437,6 +437,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 15px;
   color: #fff;
   position: relative;
+  display: none;
 }
 
 .left-block {
@@ -464,6 +465,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 25px;
   color: #43484b;
   cursor: pointer;
+}
+.wrapper-left-block i:hover {
+  color: #e2c45e;
 }
 
 .left-block-bottom {
@@ -554,6 +558,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: 22px;
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 .profile-info span {
   color: #7b7e80;
@@ -569,6 +574,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #e2c45e;
   font-family: "robotomedium", Arial, sans-serif;
   margin-bottom: 12px;
+}
+
+.icon-block {
+  width: 15px;
+  min-height: 1080px;
+  background: #1c2125;
+  height: auto;
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.icon-block i {
+  color: #43484b;
+  cursor: pointer;
+}
+.icon-block i:hover {
+  color: #e2c45e;
 }
 
 .wrapper-account-info {
