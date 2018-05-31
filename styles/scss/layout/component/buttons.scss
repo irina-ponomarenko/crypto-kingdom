@@ -1,4 +1,5 @@
 .buttons{
+  display: flex;
   button{
     padding: 20px 45px;
     cursor: pointer;
@@ -7,6 +8,8 @@
     font-size: 17px;
     background: $background-button;
     color: $select-color;
+    max-width: 163px;
+    width: 100%;
     &:hover{
       background: $hover-color;
       color: black;

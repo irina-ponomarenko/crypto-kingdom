@@ -64,7 +64,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 .wrapper-account {
   background: #181d21;
-  max-width: 1920px;
   width: 100%;
   min-height: 1080px;
   height: auto;
@@ -175,6 +174,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .logo img {
   max-width: 226px;
   height: 65px;
+  margin-top: 10px;
 }
 
 .nav-bottom {
@@ -329,40 +329,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 .dropdown-language {
-  border-radius: 78px;
-  padding: 11px 15px;
-  border: 4px solid #43484b;
-  background: transparent;
-  color: #fff;
-  outline: none;
-  cursor: pointer;
-  width: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-}
-
-.dropdown-language i {
-  font-size: 11px;
-  color: #43484b;
-}
-
-.language {
-  position: absolute;
-  color: #fff;
-  padding: 15px 0;
   width: 73px;
-  border: 4px solid #43484b;
+  height: 55px;
   border-radius: 73px;
-  right: 27px;
-  top: 78px;
-  display: none;
-  align-items: center;
-  justify-content: center;
+  border: 4px solid #43484b;
+  -webkit-appearance: none;
+  background: url("../../images/chevron-down.svg") no-repeat 76% center;
+  background-size: 11px;
+  line-height: 1em;
+  color: #fff;
+  background-color: #1c2125;
+  padding-left: 15px;
   cursor: pointer;
+  outline: none;
+  /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none !important;
 }
 
+.dropdown-language::-ms-expand {
+  display: none;
+}
+
+.buttons {
+  display: flex;
+}
 .buttons button {
   padding: 20px 45px;
   cursor: pointer;
@@ -371,6 +366,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 17px;
   background: #33383c;
   color: #fff;
+  max-width: 163px;
+  width: 100%;
 }
 .buttons button:hover {
   background: #e2c45e;
@@ -445,6 +442,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .left-block {
   font-size: 20px;
   display: flex;
+  align-items: center;
 }
 .left-block p {
   color: #7b7e80;
@@ -740,6 +738,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   right: 0;
   top: 377px;
+  display: none;
 }
 .balance h2 {
   color: #fff;
@@ -882,6 +881,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   flex-direction: column;
   padding: 34px 60px;
   border-radius: 5px;
+  background-size: cover;
+  background-position: center;
 }
 .games ul li.dice h2 {
   color: #fff;
@@ -902,6 +903,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   flex-direction: column;
   padding: 34px 60px;
   border-radius: 5px;
+  background-size: cover;
+  background-position: center;
 }
 .games ul li.roulette-game h2 {
   color: #fff;
@@ -926,6 +929,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   flex-direction: column;
   padding: 34px 60px;
   border-radius: 5px;
+  background-size: cover;
+  background-position: center;
 }
 .games ul li.blackjack-game h2 {
   color: #fff;
@@ -946,6 +951,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   flex-direction: column;
   padding: 34px 60px;
   border-radius: 5px;
+  background-size: cover;
+  background-position: center;
 }
 .games ul li.crash-game h2 {
   color: #fff;
@@ -988,4 +995,178 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 .stats li:last-child {
   color: #c75353;
+}
+
+@media (max-width: 1440px) {
+  * a {
+    font-size: 15px;
+  }
+
+  .nav-left {
+    line-height: 100px;
+  }
+
+  .buttons button {
+    max-width: 123px;
+    width: 100%;
+    padding: 15px 35px;
+  }
+
+  .logo {
+    margin-right: 53px;
+  }
+
+  .buttons:last-child {
+    margin-right: 20px;
+  }
+
+  .profile-left p {
+    font-size: 14px;
+  }
+  .profile-left span {
+    font-size: 17px;
+  }
+
+  .logo img {
+    max-width: 206px;
+  }
+
+  .nav-bottom li a {
+    padding-left: 33px;
+  }
+
+  .wrapper-left-block {
+    padding: 28px 20px;
+  }
+
+  .chat-block {
+    padding: 15px 20px;
+  }
+
+  .profile-header {
+    font-size: 14px;
+  }
+
+  .wrapper-left-block i {
+    font-size: 15px;
+  }
+
+  .left-block {
+    font-size: 17px;
+  }
+
+  .wrapper-account-info {
+    max-width: 695px;
+  }
+
+  .title-wrapper h2 {
+    font-size: 14px;
+  }
+  .title-wrapper li p {
+    font-size: 14px;
+  }
+
+  .games ul li h2 {
+    font-size: 14px;
+  }
+
+  .games ul li:first-child {
+    margin-right: 25px;
+  }
+
+  .stats li {
+    font-size: 14px;
+  }
+
+  .title-bottom p {
+    font-size: 14px;
+  }
+
+  .games ul li.dice {
+    max-width: 260px;
+    padding: 24px 40px;
+  }
+  .games ul li.roulette-game {
+    max-width: 260px;
+    padding: 24px 40px;
+  }
+  .games ul li.blackjack-game {
+    max-width: 260px;
+    padding: 24px 40px;
+  }
+  .games ul li.crash-game {
+    max-width: 260px;
+    padding: 24px 40px;
+  }
+
+  .game-wrapper {
+    max-width: 695px;
+  }
+
+  .info-user h2 {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+  .info-user span {
+    font-size: 14px;
+  }
+
+  .img-user {
+    width: 93px;
+    height: 93px;
+    background-size: contain;
+  }
+
+  .email-adress input {
+    padding: 25px 23px;
+    font-size: 14px;
+    width: 74%;
+  }
+  .email-adress button {
+    padding: 25px 23px;
+    font-size: 12px;
+  }
+
+  .category {
+    font-size: 14px;
+  }
+  .category h2 {
+    margin-top: 35px;
+  }
+
+  .change-width {
+    max-width: 495px;
+  }
+
+  .form-setting {
+    padding: 23px;
+  }
+
+  .copy-address {
+    padding: 23px;
+    right: -200px;
+  }
+
+  .save {
+    max-width: 335px;
+  }
+
+  .sidebar li {
+    padding: 25px 22px;
+  }
+}
+@media (max-width: 1280px) {
+  * a {
+    font-size: 14px;
+  }
+
+  .buttons button {
+    max-width: 103px;
+    font-size: 14px;
+    padding: 15px 25px;
+  }
+
+  .change-width {
+    max-width: 495px;
+  }
 }

@@ -1,0 +1,186 @@
+@media (max-width: 1440px) {
+  * a{
+    font-size: 15px;
+  }
+  .nav-left{
+    line-height: 100px;
+  }
+  .buttons{
+    button{
+      max-width: 123px;
+      width: 100%;
+      padding: 15px 35px;
+    }
+  }
+  .logo{
+    margin-right: 53px;
+  }
+  .buttons:last-child{
+    margin-right: 20px;
+  }
+  .profile-left{
+    p{
+      font-size: 14px;
+    }
+    span{
+      font-size: 17px;
+    }
+  }
+  .logo{
+    img{
+      max-width: 206px;
+    }
+  }
+  .nav-bottom{
+    li{
+      a{
+        padding-left: 33px;
+      }
+    }
+  }
+  .wrapper-left-block{
+    padding: 28px 20px;
+  }
+  .chat-block{
+    padding: 15px 20px;
+  }
+  .profile-header{
+    font-size: 14px;
+  }
+  .wrapper-left-block{
+    i{
+      font-size: 15px;
+    }
+  }
+  .left-block{
+    font-size: 17px;
+  }
+  .wrapper-account-info{
+    max-width: 695px;
+  }
+  .title-wrapper{
+    h2{
+      font-size: 14px;
+    }
+    li{
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+  .games{
+    ul{
+      li{
+        h2{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .games{
+    ul{
+      li{
+        &:first-child{
+          margin-right: 25px;
+        }
+      }
+    }
+  }
+  .stats{
+    li{
+      font-size: 14px;
+    }
+  }
+  .title-bottom{
+    p{
+      font-size: 14px;
+    }
+  }
+  .games{
+    ul{
+      li.dice{
+        max-width: 260px;
+        padding: 24px 40px;
+      }
+      li.roulette-game{
+        max-width: 260px;
+        padding: 24px 40px;
+      }
+      li.blackjack-game{
+        max-width: 260px;
+        padding: 24px 40px;
+      }
+      li.crash-game{
+        max-width: 260px;
+        padding: 24px 40px;
+      }
+    }
+  }
+  .game-wrapper{
+    max-width: 695px;
+  }
+  .info-user{
+    h2{
+      font-size: 20px;
+      margin-bottom: 14px;
+    }
+    span{
+      font-size: 14px;
+    }
+  }
+  .img-user {
+    width: 93px;
+    height: 93px;
+    background-size: contain;
+  }
+  .email-adress{
+    input{
+      padding: 25px 23px;
+      font-size: 14px;
+      width: 74%;
+    }
+    button{
+      padding: 25px 23px;
+      font-size: 12px;
+    }
+  }
+  .category{
+    font-size: 14px;
+    h2{
+      margin-top: 35px;
+    }
+  }
+  .change-width{
+    max-width: 495px;
+  }
+  .form-setting{
+    padding: 23px;
+  }
+  .copy-address{
+    padding: 23px;
+    right: -200px;
+  }
+  .save{
+    max-width: 335px;
+  }
+  .sidebar {
+    li{
+      padding: 25px 22px;
+    }
+  }
+}
+@media (max-width: 1280px) {
+  * a{
+    font-size: 14px;
+  }
+  .buttons {
+    button{
+      max-width: 103px;
+      font-size: 14px;
+      padding: 15px 25px;
+    }
+  }
+  .change-width{
+    max-width: 495px;
+  }
+}
