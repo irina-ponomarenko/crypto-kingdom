@@ -684,7 +684,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: absolute;
   right: 20px;
   top: 20px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-between;
   padding: 23px 31px;
@@ -833,7 +833,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 .game-wrapper {
-  max-width: 894px;
+  max-width: 895px;
   width: 100%;
 }
 
@@ -862,7 +862,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 .change-width-game {
-  max-width: 833px;
+  max-width: 895px !important;
 }
 
 .games {
