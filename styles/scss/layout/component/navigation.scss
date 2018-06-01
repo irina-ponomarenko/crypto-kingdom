@@ -103,6 +103,9 @@
   a{
     position: relative;
     padding-left: 43px;
+    &:hover{
+      color: $select-color;
+    }
   }
 }
 .roulette a:before{
