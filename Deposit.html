@@ -55,7 +55,9 @@
             <div class="left-nav-bottom">
                 <div class="nav-right">
                     <div class="logo">
-                        <img src="images/full%20(stroke).png" alt="logo"/>
+                       <a href="">
+                           <img src="images/full%20(stroke).png" alt="logo"/>
+                       </a>
                     </div>
                     <div class="nav-bottom">
                         <li class="roulette">
@@ -150,12 +152,8 @@
                     <button type="button">Send</button>
                 </div>
                 <div class="left-block last-child">
-                    <a href="">
-                        <span>Chat Rules</span>
-                    </a>
-                    <a href="">
-                        <p>All Rights Reserved.</p>
-                    </a>
+                    <span>Chat Rules</span>
+                    <p>All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -165,41 +163,57 @@
             </div>
         </div>
         <div class="account">
-            <div class="wrapper-account-info change-width-games">
+            <div class="wrapper-account-info width-deposit">
                 <ul class="nav-account">
                     <li>
-                        <a href="">ACCOUNT</a>
+                        <a href="" class="active">DEPOSIT</a>
                     </li>
                     <li>
-                        <a href="">STATISTICS</a>
+                        <a href="">WITHDRAWAL</a>
                     </li>
                     <li>
-                        <a href="" class="active">SETTINGS</a>
+                        <a href="">HISTORY</a>
                     </li>
                 </ul>
-                <form class="wrapper-notifications">
-                    <ul class="category new-margin">
-                        <div class="bitcoin-block">
-                            <div class="img-bitcoin"></div>
-                            <div class="dropdown-bitcoin">
-                                <p>BTC</p>
-                                <i class="fa fa-chevron-down"></i>
+                <div class="wrapper-notifications">
+                    <div class="category">
+                      <div class="bitcoin-wrapper">
+                          <div class="bitcoin-block">
+                              <div class="img-bitcoin"></div>
+                              <div class="dropdown-bitcoin">
+                                  <p>BTC</p>
+                                  <i class="fa fa-chevron-down"></i>
+                              </div>
+                          </div>
+                          <div class="right-bitcoin-info">
+                              <h2>BTC DEPOSIT</h2>
+                              <p>Only send Bitcoin (BTC) to the address shown below.
+                                  Sending any other digital asset, including Bitcoin Cash (BCH), will
+                                  result in permanent loss. </p>
+                          </div>
+                      </div>
+                        <div class="form-setting change-input-width-password margin-bitcoin">
+                            <input type="text" placeholder="1KdjVUxcBL5TM2QADJBvdUHqVx2SknKiTm"/>
+                        </div>
+                        <div class="copy-address right-width">
+                            <div class="img-clone"></div>
+                            <a href="">COPY ADDRESS</a>
+                        </div>
+                    </div>
+                    <div class="category margin-bitcoin">
+                        <div class="bitcoin-wrapper">
+                            <div class="code-qr">
+                                <div class="img-code-qr"></div>
+                            </div>
+                            <div class="right-bitcoin-info">
+                                <h2>QR CODE</h2>
+                                <p>Whilst you can send Bitcoin (BTC) directly using the
+                                    address above. You can also simple scan the QR code
+                                    and enter your designated deposit amount. (Only applicable to some)</p>
                             </div>
                         </div>
-                        <li>
-                            <div class="form-setting change-input-width">
-                                <input type="text" placeholder="Current Password"/>
-                                <div class="options-info">
-                                    <p>Enter Your Current Password</p>
-                                </div>
-                            </div>
-                            <div class="copy-address">
-                                <div class="img-clone"></div>
-                                <a href="">COPY ADDRESS</a>
-                            </div>
-                        </li>
-                    </ul>
-                </form>
+                    </div>
+                </div>
             </div>
             <div class="alert success">
                 <div class="img-block success-img"></div>

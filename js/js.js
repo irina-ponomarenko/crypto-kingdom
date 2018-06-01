@@ -1,12 +1,12 @@
 $(document).ready(function () {
-	$('.click-menu').click(function() {
-		$('.left-content').hide(200);
-		$('.wrapper-hide').css('display', 'block');
-	})
-	$('.click-hide').click(function() {
-		$('.left-content').show(200);
-		$('.wrapper-hide').css('display', 'none');
-	});
+    $('.click-menu').click(function() {
+        $('.left-content').addClass('hide-sideBar');
+        $('.wrapper-hide').css('display', 'block');
+    });
+    $('.click-hide').click(function() {
+        $('.left-content').removeClass('hide-sideBar');
+        $('.wrapper-hide').css('display', 'none');
+    });
     $('#save').click( function(event) {
         $('.success')
             .css('display', 'flex') // убирaем у мoдaльнoгo oкнa display: none;

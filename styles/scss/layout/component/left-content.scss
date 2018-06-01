@@ -1,6 +1,7 @@
 .left-content{
   max-width: 365px;
   width: 100%;
+  min-height: 100vh;
   height: auto;
   background: $color-nav;
   font-family: $font-roboto-regular;
@@ -135,7 +136,7 @@
   h2{
     color: $hover-color;
     font-family: $font-roboto-medium;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
   }
 }
 .icon-block{
@@ -178,4 +179,7 @@ i.click-hide{
 }
 i.click-hide:hover{
   color:  #e2c45e;
+}
+.left-content.hide-sideBar {
+  margin-left: -365px;
 }

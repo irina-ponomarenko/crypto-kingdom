@@ -529,6 +529,7 @@ input:checked + .slider:before {
 .left-content {
   max-width: 365px;
   width: 100%;
+  min-height: 100vh;
   height: auto;
   background: #1c2125;
   font-family: "robotoregular", Arial, sans-serif;
@@ -674,7 +675,7 @@ input:checked + .slider:before {
 .profile-header h2 {
   color: #e2c45e;
   font-family: "robotomedium", Arial, sans-serif;
-  margin-bottom: 12px;
+  margin-bottom: 5px;
 }
 
 .icon-block {
@@ -721,6 +722,10 @@ i.click-hide {
 
 i.click-hide:hover {
   color: #e2c45e;
+}
+
+.left-content.hide-sideBar {
+  margin-left: -365px;
 }
 
 .wrapper-account-info {
@@ -831,7 +836,7 @@ i.click-hide:hover {
 .alert {
   background: #fff;
   border-radius: 5px;
-  position: absolute;
+  position: fixed;
   right: -430px;
   top: 20px;
   display: flex;
@@ -956,7 +961,7 @@ i.click-hide:hover {
   color: #fff;
 }
 
-.new-margin h2 {
+.margin-bitcoin h2 {
   margin-top: 30px;
 }
 
@@ -1320,6 +1325,10 @@ i.click-hide:hover {
     padding-bottom: 28px;
     padding-top: 20px;
   }
+
+  .width-deposit {
+    max-width: 695px !important;
+  }
 }
 @media (max-width: 1280px) {
   * a {
@@ -1336,12 +1345,21 @@ i.click-hide:hover {
     max-width: 495px;
   }
 }
+* p {
+  line-height: 23px;
+}
+
 .bitcoin-block {
-  max-width: 122px;
+  max-width: 80px;
   width: 100%;
   background: #1c2125;
   border-radius: 5px;
-  padding: 40px 21px 32px 21px;
+  padding: 22px 20px;
+}
+
+.bitcoin-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .img-bitcoin {
@@ -1349,6 +1367,7 @@ i.click-hide:hover {
   background-repeat: no-repeat;
   width: 80px;
   height: 80px;
+  margin-bottom: 20px;
 }
 
 .dropdown-bitcoin {
@@ -1359,4 +1378,49 @@ i.click-hide:hover {
 .dropdown-bitcoin i {
   font-size: 11px;
   color: #7b7e80;
+  cursor: pointer;
+}
+.dropdown-bitcoin i:hover {
+  color: #e2c45e;
+}
+
+.right-bitcoin-info {
+  margin-left: 34px;
+}
+.right-bitcoin-info h2 {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.right-bitcoin-info p {
+  max-width: 499px;
+}
+
+.change-input-width-password {
+  max-width: 584px;
+}
+
+.right-width {
+  right: 74px;
+}
+
+.wrapper-account-info.width-deposit {
+  max-width: 895px;
+}
+
+.margin-bitcoin {
+  margin-top: 22px;
+}
+
+.code-qr {
+  border: 8px solid #1c2125;
+  border-radius: 5px;
+}
+
+.img-code-qr {
+  width: 128px;
+  height: 128px;
+  background-image: url("../../images/qr-code.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
