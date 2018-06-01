@@ -7,15 +7,6 @@ $(document).ready(function () {
 		$('.left-content').show(200);
 		$('.wrapper-hide').css('display', 'none');
 	});
-	$('.withdraw').click( function(event) {
-        $('.success')
-            .css('display', 'flex') // убирaем у мoдaльнoгo oкнa display: none;
-            .animate({opacity: 1,  right: '20px'}, 200);
-        $('.success-click').click(function(){
-            $('.success')
-                .animate({opacity: 1, right: '-430px'}, 200);
-        });
-	});
     $('#save').click( function(event) {
         $('.success')
             .css('display', 'flex') // убирaем у мoдaльнoгo oкнa display: none;

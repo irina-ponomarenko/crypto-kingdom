@@ -828,7 +828,7 @@ i.click-hide:hover {
   background: #fff;
   border-radius: 5px;
   position: absolute;
-  right: -420px;
+  right: -430px;
   top: 20px;
   display: flex;
   align-items: center;
@@ -850,8 +850,8 @@ i.click-hide:hover {
 
 .error {
   border-bottom: 7px solid #c75353;
-  top: 130px;
-  right: -420px;
+  top: 20px;
+  right: -430px;
 }
 
 .img-block.success-img {
