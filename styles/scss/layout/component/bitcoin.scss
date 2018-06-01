@@ -1,0 +1,22 @@
+.bitcoin-block{
+  max-width: 122px;
+  width: 100%;
+  background: $color-nav;
+  border-radius: 5px;
+  padding: 40px 21px 32px 21px;
+}
+.img-bitcoin{
+  background-image: url("../../images/bitcoin.png");
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+}
+.dropdown-bitcoin{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  i{
+    font-size: 11px;
+    color: $color-text;
+  }
+}

@@ -1328,3 +1328,27 @@ i.click-hide:hover {
     max-width: 495px;
   }
 }
+.bitcoin-block {
+  max-width: 122px;
+  width: 100%;
+  background: #1c2125;
+  border-radius: 5px;
+  padding: 40px 21px 32px 21px;
+}
+
+.img-bitcoin {
+  background-image: url("../../images/bitcoin.png");
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+}
+
+.dropdown-bitcoin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dropdown-bitcoin i {
+  font-size: 11px;
+  color: #7b7e80;
+}
