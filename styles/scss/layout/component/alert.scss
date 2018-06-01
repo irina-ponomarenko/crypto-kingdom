@@ -76,10 +76,13 @@
 }
 .copy-address{
   background: $background-nav;
-  display: flex;
+  display: none;
   padding: 32px;
   position: absolute;
   right: -215px;
+}
+.adress-active{
+  display: flex;
 }
 .img-clone{
   width: 21px;

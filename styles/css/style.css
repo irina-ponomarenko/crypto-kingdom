@@ -910,10 +910,14 @@ i.click-hide:hover {
 
 .copy-address {
   background: #23282c;
-  display: flex;
+  display: none;
   padding: 32px;
   position: absolute;
   right: -215px;
+}
+
+.adress-active {
+  display: flex;
 }
 
 .img-clone {
