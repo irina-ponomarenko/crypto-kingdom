@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Account</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="./styles/css/style.css" rel="stylesheet"/>
     <link href="fonts/roboto%20medium/stylesheet.css" rel="stylesheet"/>
     <link href="fonts/roboto%20regular/stylesheet.css" rel="stylesheet"/>
@@ -84,7 +83,7 @@
                     <ul class="nav-left">
                         <li class="buttons">
                             <button type="button" class="withdraw">Withdraw</button>
-                            <button type="button">Deposit</button>
+                            <button type="button" class="deposit">Deposit</button>
                         </li>
                     </ul>
                     <div class="profile-left-wrapper">
@@ -105,7 +104,7 @@
                     <span>1,098</span>
                     <p>Users Online</p>
                 </div>
-                <i class="fa fa-chevron-left" id="animateLeft" aria-hidden="true"></i>
+                <i class="fa fa-chevron-left click-menu" aria-hidden="true"></i>
             </div>
             <div class="chat-block first-chat">
                 <div class="avatar">
@@ -159,8 +158,10 @@
                 </div>
             </div>
         </div>
-        <div class="icon-block">
-            <i class="fa fa-chevron-right"></i>
+        <div class="wrapper-hide">
+            <div class="hide">
+                <i class="fa fa-chevron-right click-hide" aria-hidden="true"></i>
+            </div>
         </div>
         <div class="account">
             <div class="wrapper-account-info">
@@ -195,66 +196,46 @@
                         <li>
                             <p>Achievements</p>
                             <div class="status-notifications">
-                                <button type="button" class="on">
-                                    ON
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
-                                <button type="button" class="off">
-                                    OFF
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
+                                <label class="switch">
+                                    <input type="checkbox"/>
+                                    <span class="slider round"></span>
+                                </label>
                             </div>
                         </li>
                         <li>
                             <p>High Rollers</p>
                             <div class="status-notifications">
-                                <button type="button" class="on">
-                                    ON
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
-                                <button type="button" class="off">
-                                    OFF
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
+                                <label class="switch">
+                                    <input type="checkbox"/>
+                                    <span class="slider round"></span>
+                                </label>
                             </div>
                         </li>
                         <li>
                             <p>Announcements</p>
                             <div class="status-notifications">
-                                <button type="button" class="on">
-                                    ON
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
-                                <button type="button" class="off">
-                                    OFF
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
+                                <label class="switch">
+                                    <input type="checkbox"/>
+                                    <span class="slider round"></span>
+                                </label>
                             </div>
                         </li>
                         <li>
                             <p>Wager Outcomes</p>
                             <div class="status-notifications">
-                                <button type="button" class="on">
-                                    ON
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
-                                <button type="button" class="off">
-                                    OFF
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
+                                <label class="switch">
+                                    <input type="checkbox"/>
+                                    <span class="slider round"></span>
+                                </label>
                             </div>
                         </li>
                         <li>
                             <p>Sent / Recieved Tips</p>
                             <div class="status-notifications">
-                                <button type="button" class="on">
-                                    ON
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
-                                <button type="button" class="off">
-                                    OFF
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
+                                <label class="switch">
+                                    <input type="checkbox"/>
+                                    <span class="slider round"></span>
+                                </label>
                             </div>
                         </li>
                     </ul>
@@ -263,27 +244,19 @@
                         <li>
                             <p>Hide total profit from public</p>
                             <div class="status-notifications">
-                                <button type="button" class="on">
-                                    ON
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
-                                <button type="button" class="off">
-                                    OFF
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
+                                <label class="switch">
+                                    <input type="checkbox"/>
+                                    <span class="slider round"></span>
+                                </label>
                             </div>
                         </li>
                         <li>
                             <p>Ghost Mode (Make my bets anonymous)</p>
                             <div class="status-notifications">
-                                <button type="button" class="on">
-                                    ON
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
-                                <button type="button" class="off">
-                                    OFF
-                                    <i class="fa fa-circle" aria-hidden="true"></i>
-                                </button>
+                                <label class="switch">
+                                    <input type="checkbox"/>
+                                    <span class="slider round"></span>
+                                </label>
                             </div>
                         </li>
                     </ul>
@@ -298,13 +271,14 @@
             <div class="alert success">
                 <div class="img-block success-img"></div>
                 <p>You have successfully added
-                    32 <b>BTC’s</b> to your <b>Wallet.</b></p>
-                <button type="button" class="img-dismiss"></button>
+                    32 BTC’s to your Wallet.</p>
+                <button type="button" class="img-dismiss success-click"></button>
             </div>
             <div class="alert error">
                 <div class="img-block error-img"></div>
-                <p>Withdraw Error.</p>
-                <button type="button" class="img-dismiss"></button>
+                <p>You have successfully added
+                    32 BTC’s to your Wallet.</p>
+                <button type="button" class="img-dismiss error-click"></button>
             </div>
         </div>
     </section>

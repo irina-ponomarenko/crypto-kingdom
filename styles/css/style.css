@@ -355,6 +355,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: none;
 }
 
+* button {
+  outline: none;
+}
+
 .buttons {
   display: flex;
 }
@@ -427,6 +431,97 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 20px;
 }
 
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  display: none;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #c75353;
+  -webkit-transition: .4s;
+  transition: .4s;
+  width: 75px;
+  height: 30px;
+  display: flex;
+  border-radius: 30px;
+  justify-content: space-between;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 10px;
+  bottom: 6px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input + .slider:after {
+  position: absolute;
+  right: 12px;
+  top: 6px;
+  content: 'off';
+  font-family: "robotomedium", Arial, sans-serif;
+  font-size: 15px;
+}
+
+input:checked + .slider:after {
+  position: absolute;
+  left: 12px;
+  top: 6px;
+  content: 'on';
+  font-family: "robotomedium", Arial, sans-serif;
+  font-size: 15px;
+}
+
+input:checked + .slider {
+  background-color: #1abe66;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  left: 22px;
+  bottom: 6px;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+  left: -20px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
 .left-content {
   max-width: 365px;
   width: 100%;
@@ -437,7 +532,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 15px;
   color: #fff;
   position: relative;
-  display: none;
 }
 
 .left-block {
@@ -460,6 +554,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   align-items: center;
   justify-content: space-between;
   padding: 38px 30px;
+  -webkit-box-shadow: inset 0px 10px 14px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px 10px 14px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 10px 14px 0px rgba(0, 0, 0, 0.2);
 }
 .wrapper-left-block i {
   font-size: 25px;
@@ -593,6 +690,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #e2c45e;
 }
 
+.wrapper-hide {
+  width: 50px;
+  background: #1c2125;
+  display: none;
+  -webkit-box-shadow: inset 0px 10px 14px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0px 10px 14px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 10px 14px 0px rgba(0, 0, 0, 0.2);
+}
+
+.hide {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #43484b;
+  padding-bottom: 38px;
+  padding-top: 30px;
+}
+
+i.click-hide {
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+i.click-hide:hover {
+  color: #e2c45e;
+}
+
 .wrapper-account-info {
   max-width: 958px;
   width: 100%;
@@ -702,9 +828,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: #fff;
   border-radius: 5px;
   position: absolute;
-  right: 20px;
+  right: -420px;
   top: 20px;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 23px 31px;
@@ -725,6 +851,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .error {
   border-bottom: 7px solid #c75353;
   top: 130px;
+  right: -420px;
 }
 
 .img-block.success-img {
@@ -1019,7 +1146,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #c75353;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1540px) {
   * a {
     font-size: 15px;
   }
@@ -1175,6 +1302,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   .sidebar li {
     padding: 25px 22px;
+  }
+
+  i.click-hide {
+    font-size: 15px;
+  }
+
+  .hide {
+    padding-bottom: 28px;
+    padding-top: 20px;
   }
 }
 @media (max-width: 1280px) {

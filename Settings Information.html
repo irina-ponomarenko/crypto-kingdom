@@ -105,7 +105,7 @@
                     <span>1,098</span>
                     <p>Users Online</p>
                 </div>
-                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                <i class="fa fa-chevron-left click-menu" aria-hidden="true"></i>
             </div>
             <div class="chat-block first-chat">
                 <div class="avatar">
@@ -159,6 +159,11 @@
                 </div>
             </div>
         </div>
+        <div class="wrapper-hide">
+            <div class="hide">
+                <i class="fa fa-chevron-right click-hide" aria-hidden="true"></i>
+            </div>
+        </div>
         <div class="account">
             <div class="wrapper-account-info change-width">
                 <ul class="nav-account">
@@ -192,9 +197,9 @@
                         <h2>PRIVATE INFO</h2>
                         <li>
                             <div class="form-setting">
-                                <input type="text" placeholder="Name"/>
+                                <input type="text" id="myInput" placeholder="Name"/>
                                 <div class="options-info">
-                                    <p>Optional</p>
+                                    <p class="btn-js">Optional</p>
                                 </div>
                             </div>
                             <div class="copy-address">
@@ -228,7 +233,7 @@
                         </li>
                     </ul>
                 </form>
-                <button type="submit" class="save">SAVE CHANGES</button>
+                <button type="submit" class="save" id="error-save">SAVE CHANGES</button>
             </div>
             <ul class="sidebar">
                 <li>
@@ -248,13 +253,14 @@
                 <button type="button" class="img-dismiss"></button>
             </div>
             <div class="alert error">
-                <div class="img-block error-img"></div>
+                <div class="img-block error-img success-click"></div>
                 <p>Withdraw Error.</p>
-                <button type="button" class="img-dismiss"></button>
+                <button type="button" class="img-dismiss error-click"></button>
             </div>
         </div>
     </section>
 </div>
+<script src="js/jquery-3.2.1.js"></script>
 <script src="js/js.js"></script>
 </body>
 </html>

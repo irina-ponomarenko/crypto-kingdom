@@ -8,7 +8,6 @@
   font-size: 15px;
   color: $select-color;
   position: relative;
-  display: none;
 }
 .left-block{
   font-size: 20px;
@@ -29,6 +28,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 38px 30px;
+  -webkit-box-shadow: inset 0px 10px 14px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0px 10px 14px 0px rgba(0,0,0,0.2);
+  box-shadow: inset 0px 10px 14px 0px rgba(0,0,0,0.2);
   i{
     font-size: 25px;
     color: $border-color;
@@ -151,4 +153,29 @@
       color: $hover-color;
     }
   }
+}
+.wrapper-hide{
+  width: 50px;
+  background: #1c2125;
+  display: none;
+  -webkit-box-shadow: inset 0px 10px 14px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0px 10px 14px 0px rgba(0,0,0,0.2);
+  box-shadow: inset 0px 10px 14px 0px rgba(0,0,0,0.2);
+}
+.hide{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #43484b;
+  padding-bottom: 38px;
+  padding-top: 30px;
+}
+i.click-hide{
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 25px;
+}
+i.click-hide:hover{
+  color:  #e2c45e;
 }

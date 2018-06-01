@@ -2,14 +2,15 @@
   background: $select-color;
   border-radius: 5px;
   position: absolute;
-  right: 20px;
+  right: -420px;
   top: 20px;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 23px 31px;
   max-width: 360px;
   width: 100%;
+
   p{
     max-width: 230px;
     width: 100%;
@@ -23,6 +24,7 @@
 .error{
   border-bottom: 7px solid $background-off;
   top: 130px;
+  right: -420px;
 }
 .img-block.success-img{
   background-image: url("../../images/success.png");
