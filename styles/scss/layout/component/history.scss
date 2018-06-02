@@ -44,6 +44,9 @@
     i{
       font-size: 23px;
       color: $color-link-external;
+      &:hover{
+        color: $select-color;
+      }
     }
   }
 }

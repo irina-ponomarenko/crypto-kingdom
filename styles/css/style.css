@@ -1478,3 +1478,6 @@ i.click-hide:hover {
   font-size: 23px;
   color: #3e4245;
 }
+.type-deposit a i:hover {
+  color: #fff;
+}
