@@ -1481,3 +1481,28 @@ i.click-hide:hover {
 .type-deposit a i:hover {
   color: #fff;
 }
+
+.pop_up {
+  max-width: 492px;
+  width: 100%;
+  background: #1c2125;
+  position: absolute;
+  padding: 34px 30px 30px 30px;
+}
+
+.img-dismiss-pop-up {
+  background-image: url("../../images/dissmiss.png");
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
+.title-pop-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
