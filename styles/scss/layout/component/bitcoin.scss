@@ -44,10 +44,7 @@
   }
 }
 .change-input-width-password{
-  max-width: 584px;
-}
-.right-width{
-  right: 74px;
+  max-width: 895px;
 }
 .wrapper-account-info.width-deposit{
   max-width: 895px;
@@ -65,4 +62,19 @@
   background-image: url("../../images/qr-code.png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+.padding-form{
+  padding: 0 30px;
+}
+.padding-form-none{
+  padding: 0;
+}
+input.placeholder-color::placeholder{
+  color: $color-text !important;
+}
+.withdraw-info{
+  color: $color-text-dark;
+  max-width: 665px;
+  line-height: 23px;
+  margin-top: 20px;
 }

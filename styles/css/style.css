@@ -531,6 +531,41 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.copy-address-button {
+  padding: 28px 30px;
+  max-width: 245px;
+  width: 100%;
+  background: #23282c;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  color: #7b7e80;
+  font-family: "robotomedium", Arial, sans-serif;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.copy-address-button:hover {
+  color: #fff;
+}
+
+.withdraw-button {
+  background: #1abe66;
+  color: #fff;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 17px;
+  font-family: "robotomedium", Arial, sans-serif;
+}
+.withdraw-button:hover {
+  opacity: 0.5;
+}
+
 .left-content {
   max-width: 365px;
   width: 100%;
@@ -1334,6 +1369,90 @@ i.click-hide:hover {
   .width-deposit {
     max-width: 695px !important;
   }
+
+  .popup_content {
+    max-width: 442px !important;
+    padding: 24px 0 0 !important;
+  }
+
+  .confirmed {
+    width: 110px !important;
+    height: 110px !important;
+  }
+  .confirmed i {
+    font-size: 38px !important;
+  }
+
+  .amount h2 {
+    font-size: 20px !important;
+  }
+
+  .title-pop-up {
+    padding-bottom: 20px !important;
+  }
+
+  .pop-up-block li {
+    padding: 20px 20px !important;
+  }
+  .pop-up-block li:first-child {
+    margin-top: 23px !important;
+  }
+  .pop-up-block li h3, .pop-up-block li p {
+    font-size: 14px;
+  }
+
+  .send-to-value {
+    font-size: 14px;
+  }
+
+  .change-width {
+    max-width: 495px;
+  }
+
+  .right-bitcoin-info h2 {
+    font-size: 20px !important;
+  }
+
+  .copy-address-button,
+  .withdraw-button {
+    padding: 20px 22px;
+    font-size: 14px;
+  }
+  .copy-address-button img,
+  .withdraw-button img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .copy-address-button {
+    max-width: 205px;
+  }
+
+  .history {
+    padding: 13px 22px !important;
+    max-width: 651px !important;
+  }
+
+  .form-setting input {
+    font-size: 14px;
+  }
+
+  input.placeholder-color::placeholder {
+    font-size: 14px;
+  }
+
+  .bitcoin-title {
+    font-size: 14px;
+  }
+
+  .withdraw-info {
+    max-width: 605px;
+    font-size: 14px;
+  }
+
+  .right-bitcoin-info {
+    max-width: 437px;
+  }
 }
 @media (max-width: 1280px) {
   * a {
@@ -1343,11 +1462,7 @@ i.click-hide:hover {
   .buttons button {
     max-width: 103px;
     font-size: 14px;
-    padding: 15px 25px;
-  }
-
-  .change-width {
-    max-width: 495px;
+    padding: 15px 20px;
   }
 }
 * p {
@@ -1402,11 +1517,7 @@ i.click-hide:hover {
 }
 
 .change-input-width-password {
-  max-width: 584px;
-}
-
-.right-width {
-  right: 74px;
+  max-width: 895px;
 }
 
 .wrapper-account-info.width-deposit {
@@ -1428,6 +1539,25 @@ i.click-hide:hover {
   background-image: url("../../images/qr-code.png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.padding-form {
+  padding: 0 30px;
+}
+
+.padding-form-none {
+  padding: 0;
+}
+
+input.placeholder-color::placeholder {
+  color: #7b7e80 !important;
+}
+
+.withdraw-info {
+  color: #34373a;
+  max-width: 665px;
+  line-height: 23px;
+  margin-top: 20px;
 }
 
 .wrapper-history-info {
@@ -1458,7 +1588,7 @@ i.click-hide:hover {
 .history {
   display: flex;
   align-items: center;
-  max-width: 895px;
+  max-width: 835px;
   width: 100%;
   justify-content: space-between;
   background: #1c2125;

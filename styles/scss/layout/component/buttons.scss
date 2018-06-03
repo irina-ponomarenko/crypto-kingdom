@@ -157,3 +157,36 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+.copy-address-button{
+  padding: 28px 30px;
+  max-width: 245px;
+  width: 100%;
+  background: $background-nav;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  color: $color-text;
+  font-family: $font-roboto-medium;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  &:hover{
+    color: $select-color;
+  }
+}
+.withdraw-button{
+  background: $light-green;
+  color: $select-color;
+  padding: 28px 30px;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 17px;
+  font-family: $font-roboto-medium;
+  &:hover{
+    opacity: 0.5;
+  }
+}
