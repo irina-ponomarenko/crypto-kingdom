@@ -1503,13 +1503,19 @@ i.click-hide:hover {
 }
 
 .img-dismiss-pop-up {
+  background: transparent;
+  border: none;
   background-image: url("../../images/dissmiss.png");
   background-repeat: no-repeat;
-  width: 18px;
-  height: 18px;
+  width: 17px;
+  height: 17px;
   cursor: pointer;
   position: absolute;
   right: 30px;
+}
+.img-dismiss-pop-up:hover {
+  background-image: url("../../images/dissmiss-white.png");
+  background-repeat: no-repeat;
 }
 
 .title-pop-up {
@@ -1517,20 +1523,20 @@ i.click-hide:hover {
   align-items: center;
   justify-content: center;
   position: relative;
-  padding-bottom: 33px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #2e3337;
 }
 
 .confirmed {
-  width: 124px;
-  height: 124px;
+  width: 117px;
+  height: 117px;
   border: 2px solid #1abe66;
   border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 34px;
-  margin-bottom: 34px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .confirmed i {
   font-size: 48px;
@@ -1549,7 +1555,7 @@ i.click-hide:hover {
 }
 
 .popup_content {
-  max-width: 440px;
+  max-width: 492px;
   width: 100%;
 }
 
@@ -1557,7 +1563,7 @@ i.click-hide:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 34px 30px;
+  padding: 30px 30px;
   border-top: 1px solid #2e3337;
   border-bottom: 1px solid #2e3337;
 }
