@@ -1347,16 +1347,18 @@ i.click-hide:hover {
   }
 
   .form-setting {
-    padding: 23px;
+    padding: 18px;
   }
 
   .copy-address {
-    padding: 23px;
-    right: -200px;
+    padding: 18px;
+    right: -192px;
   }
 
   .save {
     max-width: 335px;
+    padding-bottom: 18px;
+    padding-top: 18px;
   }
 
   .sidebar li {
@@ -1373,7 +1375,7 @@ i.click-hide:hover {
   }
 
   .width-deposit {
-    max-width: 695px !important;
+    max-width: 595px !important;
   }
 
   .popup_content {
@@ -1754,4 +1756,12 @@ input.placeholder-color::placeholder {
   color: #1abe66;
   margin-right: 20px;
   font-size: 14px !important;
+}
+
+.margin-top-none {
+  margin-top: 0;
+}
+
+.text-left {
+  text-align: left !important;
 }
