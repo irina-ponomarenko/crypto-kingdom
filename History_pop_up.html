@@ -85,7 +85,7 @@
                 <div class="nav-bottom-left">
                     <ul class="nav-left">
                         <li class="buttons">
-                            <button type="button" class="withdraw">Withdraw</button>
+                            <button type="button" class="withdraw fade_open">Withdraw</button>
                             <button type="button">Deposit</button>
                         </li>
                     </ul>
@@ -302,22 +302,42 @@
                 <button type="button" class="img-dismiss  error-click"></button>
             </div>
         </div>
-        <div class="pop_up_bg"></div>
-        <div class="pop_up">
-            <div class="title-pop-up">
-                <p>BITCOIN WITHDRAWAL</p>
-                <div class="img-dismiss-pop-up"></div>
-            </div>
-            <div class="amount">
-                <div class="confirmed">
-                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                </div>
-                <h2>- 1.20000056700 BTC</h2>
-                <span>- $11,819.83</span>
-            </div>
-        </div>
     </section>
 </div>
+
+<div class="pop_up" id="fade">
+    <div class="title-pop-up">
+        <p>BITCOIN WITHDRAWAL</p>
+        <div class="img-dismiss-pop-up fade_close"></div>
+    </div>
+    <div class="amount">
+        <div class="confirmed">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+        </div>
+        <h2>- 1.20000056700 BTC</h2>
+        <span>- $11,819.83</span>
+    </div>
+    <ul class="pop-up-block">
+        <li>
+            <h3>SENT TO</h3>
+            <div class="wrapper-input">
+                <input type="hidden" id="send" value="1KdjVUxcBL5TM2QqVx2S"/>
+                <div class="send-to-value">1KdjVUxcBL5TM2QqVx2S</div>
+                <div class="img-clone margin-none"></div>
+            </div>
+        </li>
+        <li>
+            <h3>DATE</h3>
+            <p>01:41 - May 6, 2018</p>
+        </li>
+        <li>
+            <h3>Status</h3>
+            <p><i class="fa fa-circle status" aria-hidden="true"></i>Confirmed</p>
+        </li>
+    </ul>
+</div>
+
 <script src="js/jquery-3.2.1.js"></script>
-<script src="js/js.js"></script>
+<script src="js/jquery.popupoverlay.js"></script>
+<script src="js/main.js"></script>
 </body>

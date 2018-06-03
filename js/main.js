@@ -3,23 +3,30 @@ $(document).ready(function () {
         $('.left-content').addClass('hide-sideBar');
         $('.wrapper-hide').css('display', 'block');
     });
+
     $('.click-hide').click(function() {
         $('.left-content').removeClass('hide-sideBar');
         $('.wrapper-hide').css('display', 'none');
     });
+
+
     $('#save').click( function(event) {
         $('.success')
             .css('display', 'flex') // убирaем у мoдaльнoгo oкнa display: none;
             .animate({opacity: 1,  right: '20px'}, 200);
+
         $('.success-click').click(function(){
             $('.success')
                 .animate({opacity: 1, right: '-430px'}, 200);
         });
     });
+
+
     $('#error-save').click( function(event) {
         $('.error')
             .css('display', 'flex') // убирaем у мoдaльнoгo oкнa display: none;
             .animate({opacity: 1,  right: '20px'}, 200);
+
         $('.error-click').click(function(){
             $('.error')
                 .animate({opacity: 1, right: '-430px'}, 200);
@@ -29,5 +36,17 @@ $(document).ready(function () {
         var copyText = document.getElementById("myInput");
         copyText.select();
         document.execCommand("copy");
-    })
+    });
+
+    $('.fade_open').on('click', function() {
+        $(".wrapper-account").addClass("overflow");
+        $('#fade').popup({
+            transition: 'all 0.3s',
+            scrolllock: true,
+            onclose: function () {
+                $(".wrapper-account").removeClass("overflow");
+            }
+        });
+    });
 });
+
