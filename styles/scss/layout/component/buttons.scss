@@ -190,3 +190,14 @@ input:checked + .slider:before {
     opacity: 0.5;
   }
 }
+.drop_down{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  i{
+    color: $color-text;
+    &:hover{
+      color: $select-color;
+    }
+  }
+}

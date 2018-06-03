@@ -12,7 +12,7 @@ $(document).ready(function () {
 
     $('#save').click( function(event) {
         $('.success')
-            .css('display', 'flex') // убирaем у мoдaльнoгo oкнa display: none;
+            .css('display', 'flex')
             .animate({opacity: 1,  right: '20px'}, 200);
 
         $('.success-click').click(function(){
@@ -24,7 +24,7 @@ $(document).ready(function () {
 
     $('#error-save').click( function(event) {
         $('.error')
-            .css('display', 'flex') // убирaем у мoдaльнoгo oкнa display: none;
+            .css('display', 'flex')
             .animate({opacity: 1,  right: '20px'}, 200);
 
         $('.error-click').click(function(){
@@ -48,5 +48,8 @@ $(document).ready(function () {
             }
         });
     });
-});
 
+    $("#click_down_1").on("click", function(){
+        $("#info_block_1").css('display', 'block');
+    });
+});
