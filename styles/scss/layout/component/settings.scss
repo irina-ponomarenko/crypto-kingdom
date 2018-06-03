@@ -10,12 +10,13 @@
   input{
     border: none;
     background: transparent;
-    width: 80%;
     font-size: 17px;
-    color: $select-color;
+    color: $color-text;
+    width: 80%;
     outline: none;
+    text-align: right;
     &::placeholder{
-      color: $select-color;
+      color: $color-text;
       font-size: 17px;
       font-family: $font-roboto-medium;
     }
@@ -25,4 +26,8 @@
   input{
     width: 60%;
   }
+}
+.options-info{
+    font-size: 17px;
+    color: $select-color;
 }

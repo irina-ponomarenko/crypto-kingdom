@@ -253,6 +253,12 @@
   .right-bitcoin-info{
     max-width: 437px;
   }
+  .options-info{
+      font-size: 14px;
+  }
+  input.btn-js::placeholder{
+      font-size: 14px!important;
+    }
 }
 @media (max-width: 1280px) {
   * a{

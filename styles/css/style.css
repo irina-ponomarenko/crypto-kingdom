@@ -1018,19 +1018,25 @@ i.click-hide:hover {
 .form-setting input {
   border: none;
   background: transparent;
-  width: 80%;
   font-size: 17px;
-  color: #fff;
+  color: #7b7e80;
+  width: 80%;
   outline: none;
+  text-align: right;
 }
 .form-setting input::placeholder {
-  color: #fff;
+  color: #7b7e80;
   font-size: 17px;
   font-family: "robotomedium", Arial, sans-serif;
 }
 
 .change-input-width input {
   width: 60%;
+}
+
+.options-info {
+  font-size: 17px;
+  color: #fff;
 }
 
 .game-wrapper {
@@ -1453,6 +1459,14 @@ i.click-hide:hover {
   .right-bitcoin-info {
     max-width: 437px;
   }
+
+  .options-info {
+    font-size: 14px;
+  }
+
+  input.btn-js::placeholder {
+    font-size: 14px !important;
+  }
 }
 @media (max-width: 1280px) {
   * a {
@@ -1543,6 +1557,8 @@ i.click-hide:hover {
 
 .padding-form {
   padding: 0 30px;
+  text-align: left !important;
+  color: #fff !important;
 }
 
 .padding-form-none {
