@@ -80,6 +80,7 @@
     &:hover{
       background: $hover-color;
       color: $level-line;
+      transition: .3s;
     }
   }
 }

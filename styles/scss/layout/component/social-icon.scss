@@ -40,6 +40,10 @@
   /* for IE */
   -ms-appearance: none;
   appearance: none!important;
+  &:hover{
+    transition: .3s;
+    border: 4px solid $hover-color;
+  }
 
 }
 .dropdown-language::-ms-expand {

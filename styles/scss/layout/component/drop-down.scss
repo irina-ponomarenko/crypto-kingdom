@@ -26,3 +26,29 @@
   padding-left: 0;
   padding-right: 0;
 }
+.dropdown-profile{
+  max-width: 264px;
+  width: 100%;
+  background: $background-nav;
+  position: absolute;
+  right: 0;
+  top: 186px;
+  display: none;
+  z-index: 100;
+  li{
+    padding: 20px 15px;
+    color: $color-text;
+    border-top: 1px solid $border-dark;
+  }
+}
+.info-profile{
+  a{
+    cursor: pointer;
+    &:hover{
+      color: $select-color;
+    }
+  }
+}
+.active-profile{
+  display: block;
+}

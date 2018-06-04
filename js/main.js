@@ -9,34 +9,39 @@ $(document).ready(function () {
         $('.wrapper-hide').css('display', 'none');
     });
 
+    setTimeout(function() {
+        $('.success').css('display', 'flex');
+    }, 5000);
+    setTimeout ("$('.success').fadeIn('slow');", 5000);
+    setTimeout ("$('.success').fadeOut('slow');", 8000);
 
-    $('#save').click( function(event) {
-        $('.success')
-            .css('display', 'flex')
-            .animate({opacity: 1,  right: '20px'}, 200);
+    setTimeout(function() {
+        $('.error').css('display', 'flex');
+    }, 6000);
+    setTimeout ("$('.error').fadeIn('slow');", 6000);
+    setTimeout ("$('.error').fadeOut('slow');", 9000);
 
-        $('.success-click').click(function(){
-            $('.success')
-                .animate({opacity: 1, right: '-430px'}, 200);
-        });
+    $('.success-click').on('click',function () {
+        $('.success').css('display', 'none');
+    });
+    $('.error-click').on('click',function () {
+        $('.error').css('display', 'none');
     });
 
 
-    $('#error-save').click( function(event) {
-        $('.error')
-            .css('display', 'flex')
-            .animate({opacity: 1,  right: '20px'}, 200);
+    $('.btn-js').on('focus', function() {
+        $(this)
+            .parent()
+            .find('.copy-address')
+            .addClass('adress-active')
+    });
+    $('.btn-js').on('blur', function() {
+        $(this)
+            .parent()
+            .find('.copy-address')
+            .removeClass('adress-active')
+    });
 
-        $('.error-click').click(function(){
-            $('.error')
-                .animate({opacity: 1, right: '-430px'}, 200);
-        });
-    });
-    $('.btn-js').on('click', function() {
-        var copyText = document.getElementById("myInput");
-        copyText.select();
-        document.execCommand("copy");
-    });
 
     $('.fade_open').on('click', function() {
         $(".wrapper-account").addClass("overflow");
@@ -51,5 +56,10 @@ $(document).ready(function () {
 
     $("#click_down_1").on("click", function(){
         $("#info_block_1").css('display', 'block');
+    });
+
+    $('#click_dropdown').on('click', function(){
+        $('.dropdown-profile').toggleClass('active-profile');
+        return false;
     });
 });

@@ -2,14 +2,15 @@
   background: $select-color;
   border-radius: 5px;
   position: fixed;
-  right: -430px;
-  top: 20px;
-  display: flex;
+  right: 20px;
+  top: 220px;
+  display: none;
   align-items: center;
   justify-content: space-between;
   padding: 23px 31px;
   max-width: 360px;
   width: 100%;
+  z-index: 999;
 
   p{
     max-width: 230px;
@@ -23,8 +24,8 @@
 }
 .error{
   border-bottom: 7px solid $background-off;
-  top: 20px;
-  right: -430px;
+  top: 340px;
+  right: 20px;
 }
 .img-block.success-img{
   background-image: url("../../images/success.png");
@@ -77,6 +78,8 @@
 .copy-address{
   background: $background-nav;
   display: none;
+  opacity: 0;
+  transition: .3s;
   padding: 32px;
   position: absolute;
   right: -215px;

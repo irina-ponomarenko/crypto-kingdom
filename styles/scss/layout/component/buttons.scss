@@ -16,6 +16,7 @@
     &:hover{
       background: $hover-color;
       color: black;
+      transition: .3s;
     }
   }
   &:last-child{
@@ -70,6 +71,7 @@
   margin-top: 20px;
   &:hover{
     opacity: 0.5;
+    transition: .3s;
   }
 }
 /* The switch - the box around the slider */
@@ -174,6 +176,7 @@ input:checked + .slider:before {
   border-bottom-right-radius: 5px;
   &:hover{
     color: $select-color;
+    transition: .3s;
   }
 }
 .withdraw-button{
@@ -188,6 +191,7 @@ input:checked + .slider:before {
   font-family: $font-roboto-medium;
   &:hover{
     opacity: 0.5;
+    transition: .3s;
   }
 }
 .drop_down{
@@ -198,6 +202,7 @@ input:checked + .slider:before {
     color: $color-text;
     &:hover{
       color: $select-color;
+      transition: .3s;
     }
   }
 }

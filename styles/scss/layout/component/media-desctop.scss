@@ -261,6 +261,9 @@
   input.btn-js::placeholder{
       font-size: 14px!important;
     }
+  .dropdown-profile{
+    max-width: 230px !important;
+  }
 }
 @media (max-width: 1280px) {
   * a{

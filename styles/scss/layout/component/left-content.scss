@@ -37,6 +37,7 @@
     cursor: pointer;
     &:hover{
       color: $hover-color;
+      transition: .3s;
     }
   }
 }
@@ -72,6 +73,7 @@
       font-size: 15px;
       &:hover{
         color: $hover-color;
+        transition: .3s;
     }
   }
   }
@@ -94,7 +96,6 @@
   display: flex;
   align-items: center;
   padding: 25px 30px;
-  cursor: pointer;
 }
 .first-chat{
   border-top: 1px solid $border-color;
@@ -104,6 +105,7 @@
   max-width: 49px;
   width: 100%;
   height: 49px;
+  cursor: pointer;
   img{
     width: 49px;
     height: 49px;
@@ -137,6 +139,7 @@
     color: $hover-color;
     font-family: $font-roboto-medium;
     margin-bottom: 5px;
+    cursor: pointer;
   }
 }
 .icon-block{
@@ -152,6 +155,7 @@
     cursor: pointer;
     &:hover{
       color: $hover-color;
+      transition: .3s;
     }
   }
 }
@@ -179,6 +183,7 @@ i.click-hide{
 }
 i.click-hide:hover{
   color:  #e2c45e;
+  transition: .3s;
 }
 .left-content.hide-sideBar {
   margin-left: -365px;
