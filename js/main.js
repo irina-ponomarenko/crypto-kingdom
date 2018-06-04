@@ -71,6 +71,18 @@ $(document).ready(function () {
         });
     });
 
+    $('.accept_open').on('click', function() {
+            $(".wrapper-account").addClass("overflow");
+        $('#fadeandscale').bPopup({
+            transition: 'all 0.3s',
+            scrollBar: true,
+            onclose: function () {
+                $(".wrapper-account").removeClass("overflow");
+            }
+        });
+    });
+
+
 
 
     $("#click_down_1").on("click", function(){

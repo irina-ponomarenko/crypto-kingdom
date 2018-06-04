@@ -156,4 +156,42 @@
     }
   }
 }
-
+.chat-rules-pop-up{
+  p{
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+}
+.rules-list{
+  margin-bottom: 0;
+  li{
+    &:last-child{
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    &:first-child{
+      border-top: 1px solid $border-dark;
+    }
+  }
+}
+.chat-rules-pop-up{
+  p{
+    text-align: center;
+  }
+}
+.rules-info{
+  margin: 0 !important;
+  padding: 30px;
+  text-align: justify !important;
+}
+.wrapper-pop-up{
+  display: flex;
+  max-width: 1105px;
+  margin: 0 auto;
+}
+#fadeandscale {
+  transform: scale(0.8);
+}
+.popup_visible #fadeandscale {
+  transform: scale(1);
+}

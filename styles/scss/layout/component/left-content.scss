@@ -92,6 +92,13 @@
       font-size: 15px;
       color: $color-text;
     }
+    a{
+      cursor: pointer;
+      &:hover{
+        color: $hover-color;
+        transition: .3s;
+      }
+    }
   }
 }
 .chat-block{

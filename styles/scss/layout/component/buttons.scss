@@ -268,7 +268,8 @@ input:checked + .slider:before {
     transition: .3s;
   }
 }
-.sign-in{
+.sign-in,
+.accept{
   background: $light-green;
   color: $select-color;
   &:hover{
@@ -276,4 +277,7 @@ input:checked + .slider:before {
     color: $light-green;
     transition: .3s;
   }
+}
+.rules-button{
+  margin-bottom: 0 !important;
 }

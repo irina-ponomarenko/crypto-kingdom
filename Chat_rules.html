@@ -162,8 +162,8 @@
                     <button type="button">Send</button>
                 </div>
                 <div class="left-block last-child">
-                    <span>Chat Rules</span>
-                    <p>All Rights Reserved.</p>
+                    <a class="fade_open">Chat Rules</a>
+                    <a class="accept_open">All Rights Reserved.</a>
                 </div>
             </div>
         </div>
@@ -317,7 +317,83 @@
         </div>
     </section>
 </div>
+
+<div class="pop_up create-account chat-rules-pop-up" id="fade">
+    <div class="title-pop-up">
+        <h2>CREATE ACCOUNT</h2>
+        <button type="button" class="img-dismiss-pop-up fade_close rules-button"></button>
+    </div>
+    <p>By clicking below, you agree to our TOS</p>
+    <button type="submit" class="submit">CLICK HERE TO AGREE</button>
+    <form class="account-create">
+        <ul class="pop-up-block account-block rules-list">
+            <li>
+                <input type="text" id="rule_1" placeholder="Rule 1"/>
+                <label for="rule_1">First chat rule goes here</label>
+            </li>
+            <li>
+                <input type="text" id="rule_2" placeholder="Rule 2"/>
+                <label for="rule_2">Second chat rule goes here</label>
+            </li>
+            <li>
+                <input type="text" id="rule_3" placeholder="Rule 3"/>
+                <label for="rule_3">Third chat rule goes hered</label>
+            </li>
+            <li>
+                <input type="text" id="rule_4" placeholder="Rule 4"/>
+                <label for="rule_4">Forth chat rule goes here</label>
+            </li>
+            <li>
+                <input type="text" id="rule_5" placeholder="Rule 5"/>
+                <label for="rule_5">Fifth chat rule goes here</label>
+            </li>
+        </ul>
+    </form>
+    <p class="rules-info">If you do NOT abide by the following rules, we will
+        take action where needed. Sometimes resulting in
+        a permanent mute / ban.</p>
+</div>
+
+
+<div class="pop_up create-account chat-rules-pop-up" id="fadeandscale">
+    <div class="title-pop-up">
+        <h2>CREATE ACCOUNT</h2>
+        <button type="button" class="img-dismiss-pop-up b-close rules-button"></button>
+    </div>
+    <p>By clicking below, you agree to our TOS</p>
+    <button type="submit" class="submit accept">ACCEPTED CHAT RULES</button>
+    <form class="account-create">
+        <ul class="pop-up-block account-block rules-list">
+            <li>
+                <input type="text" id="rule__1" placeholder="Rule 1"/>
+                <label for="rule__1">First chat rule goes here</label>
+            </li>
+            <li>
+                <input type="text" id="rule__2" placeholder="Rule 2"/>
+                <label for="rule__2">Second chat rule goes here</label>
+            </li>
+            <li>
+                <input type="text" id="rule__3" placeholder="Rule 3"/>
+                <label for="rule__3">Third chat rule goes hered</label>
+            </li>
+            <li>
+                <input type="text" id="rule__4" placeholder="Rule 4"/>
+                <label for="rule__4">Forth chat rule goes here</label>
+            </li>
+            <li>
+                <input type="text" id="rule__5" placeholder="Rule 5"/>
+                <label for="rule__5">Fifth chat rule goes here</label>
+            </li>
+        </ul>
+    </form>
+    <p class="rules-info">If you do NOT abide by the following rules, we will
+        take action where needed. Sometimes resulting in
+        a permanent mute / ban.</p>
+</div>
+
+
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/jquery.popupoverlay.js"></script>
+<script src="js/popup.fade.js"></script>
 <script src="js/main.js"></script>
 </body>

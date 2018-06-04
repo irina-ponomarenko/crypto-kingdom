@@ -673,14 +673,20 @@ input:checked + .slider:before {
   transition: .3s;
 }
 
-.sign-in {
+.sign-in,
+.accept {
   background: #1abe66;
   color: #fff;
 }
-.sign-in:hover {
+.sign-in:hover,
+.accept:hover {
   background: #171b1f;
   color: #1abe66;
   transition: .3s;
+}
+
+.rules-button {
+  margin-bottom: 0 !important;
 }
 
 .left-content {
@@ -781,6 +787,13 @@ input:checked + .slider:before {
   margin-right: 20px;
   font-size: 15px;
   color: #7b7e80;
+}
+.left-block-bottom .last-child a {
+  cursor: pointer;
+}
+.left-block-bottom .last-child a:hover {
+  color: #e2c45e;
+  transition: .3s;
 }
 
 .chat-block {
@@ -2053,6 +2066,46 @@ input.placeholder-color::placeholder {
 
 .create-account .title-pop-up h2 {
   color: #fff;
+}
+
+.chat-rules-pop-up p {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.rules-list {
+  margin-bottom: 0;
+}
+.rules-list li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.rules-list li:first-child {
+  border-top: 1px solid #2e3337;
+}
+
+.chat-rules-pop-up p {
+  text-align: center;
+}
+
+.rules-info {
+  margin: 0 !important;
+  padding: 30px;
+  text-align: justify !important;
+}
+
+.wrapper-pop-up {
+  display: flex;
+  max-width: 1105px;
+  margin: 0 auto;
+}
+
+#fadeandscale {
+  transform: scale(0.8);
+}
+
+.popup_visible #fadeandscale {
+  transform: scale(1);
 }
 
 .margin-top-none {
