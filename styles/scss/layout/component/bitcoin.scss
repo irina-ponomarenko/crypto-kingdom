@@ -23,6 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
   i{
     font-size: 11px;
     color: $color-text;
@@ -79,4 +80,20 @@ input.placeholder-color::placeholder{
   max-width: 665px;
   line-height: 23px;
   margin-top: 20px;
+}
+.dropdown-bitcoin-block{
+  background: $color-nav;
+  border-top: 1px solid $border-dark;
+  position: absolute;
+  left: 0;
+  max-width: 81px;
+  width: 100%;
+  padding: 20px;
+  top: 220px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.26);
+  -moz-box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.26);
+  box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.26);
 }
