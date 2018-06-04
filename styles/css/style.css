@@ -1571,6 +1571,43 @@ i.click-hide:hover {
   .wrapper-notifications h2 {
     color: #fff;
   }
+
+  .logo-start {
+    margin-top: 43px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .wellcome-info {
+    font-size: 14px !important;
+  }
+  .wellcome-info h2 {
+    margin-bottom: 18px !important;
+  }
+
+  .start-width {
+    margin-top: 35px !important;
+    max-width: 700px !important;
+  }
+
+  .games-start ul li {
+    height: 145px !important;
+    margin-right: 25px  !important;
+    margin-bottom: 25px !important;
+  }
+  .games-start ul li:last-child {
+    margin-right: 0  !important;
+    margin-bottom: 0 !important;
+  }
+
+  .create,
+  .sign {
+    max-width: 234px;
+    font-size: 14px;
+  }
+
+  .create {
+    margin-right: 25px;
+  }
 }
 @media (max-width: 1280px) {
   * a {
