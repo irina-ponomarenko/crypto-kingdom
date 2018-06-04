@@ -114,3 +114,46 @@
   font-size: 14px !important;
 }
 
+.create-account{
+  display: none;
+  max-width: 492px;
+}
+.account-block{
+  input{
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: $select-color;
+  }
+  label{
+    color: $select-color;
+  }
+}
+.account-create{
+  p{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+.account-block{
+  margin-bottom: 30px;
+  li{
+    border-top: none;
+    border-bottom: 1px solid $border-dark;
+    &:last-child{
+      border-bottom: 1px solid $border-dark;
+    }
+    &:first-child{
+    margin-top: 0;
+  }
+  }
+}
+.create-account{
+  .title-pop-up{
+    h2{
+      color: $select-color;
+    }
+  }
+}
+
