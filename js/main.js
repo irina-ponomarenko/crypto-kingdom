@@ -81,4 +81,20 @@ $(document).ready(function () {
         $('.dropdown-profile').toggleClass('active-profile');
         return false;
     });
+
+
+    // $('.drop_down').on('click', function () {
+    //     $('.down-block').css('display', 'none');
+    //     $('.up-block').css('display', 'block');
+    //     $('.dropdown-info-block').slideToggle();
+    // });
+
+    $('.drop_down').focus(function() {
+        $(this)
+            .closest('.display-change')
+            .find('.dropdown-info-block')
+            .slideToggle(300);
+        $('.down-block').css('display', 'none');
+        $('.up-block').css('display', 'block');
+    });
 });

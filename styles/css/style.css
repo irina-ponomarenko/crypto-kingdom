@@ -1881,3 +1881,7 @@ input.placeholder-color::placeholder {
 .active-profile {
   display: block;
 }
+
+.up-block {
+  display: none !important;
+}
