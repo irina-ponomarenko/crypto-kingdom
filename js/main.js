@@ -79,7 +79,7 @@ $(document).ready(function () {
 
     $('#click_dropdown').on('click', function(){
         $('.dropdown-profile').toggleClass('active-profile');
-        return false;
+
     });
 
 
@@ -90,5 +90,14 @@ $(document).ready(function () {
             .slideToggle(300);
         $(this)
             .toggleClass('active-chewron')
+    });
+
+    $('.click-bitcoin').click(function() {
+        $(this)
+            .closest('.bitcoin-block')
+            .find('.dropdown-bitcoin-block')
+            .slideToggle(300);
+        $(this)
+            .toggleClass('active-profile-chewron')
     });
 });

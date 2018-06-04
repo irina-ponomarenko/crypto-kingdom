@@ -96,4 +96,6 @@ input.placeholder-color::placeholder{
   -webkit-box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.26);
   -moz-box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.26);
   box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.26);
+  display: none;
+  z-index: 1200;
 }

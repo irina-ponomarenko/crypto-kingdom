@@ -276,6 +276,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .nav-left {
   border-right: 1px solid #2e3337;
   line-height: 110px;
+  padding: 10px 0;
 }
 
 .nav-bottom-left {
@@ -1355,6 +1356,7 @@ i.click-hide:hover {
 
   .nav-left {
     line-height: 100px;
+    padding: 15px 0;
   }
 
   .buttons button {
@@ -1829,6 +1831,8 @@ input.placeholder-color::placeholder {
   -webkit-box-shadow: 0px 8px 19px 0px rgba(0, 0, 0, 0.26);
   -moz-box-shadow: 0px 8px 19px 0px rgba(0, 0, 0, 0.26);
   box-shadow: 0px 8px 19px 0px rgba(0, 0, 0, 0.26);
+  display: none;
+  z-index: 1200;
 }
 
 .wrapper-history-info {
@@ -2100,6 +2104,8 @@ input.placeholder-color::placeholder {
   top: 186px;
   display: none;
   z-index: 100;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .dropdown-profile li {
   padding: 20px 15px;
@@ -2116,6 +2122,10 @@ input.placeholder-color::placeholder {
 
 .active-profile {
   display: block;
+}
+
+.active-profile-chewron {
+  transform: rotate(180deg);
 }
 
 .active-chewron {

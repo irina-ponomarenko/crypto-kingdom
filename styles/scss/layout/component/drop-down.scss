@@ -35,6 +35,8 @@
   top: 186px;
   display: none;
   z-index: 100;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   li{
     padding: 20px 15px;
     color: $color-text;
@@ -52,6 +54,10 @@
 .active-profile{
   display: block;
 }
+.active-profile-chewron{
+  transform: rotate(180deg);
+}
+
 .active-chewron{
   transform: rotate(180deg);
 }
