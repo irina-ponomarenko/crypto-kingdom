@@ -590,6 +590,51 @@ input:checked + .slider:before {
   transition: .3s;
 }
 
+.buttons-start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create {
+  max-width: 268px;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  background: #171b1f;
+  color: #e2c45e;
+  font-size: 17px;
+  font-family: "robotomedium", Arial, sans-serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 35px;
+}
+.create:hover {
+  background: #e2c45e;
+  color: black;
+  transition: .3s;
+}
+
+.sign {
+  max-width: 268px;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  background: #171b1f;
+  color: #e2c45e;
+  font-size: 17px;
+  font-family: "robotomedium", Arial, sans-serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sign:hover {
+  background: #e2c45e;
+  color: black;
+  transition: .3s;
+}
+
 .left-content {
   max-width: 365px;
   width: 100%;
@@ -1884,4 +1929,85 @@ input.placeholder-color::placeholder {
 
 .active-chewron {
   transform: rotate(180deg);
+}
+
+.logo-start {
+  width: 105px;
+  height: 80px;
+  margin-top: 63px;
+  margin-bottom: 30px;
+}
+.logo-start img {
+  width: 105px;
+  height: 80px;
+}
+
+.hello-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wellcome-info {
+  font-size: 17px;
+  font-family: "robotomedium", Arial, sans-serif;
+  text-align: center;
+}
+.wellcome-info h2 {
+  color: #fff;
+  margin-bottom: 23px;
+}
+.wellcome-info h2 span {
+  color: #e2c45e;
+}
+.wellcome-info p {
+  color: #7b7e80;
+  max-width: 479px;
+}
+
+.box-shadow-none {
+  box-shadow: none;
+}
+
+.start-width {
+  max-width: 900px;
+}
+
+.games-start ul {
+  display: flex;
+}
+.games-start ul li {
+  max-width: 434px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 434px;
+  height: 190px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+}
+.games-start ul li:last-child {
+  margin-right: 0;
+}
+.games-start ul li h2 {
+  color: #fff;
+}
+
+.dice-start {
+  background-image: url("../../images/dice.png");
+}
+
+.roulette-start {
+  background-image: url("../../images/rouletta-fon.png");
+}
+
+.blackjack-start {
+  background-image: url("../../images/blackjack.png");
+}
+
+.crash-start {
+  background-image: url("../../images/crash.png");
 }

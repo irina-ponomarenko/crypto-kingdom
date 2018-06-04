@@ -206,3 +206,45 @@ input:checked + .slider:before {
     }
   }
 }
+.buttons-start{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.create{
+  max-width: 268px;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  background: $level-line;
+  color: $hover-color;
+  font-size: 17px;
+  font-family: $font-roboto-medium;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 35px;
+  &:hover{
+    background: $hover-color;
+    color: black;
+    transition: .3s;
+  }
+}
+.sign{
+  max-width: 268px;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  background: $level-line;
+  color: $hover-color;
+  font-size: 17px;
+  font-family: $font-roboto-medium;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    background: $hover-color;
+    color: black;
+    transition: .3s;
+  }
+}

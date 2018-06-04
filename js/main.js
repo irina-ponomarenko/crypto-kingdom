@@ -81,7 +81,7 @@ $(document).ready(function () {
         $('.dropdown-profile').toggleClass('active-profile');
         return false;
     });
-    
+
 
     $('.drop_down').click(function() {
         $(this)
