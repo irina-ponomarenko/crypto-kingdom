@@ -656,6 +656,16 @@ input:checked + .slider:before {
   transition: .3s;
 }
 
+.sign-in {
+  background: #1abe66;
+  color: #fff;
+}
+.sign-in:hover {
+  background: #171b1f;
+  color: #1abe66;
+  transition: .3s;
+}
+
 .left-content {
   max-width: 365px;
   width: 100%;
@@ -1663,6 +1673,10 @@ i.click-hide:hover {
   .account-create p {
     font-size: 14px;
     margin-bottom: 15px !important;
+  }
+
+  .games-start ul li h2 {
+    font-size: 14px;
   }
 }
 @media (max-width: 1280px) {
