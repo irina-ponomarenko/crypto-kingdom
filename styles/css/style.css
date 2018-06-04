@@ -84,6 +84,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #7b7e80;
 }
 
+.t-service {
+  height: 100vh;
+  overflow: auto;
+}
+.t-service p {
+  text-align: justify;
+  margin-top: 45px;
+}
+.t-service p:first-child {
+  margin-top: 22px;
+}
+
+.margin-small {
+  margin-top: 22px !important;
+}
+
+.t-service-title {
+  color: #fff;
+}
+
 * a {
   font-size: 17px;
   color: #7b7e80;
@@ -892,6 +912,16 @@ i.click-hide:hover {
   position: relative;
 }
 
+.tos {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 62px;
+}
+
 .avatar-user {
   display: flex;
   align-items: center;
@@ -1677,6 +1707,14 @@ i.click-hide:hover {
 
   .games-start ul li h2 {
     font-size: 14px;
+  }
+
+  .tos {
+    font-size: 14px;
+  }
+
+  .t-service p {
+    margin-top: 25px;
   }
 }
 @media (max-width: 1280px) {

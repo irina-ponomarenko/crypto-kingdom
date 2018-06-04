@@ -17,3 +17,20 @@
   font-size: 17px;
   color: $color-text;
 }
+.t-service{
+  height: 100vh;
+  overflow: auto;
+  p{
+    text-align: justify;
+    margin-top: 45px;
+    &:first-child{
+      margin-top: 22px;
+    }
+  }
+}
+.margin-small{
+  margin-top: 22px !important;
+}
+.t-service-title{
+  color: $select-color;
+}
