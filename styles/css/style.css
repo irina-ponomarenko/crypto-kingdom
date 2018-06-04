@@ -1883,5 +1883,5 @@ input.placeholder-color::placeholder {
 }
 
 .up-block {
-  display: none !important;
+  display: none;
 }
