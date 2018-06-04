@@ -75,17 +75,20 @@
   height: 32px;
   margin-right: 23px;
 }
-.copy-address{
-  background: $background-nav;
-  display: none;
+.copy-address {
+  background: #23282c;
+  display: flex;
   opacity: 0;
   transition: .3s;
   padding: 32px;
   position: absolute;
   right: -215px;
+  z-index: -998;
 }
-.adress-active{
-  display: flex;
+
+.adress-active {
+  z-index: 998;
+  opacity: 1;
 }
 .img-clone{
   width: 21px;
@@ -93,4 +96,12 @@
   background-image: url("../../images/clone.png");
   background-repeat: no-repeat;
   margin-right: 30px;
+}
+.copy-clipboard-js{
+  cursor: pointer;
+  &:hover{
+    color: $select-color;
+    transition: .3s;
+
+  }
 }

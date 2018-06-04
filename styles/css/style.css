@@ -903,6 +903,11 @@ i.click-hide:hover {
   margin-top: 20px;
 }
 
+.wrapper-notifications h2 {
+  margin-top: 45px;
+  color: #fff;
+}
+
 .alert {
   background: #fff;
   border-radius: 5px;
@@ -990,16 +995,18 @@ i.click-hide:hover {
 
 .copy-address {
   background: #23282c;
-  display: none;
+  display: flex;
   opacity: 0;
   transition: .3s;
   padding: 32px;
   position: absolute;
   right: -215px;
+  z-index: -998;
 }
 
 .adress-active {
-  display: flex;
+  z-index: 998;
+  opacity: 1;
 }
 
 .img-clone {
@@ -1008,6 +1015,14 @@ i.click-hide:hover {
   background-image: url("../../images/clone.png");
   background-repeat: no-repeat;
   margin-right: 30px;
+}
+
+.copy-clipboard-js {
+  cursor: pointer;
+}
+.copy-clipboard-js:hover {
+  color: #fff;
+  transition: .3s;
 }
 
 .sidebar {
@@ -1032,6 +1047,7 @@ i.click-hide:hover {
 }
 .sidebar li a:hover {
   color: #fff;
+  transition: .3s;
 }
 
 .margin-bitcoin h2 {
@@ -1250,7 +1266,7 @@ i.click-hide:hover {
   .buttons button {
     max-width: 123px;
     width: 100%;
-    padding: 15px 35px;
+    padding: 15px 30px;
   }
 
   .logo {
@@ -1408,7 +1424,7 @@ i.click-hide:hover {
   }
 
   .width-deposit {
-    max-width: 595px !important;
+    max-width: 695px !important;
   }
 
   .popup_content {
@@ -1451,7 +1467,7 @@ i.click-hide:hover {
   }
 
   .right-bitcoin-info h2 {
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
 
   .copy-address-button,
@@ -1505,6 +1521,10 @@ i.click-hide:hover {
 
   .dropdown-profile {
     max-width: 230px !important;
+  }
+
+  .wrapper-notifications h2 {
+    color: #fff;
   }
 }
 @media (max-width: 1280px) {

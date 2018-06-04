@@ -9,6 +9,7 @@ $(document).ready(function () {
         $('.wrapper-hide').css('display', 'none');
     });
 
+
     setTimeout(function() {
         $('.success').css('display', 'flex');
     }, 5000);
@@ -29,17 +30,33 @@ $(document).ready(function () {
     });
 
 
-    $('.btn-js').on('focus', function() {
+    $('.btn-js').focus(function() {
         $(this)
             .parent()
             .find('.copy-address')
-            .addClass('adress-active')
+            .addClass('adress-active');
     });
+
     $('.btn-js').on('blur', function() {
-        $(this)
-            .parent()
-            .find('.copy-address')
-            .removeClass('adress-active')
+        setTimeout(() => {
+            $(this)
+                .parent()
+                .find('.copy-address')
+                .removeClass('adress-active');
+        }, 100);
+    });
+
+
+    $('.copy-clipboard-js').on('click', function() {
+        let el = $(this)
+            .closest('.form-setting')
+            .find('.btn-js')[0];
+
+        el.select();
+
+        document.execCommand('copy');
+
+        // alert("Copied the text: " + el.value);
     });
 
 
@@ -53,6 +70,8 @@ $(document).ready(function () {
             }
         });
     });
+
+
 
     $("#click_down_1").on("click", function(){
         $("#info_block_1").css('display', 'block');
