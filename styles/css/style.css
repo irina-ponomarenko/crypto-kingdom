@@ -1882,6 +1882,6 @@ input.placeholder-color::placeholder {
   display: block;
 }
 
-.up-block {
-  display: none;
+.active-chewron {
+  transform: rotate(180deg);
 }

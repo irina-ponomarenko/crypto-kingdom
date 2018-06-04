@@ -89,12 +89,14 @@ $(document).ready(function () {
     //     $('.dropdown-info-block').slideToggle();
     // });
 
-    $('.drop_down').focus(function() {
+    $('.drop_down').click(function() {
         $(this)
             .closest('.display-change')
             .find('.dropdown-info-block')
             .slideToggle(300);
-        $('.down-block').css('display', 'none');
-        $('.up-block').css('display', 'block');
+        // $('.down-block').css('display', 'none');
+        // $('.up-block').css('display', 'block');
+        $(this)
+            .toggleClass('active-chewron')
     });
 });
