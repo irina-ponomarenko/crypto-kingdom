@@ -707,7 +707,6 @@ input:checked + .slider:before {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
   margin-top: 30px;
 }
 .buttons-dice button {
@@ -726,6 +725,7 @@ input:checked + .slider:before {
 .buttons-dice button:hover {
   background: #e2c45e;
   color: #191e21;
+  transition: .3s;
 }
 
 .right-buttons {
@@ -2522,23 +2522,19 @@ input.placeholder-color::placeholder {
   bottom: 7px;
 }
 
-.scale-list {
+.scale-block {
   width: 100%;
   display: flex;
   height: 10px;
-}
-.scale-list li {
-  width: 50%;
+  position: relative;
+  background: #c75353;
+  border-radius: 10px;
 }
 
 .normal {
   background: #72ca54;
   border-radius: 5px 0 0  5px;
-}
-
-.overflows-red {
-  background: #c75353;
-  border-radius: 0 5px 5px 0;
+  width: 50%;
 }
 
 .scale-numbers {
@@ -2568,4 +2564,18 @@ input.placeholder-color::placeholder {
   right: 0;
   margin: 0 auto;
   top: 20px;
+}
+
+.history-dice {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 28px;
+}
+.history-dice th {
+  width: 25%;
+}
+
+.result h2 {
+  color: #fff;
+  line-height: 23px;
 }

@@ -293,7 +293,6 @@ input:checked + .slider:before {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
   margin-top: 30px;
   button{
     border: none;
@@ -310,6 +309,7 @@ input:checked + .slider:before {
     &:hover{
       background: $hover-color;
       color: $color-dark;
+      transition: .3s;
     }
   }
 }
