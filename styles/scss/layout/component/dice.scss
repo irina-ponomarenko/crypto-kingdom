@@ -1,0 +1,122 @@
+.wrapper-gamemode{
+  background: $background-nav;
+  border-radius: 5px;
+  padding: 30px;
+}
+.header-games{
+  padding-bottom: 10px;
+  h2{
+    color: $select-color;
+    margin-bottom: 15px;
+  }
+}
+.simple-2{
+  background: $color-dark;
+  opacity: 0.2;
+  width: 213px;
+  height: 105px;
+  margin: 0 auto;
+  margin-top: 6px;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+.sample-1{
+  width: 237px;
+  height: 105px;
+  background: $color-dark;
+  opacity: 0.44;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 3px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 15;
+}
+.sample{
+  display: flex;
+  width: 263px;
+  height: 105px;
+  background: $color-dark;
+  border-radius: 5px;
+  position: relative;
+  z-index: 20;
+  span{
+    font-size: 100px;
+    position: absolute;
+    right: 18px;
+    opacity: 0.02;
+    color: $select-color;
+    z-index: 21;
+  }
+}
+.payout-info{
+  font-size: 17px;
+  color: $select-color;
+  line-height: 23px;
+  span{
+    font-size: 17px;
+    color: $color-text;
+    opacity: 1;
+    position: relative;
+    right: 0;
+  }
+}
+.img-payout{
+  background-image: url("../../images/payout.png");
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 50px;
+  margin-right: 27px;
+  margin-left: 30px;
+}
+.img-rolover{
+  background-image: url("../../images/rolover.png");
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 57px;
+  margin-right: 27px;
+  margin-left: 30px;
+}
+.info-sample{
+  z-index: 22;
+  display: flex;
+  align-items: center;
+}
+.sample-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.orange-color{
+  background: $hover-color;
+}
+.dollar{
+  color: black !important;
+  opacity: 0.07 !important;
+}
+.title-shadow{
+  text-shadow: 2px 2px 4px rgba(149, 129, 63, 1);
+  color: $select-color !important;
+}
+.large-block{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: $hover-color;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 27px;
+  h2{
+    color: $color-nav;
+    line-height: 23px;
+  }
+  span{
+    opacity: 0.5;
+    color: black;
+  }
+}

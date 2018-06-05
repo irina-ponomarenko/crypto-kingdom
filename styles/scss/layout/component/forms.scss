@@ -4,3 +4,23 @@
 .text-left{
   text-align: left !important;
 }
+.variables{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.amount-input{
+  background: $color-dark;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 26px  30px;
+  width: 50%;
+  font-size: 17px;
+  color: $select-color;
+  &:first-child{
+    margin-right: 30px;
+  }
+}

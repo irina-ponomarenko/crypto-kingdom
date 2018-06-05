@@ -100,6 +100,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #fff;
 }
 
+.wrapper-games {
+  max-width: 891px;
+  width: 100%;
+  margin-top: 30px;
+}
+
 * a {
   font-size: 17px;
   color: #7b7e80;
@@ -673,16 +679,24 @@ input:checked + .slider:before {
   transition: .3s;
 }
 
-.sign-in,
-.accept {
+.sign-in {
   background: #1abe66;
   color: #fff;
+  display: none;
 }
-.sign-in:hover,
-.accept:hover {
+.sign-in:hover {
   background: #171b1f;
   color: #1abe66;
   transition: .3s;
+}
+
+.accept {
+  background: #1abe66;
+  color: #fff;
+  display: none;
+}
+.accept:hover {
+  color: #fff;
 }
 
 .rules-button {
@@ -2131,6 +2145,28 @@ input.placeholder-color::placeholder {
   text-align: left !important;
 }
 
+.variables {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.amount-input {
+  background: #191e21;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 26px  30px;
+  width: 50%;
+  font-size: 17px;
+  color: #fff;
+}
+.amount-input:first-child {
+  margin-right: 30px;
+}
+
 .dropdown-info {
   display: flex;
   align-items: center;
@@ -2279,4 +2315,140 @@ input.placeholder-color::placeholder {
 
 .crash-start {
   background-image: url("../../images/crash.png");
+}
+
+.wrapper-gamemode {
+  background: #23282c;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.header-games {
+  padding-bottom: 10px;
+}
+.header-games h2 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.simple-2 {
+  background: #191e21;
+  opacity: 0.2;
+  width: 213px;
+  height: 105px;
+  margin: 0 auto;
+  margin-top: 6px;
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.sample-1 {
+  width: 237px;
+  height: 105px;
+  background: #191e21;
+  opacity: 0.44;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 3px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 15;
+}
+
+.sample {
+  display: flex;
+  width: 263px;
+  height: 105px;
+  background: #191e21;
+  border-radius: 5px;
+  position: relative;
+  z-index: 20;
+}
+.sample span {
+  font-size: 100px;
+  position: absolute;
+  right: 18px;
+  opacity: 0.02;
+  color: #fff;
+  z-index: 21;
+}
+
+.payout-info {
+  font-size: 17px;
+  color: #fff;
+  line-height: 23px;
+}
+.payout-info span {
+  font-size: 17px;
+  color: #7b7e80;
+  opacity: 1;
+  position: relative;
+  right: 0;
+}
+
+.img-payout {
+  background-image: url("../../images/payout.png");
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 50px;
+  margin-right: 27px;
+  margin-left: 30px;
+}
+
+.img-rolover {
+  background-image: url("../../images/rolover.png");
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 57px;
+  margin-right: 27px;
+  margin-left: 30px;
+}
+
+.info-sample {
+  z-index: 22;
+  display: flex;
+  align-items: center;
+}
+
+.sample-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.orange-color {
+  background: #e2c45e;
+}
+
+.dollar {
+  color: black !important;
+  opacity: 0.07 !important;
+}
+
+.title-shadow {
+  text-shadow: 2px 2px 4px #95813f;
+  color: #fff !important;
+}
+
+.large-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #e2c45e;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 27px;
+}
+.large-block h2 {
+  color: #1c2125;
+  line-height: 23px;
+}
+.large-block span {
+  opacity: 0.5;
+  color: black;
 }

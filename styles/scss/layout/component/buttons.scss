@@ -268,14 +268,22 @@ input:checked + .slider:before {
     transition: .3s;
   }
 }
-.sign-in,
-.accept{
+.sign-in{
   background: $light-green;
   color: $select-color;
+  display: none;
   &:hover{
     background: $level-line;
     color: $light-green;
     transition: .3s;
+  }
+}
+.accept {
+  background: $light-green;
+  color: $select-color;
+  display: none;
+  &:hover{
+    color: $select-color;
   }
 }
 .rules-button{

@@ -99,4 +99,8 @@ $(document).ready(function () {
         $(this)
             .toggleClass('active-profile-chewron')
     });
+    $('.submit-rules').click(function () {
+        $(this).css('display', 'none');
+        $('.accept').css('display', 'block');
+    });
 });
