@@ -1719,6 +1719,21 @@ i.click-hide:hover {
   .t-service p {
     margin-top: 25px;
   }
+
+  .chat-rules-pop-up p {
+    padding: 10px 20px !important;
+    margin: 0 !important;
+    font-size: 14px;
+  }
+  .chat-rules-pop-up .title-pop-up p {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    font-size: 14px;
+  }
+
+  .rules-list {
+    margin-bottom: 0 !important;
+  }
 }
 @media (max-width: 1280px) {
   * a {
