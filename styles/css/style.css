@@ -703,6 +703,54 @@ input:checked + .slider:before {
   margin-bottom: 0 !important;
 }
 
+.buttons-dice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.buttons-dice button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #33383c;
+  border-radius: 5px;
+  color: #7b7e80;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  text-align: center;
+  font-size: 17px;
+  font-family: "robotomedium", Arial, sans-serif;
+}
+.buttons-dice button:hover {
+  background: #e2c45e;
+  color: #191e21;
+}
+
+.right-buttons {
+  display: flex;
+  align-items: center;
+  max-width: 330px;
+  width: 100%;
+}
+
+.my-bets {
+  max-width: 152px;
+  width: 100%;
+}
+
+.all-bets {
+  max-width: 137px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.rollers {
+  max-width: 182px;
+  width: 100%;
+}
+
 .left-content {
   max-width: 365px;
   width: 100%;
@@ -2317,10 +2365,18 @@ input.placeholder-color::placeholder {
   background-image: url("../../images/crash.png");
 }
 
-.wrapper-gamemode {
+.dice-content {
   background: #23282c;
   border-radius: 5px;
+  padding-bottom: 3px;
+  -webkit-box-shadow: inset 0px -3px 0px 0px #171b1f;
+  -moz-box-shadow: inset 0px -3px 0px 0px #171b1f;
+  box-shadow: inset 0px -3px 0px 0px #171b1f;
+}
+
+.wrapper-gamemode {
   padding: 30px;
+  position: relative;
 }
 
 .header-games {
@@ -2451,4 +2507,65 @@ input.placeholder-color::placeholder {
 .large-block span {
   opacity: 0.5;
   color: black;
+}
+
+.dice-change-block {
+  background: #1c2125;
+  padding: 19px 30px;
+  padding-top: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.scale {
+  position: relative;
+  bottom: 7px;
+}
+
+.scale-list {
+  width: 100%;
+  display: flex;
+  height: 10px;
+}
+.scale-list li {
+  width: 50%;
+}
+
+.normal {
+  background: #72ca54;
+  border-radius: 5px 0 0  5px;
+}
+
+.overflows-red {
+  background: #c75353;
+  border-radius: 0 5px 5px 0;
+}
+
+.scale-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.scale-numbers li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.central {
+  margin-left: 16px;
+}
+
+.smart-cub {
+  background-image: url("../../images/smart-cub.png");
+  background-repeat: no-repeat;
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 20px;
 }
