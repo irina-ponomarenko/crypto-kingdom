@@ -2852,10 +2852,10 @@ input.placeholder-color::placeholder {
 }
 
 .img-cards h2 {
-  font-size: 156px;
+  font-size: 166px;
   color: #ff6464;
-  font-family: "robotomedium", Arial, sans-serif;
-  font-weight: bold;
+  font-family: 'Circe', Arial;
+  font-weight: 800;
 }
 
 .color-dark {
@@ -2867,7 +2867,7 @@ input.placeholder-color::placeholder {
   background-repeat: no-repeat;
   width: 213px;
   height: 190px;
-  margin-top: 47px;
+  margin-top: 37px;
 }
 
 .cadr-img-spade {
@@ -2875,7 +2875,7 @@ input.placeholder-color::placeholder {
   background-repeat: no-repeat;
   width: 200px;
   height: 213px;
-  margin-top: 47px;
+  margin-top: 37px;
 }
 
 .cadr-img-diamonds {
@@ -2883,7 +2883,7 @@ input.placeholder-color::placeholder {
   background-repeat: no-repeat;
   width: 213px;
   height: 213px;
-  margin-top: 47px;
+  margin-top: 37px;
 }
 
 .cadr-img-clubs {
@@ -2891,5 +2891,5 @@ input.placeholder-color::placeholder {
   background-repeat: no-repeat;
   width: 213px;
   height: 213px;
-  margin-top: 47px;
+  margin-top: 37px;
 }
