@@ -926,7 +926,7 @@
 .cards-hearts{
     position: relative;
 }
-.player-1{
+.dealer{
     position: absolute;
     bottom: 52px;
     right: 20px;
@@ -1060,4 +1060,10 @@
 }
 .overflow-block{
     overflow: hidden;
+}
+.display-none{
+    display: none;
+}
+.opacity-30{
+    opacity: 0.33;
 }
