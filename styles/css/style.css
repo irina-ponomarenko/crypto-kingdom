@@ -1946,6 +1946,13 @@ input.placeholder-color::placeholder {
   margin-bottom: 10px;
 }
 
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
 .margin-top-none {
   margin-top: 0;
 }
@@ -2141,4 +2148,42 @@ input.placeholder-color::placeholder {
 .result h2 {
   color: #fff;
   line-height: 23px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.item h5 {
+  text-align: center;
+  position: absolute;
+  line-height: 125px;
+  width: 100%;
+  font-size: 40px;
+  color: #fff;
+  font-family: "robotomedium", Arial, sans-serif;
+}
+
+svg {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.circle_animation {
+  stroke-dasharray: 380;
+  /* this value is the pixel circumference of the circle */
+  stroke-dashoffset: 380;
+  transition: all 1s linear;
+}
+
+circle {
+  r: 58.857;
+  cy: 62;
+  cx: 62;
+  stroke-width: 4;
+  stroke: #1abe66;
+  fill: none;
 }
