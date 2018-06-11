@@ -1,0 +1,572 @@
+@media (max-width: 3200px) {
+    * p{
+        font-size: 14px;
+    }
+    .img-cards {
+        max-width: 147px;
+        height: 277px;
+        padding: 28px;
+        border-radius: 15px;
+    }
+
+    .img-cards h2 {
+        font-size: 96px;
+    }
+
+    .cadr-img-heart {
+        width: 90px;
+        height: 97px;
+        margin-top: 5px;
+    }
+
+    .cadr-img-spade,
+    .cadr-img-diamonds,
+    .cadr-img-clubs {
+        width: 90px;
+        height: 90px;
+        margin-top: 5px;
+    }
+
+    .cards {
+        padding-top: 40px;
+    }
+
+    .cards li {
+        max-width: 204px;
+        height: 334px;
+        margin-right: 45px;
+    }
+
+    .cards li:last-child {
+        margin-right: 0;
+    }
+
+    .cards:last-child {
+        margin-top: 50px;
+        padding-top: 0;
+    }
+
+    .dark-cards {
+        border-radius: 10px;
+    }
+
+    .img-logo {
+        width: 195px;
+        height: 105px;
+        background-position: center;
+        background-size: contain;
+    }
+}
+
+@media (max-width: 1540px) {
+    * a{
+        font-size: 14px;
+    }
+    .nav-left{
+        line-height: 100px;
+        padding: 15px 0;
+    }
+    .buttons button{
+        max-width: 123px;
+        width: 100%;
+        padding: 15px 30px;
+    }
+    .logo{
+        margin-right: 53px;
+    }
+    .buttons:last-child{
+        margin-right: 20px;
+    }
+    .profile-left p{
+        font-size: 14px;
+    }
+    .profile-left span{
+        font-size: 17px;
+    }
+    .logo img{
+        max-width: 206px;
+    }
+    .nav-bottom li a{
+        padding-left: 33px;
+    }
+    .wrapper-left-block{
+        padding: 28px 30px;
+    }
+    .chat-block{
+        padding: 7px 20px;
+    }
+    .first-chat{
+        padding-top: 15px;
+    }
+    .profile-header{
+        font-size: 14px;
+    }
+    .wrapper-left-block i{
+        font-size: 15px;
+    }
+    .left-block{
+        font-size: 17px;
+    }
+    .wrapper-account-info{
+        max-width: 695px;
+    }
+    .title-wrapper h2{
+        font-size: 14px;
+    }
+    .title-wrapper li p{
+        font-size: 14px;
+    }
+    .games ul li h2{
+        font-size: 14px;
+    }
+    .games ul li:first-child{
+         margin-right: 25px;
+     }
+    .stats li{
+        font-size: 14px;
+    }
+    .title-bottom p{
+        font-size: 14px;
+    }
+    .games ul li.dice{
+        max-width: 260px;
+        padding: 24px 40px;
+    }
+    .games ul li.roulette-game{
+        max-width: 260px;
+        padding: 24px 40px;
+    }
+    .games ul li.blackjack-game{
+        max-width: 260px;
+        padding: 24px 40px;
+    }
+    .games ul li.crash-game{
+        max-width: 260px;
+        padding: 24px 40px;
+    }
+    .game-wrapper{
+        max-width: 695px;
+    }
+    .info-user h2{
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+    .info-user span{
+        font-size: 14px;
+    }
+    .img-user {
+        width: 93px;
+        height: 93px;
+        background-size: contain;
+    }
+    .email-adress input{
+        padding: 25px 23px;
+        font-size: 14px;
+        width: 74%;
+    }
+    .email-adress button{
+        padding: 25px 23px;
+        font-size: 12px;
+    }
+    .category {
+        font-size: 14px;
+    }
+    .title-wrapper{
+        padding: 22px 29px;
+    }
+    .title-wrapper h2{
+        margin-bottom: 5px;
+    }
+    .change-width{
+        max-width: 495px;
+    }
+    .form-setting{
+        padding: 18px;
+    }
+    .form-withdraw{
+        padding: 0;
+    }
+    .copy-address{
+        padding: 18px;
+        right: -192px;
+    }
+    .save{
+        max-width: 335px;
+        padding-bottom: 18px;
+        padding-top: 18px;
+        font-size: 14px;
+    }
+    .sidebar li{
+        padding: 25px 22px;
+    }
+    i.click-hide{
+        font-size: 15px;
+    }
+    .hide{
+        padding-bottom: 28px;
+        padding-top: 20px;
+    }
+    .width-deposit{
+        max-width: 695px !important;
+    }
+    .popup_content{
+        max-width: 442px;
+        padding: 24px 0 0;
+    }
+    .confirmed {
+        width: 110px;
+        height: 110px;
+    }
+    .confirmed i{
+        font-size: 38px;
+    }
+    .amount h2{
+        font-size: 20px;
+    }
+    .title-pop-up{
+        padding-bottom: 20px;
+    }
+    .pop-up-block li {
+        padding: 20px 20px;
+    }
+    .pop-up-block h3, p{
+        font-size: 14px;
+    }
+    .send-to-value{
+        font-size: 14px;
+    }
+    .change-width{
+        max-width: 495px;
+    }
+    .right-bitcoin-info h2{
+        font-size: 14px;
+    }
+    .copy-address-button,
+    .withdraw-button {
+        padding: 20px 22px;
+        font-size: 14px;
+    }
+    .copy-address-button img,
+    .withdraw-button img{
+        width: 14px;
+        height: 14px;
+    }
+    .copy-address-button{
+        max-width: 205px;
+    }
+    .history{
+        padding: 13px 22px;
+        max-width: 651px;
+    }
+    .form-setting input{
+        font-size: 14px;
+    }
+    input.text-left::placeholder,
+    .placeholder-color::placeholder{
+        font-size: 14px;
+    }
+    .bitcoin-title{
+        font-size: 14px;
+    }
+    .withdraw-info{
+        max-width: 605px;
+        font-size: 14px;
+    }
+    .right-bitcoin-info{
+        max-width: 437px;
+    }
+    .options-info{
+        font-size: 14px;
+    }
+    input.btn-js::placeholder{
+        font-size: 14px;
+    }
+    .dropdown-profile{
+        max-width: 230px;
+    }
+    .wrapper-notifications h2{
+        color: #fff;
+        font-size: 14px;
+    }
+    .logo-start{
+        margin-top: 43px;
+        margin-bottom: 20px;
+    }
+    .wellcome-info {
+        font-size: 14px;
+    }
+    .wellcome-info h2{
+        margin-bottom: 18px;
+    }
+    .start-width{
+        margin-top: 35px;
+        max-width: 700px;
+    }
+    .games-start ul li {
+        height: 145px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    .games-start ul li:last-child{
+         margin-right: 0;
+         margin-bottom: 0;
+    }
+    .create,
+    .sign{
+        max-width: 234px;
+        font-size: 14px;
+    }
+    .create{
+        margin-right: 25px;
+    }
+    .submit{
+        max-width: 360px;
+        margin-right: 20px;
+        height: 50px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .account-block li:first-child{
+         margin-top: 0;
+    }
+    .games ul li.blackjack-game,
+    .games ul li.dice,
+    .games ul li.crash-game,
+    .games ul li.roulette-game{
+        height: 290px;
+    }
+    .create-account {
+        max-width: 400px;
+    }
+    .create-account .title-pop-up h2{
+        font-size: 14px;
+    }
+    .account-block {
+        margin-bottom: 20px;
+    }
+    .account-block input{
+        font-size: 14px;
+    }
+    .account-block label{
+        font-size: 14px;
+    }
+    .account-create p{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .games-start ul li h2{
+        font-size: 14px;
+    }
+    .tos{
+        font-size: 14px;
+    }
+    .t-service p{
+        margin-top: 25px;
+    }
+    .chat-rules-pop-up p{
+        padding: 10px 20px;
+        margin: 0;
+        font-size: 14px;
+    }
+    .title-pop-up p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .rules-list{
+        margin-bottom: 0;
+    }
+    .img-cards {
+        max-width: 121px;
+        height: 227px;
+        padding: 18px;
+        border-radius: 10px;
+    }
+    .img-cards h2{
+        font-size: 76px;
+    }
+    .cadr-img-heart{
+        width: 70px;
+        height: 67px;
+        margin-top: 5px;
+    }
+    .cadr-img-spade,
+    .cadr-img-diamonds,
+    .cadr-img-clubs{
+        width: 70px;
+        height: 70px;
+        margin-top: 5px;
+    }
+    .cards {
+        padding-top: 40px;
+    }
+    .cards li {
+        max-width: 158px;
+        height: 254px;
+        margin-right: 45px;
+    }
+    .cards li:last-child{
+         margin-right: 0;
+    }
+    .dark-cards{
+        border-radius: 10px;
+    }
+    .img-logo{
+        width: 165px;
+        height: 85px;
+        background-position: center;
+        background-size: contain;
+    }
+    .header-games h2{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .header-games span{
+        font-size: 14px;
+    }
+    .carousel {
+        border-radius: 30px;
+        padding: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        max-width: 290px;
+    }
+    .carousel li{
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .coins-result {
+        margin: 10px;
+    }
+    .coins-result p{
+        font-size: 14px;
+    }
+    .vertical-position{
+        max-width: 300px;
+    }
+    .buttons-roulette-options button{
+        width: 94px;
+        height: 88px;
+        font-size: 14px;
+    }
+    .bets-buttons{
+        width: 300px;
+        height: 51px;
+        margin-top: 10px;
+    }
+    .img-rouletta img{
+        width: 310px;
+        height: 311px;
+    }
+    .clear-first,
+    .clear{
+        width: 140px;
+        height: 51px;
+    }
+    .level{
+        top: 8px;
+    }
+    .wrapper-games{
+        max-width: 695px;
+    }
+    .buttons-roulette{
+        margin-top: 10px;
+    }
+    .buttons-dice button{
+        padding-bottom: 16px;
+        padding-top: 16px;
+        font-size: 14px;
+    }
+    .all-bets,
+    .rollers{
+        padding-bottom: 16px;
+        padding-top: 16px;
+        font-size: 14px;
+    }
+    .history-dice{
+        font-size: 14px;
+    }
+    .amount-input {
+        padding: 16px 20px !important;
+        font-size: 14px;
+    }
+    .amount-input:first-child{
+         margin-right: 20px;
+    }
+    .sample {
+        width: 200px;
+        height: 85px;
+    }
+    .sample .icon-sample{
+        font-size: 80px;
+    }
+    .sample-1{
+        width: 180px;
+        height: 85px;
+    }
+    .simple-2{
+        width: 160px;
+        height: 85px;
+        margin-top: 4px;
+    }
+    .img-payout{
+        width: 38px;
+        height: 40px;
+        background-size: contain;
+        margin-left: 18px;
+        margin-right: 17px;
+    }
+    .img-rolover{
+        width: 37px;
+        height: 37px;
+        background-size: contain;
+        margin-left: 18px;
+        margin-right: 17px;
+    }
+    .payout-info h2{
+        font-size: 14px;
+    }
+    .payout-inf span{
+        font-size: 14px;
+    }
+    .crash-position{
+        max-width: 218px;
+        width: 100%;
+    }
+    .large-block{
+        padding: 15px ;
+        margin-top: 17px;
+        font-size: 14px;
+    }
+    .left-block-bottom {
+        top: calc(100vh - 105px);
+    }
+    .left-block-bottom .last-child{
+        margin-top: 20px;
+    }
+    .padding-game{
+        padding-bottom: 15px;
+    }
+    .wrapper-crash-variables{
+        max-width: 217px;
+    }
+    .crash-input input{
+        max-width: 178px;
+    }
+    .crash-buttons{
+        font-size: 14px;
+        padding: 16px 20px;
+    }
+    .crash-graphic{
+        margin-left: 20px;
+    }
+}
+@media (max-width: 1280px) {
+    .buttons button{
+        max-width: 103px;
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+}

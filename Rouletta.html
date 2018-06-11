@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dice</title>
+    <title>Rouletta</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="./styles/css/style.css" rel="stylesheet"/>
     <link href="./styles/css/games.css" rel="stylesheet"/>
     <link href="fonts/roboto%20medium/stylesheet.css" rel="stylesheet"/>
     <link href="fonts/roboto%20regular/stylesheet.css" rel="stylesheet"/>
     <link href="fonts/font-awesome/font-awesome.min.css" rel="stylesheet"/>
-    <link href="./styles/css/media.css" rel="stylesheet"/>
+    <link href="styles/css/media.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="wrapper-account">
@@ -68,7 +68,7 @@
                     </div>
                     <div class="nav-bottom">
                         <li class="roulette">
-                            <a href="">
+                            <a href="" class="active-roulette">
                                 ROULETTE
                             </a>
                         </li>
@@ -78,7 +78,7 @@
                             </a>
                         </li>
                         <li class="dice">
-                            <a href="" class="active-dice">
+                            <a href="">
                                 DICE
                             </a>
                         </li>
@@ -180,88 +180,60 @@
         <div class="account">
             <div class="wrapper-games">
                 <div class="dice-content">
-                    <div class="wrapper-gamemode">
-                        <div class="header-games">
-                            <h2>DICE</h2>
-                            <span>Betting Options</span>
-                        </div>
-                        <div class="variables">
-                            <input type="text" class="amount-input" placeholder="Bet amount... (BTC)"/>
-                            <input type="text" class="amount-input" placeholder="Profit on win... (BTC)"/>
-                        </div>
-                        <div class="variables">
-                            <ul class="sample-list">
-                                <li>
-                                    <div class="sample">
-                                        <div class="info-sample">
-                                            <div class="img-payout"></div>
-                                            <div class="payout-info">
-                                                <h2>1.98x</h2>
-                                                <span>Payout</span>
-                                            </div>
-                                        </div>
-                                        <span class="icon-sample">X</span>
-                                        <div class="sample-1">
-                                            <div class="simple-2">
-                                            </div>
-                                        </div>
+                    <div class="wrapper-gamemode padding-game">
+                        <div class="wrapper-rouletta">
+                            <div class="variables vertical-position">
+                                <div class="header-games header-roulette">
+                                    <h2>ROULETTE</h2>
+                                    <span>Betting Options</span>
+                                </div>
+                                <div class="coins">
+                                    <div class="wrapper-carousel">
+                                        <i class="fa fa-chevron-left navigation-carousel"></i>
+                                        <ul class="carousel">
+                                            <li class="color-dark-grey">0.01</li>
+                                            <li class="color-grey">0.1</li>
+                                            <li class="color-light-grey">0.5</li>
+                                            <li class="color-brown">1</li>
+                                            <li class="color-brown-light">5</li>
+                                            <li class="color-gold">10</li>
+                                            <li class="color-light-gold">50</li>
+                                        </ul>
+                                        <i class="fa fa-chevron-right navigation-carousel"></i>
                                     </div>
-                                </li>
-                                <li>
-                                    <div class="sample orange-color">
-                                        <div class="info-sample">
-                                            <div class="img-rolover"></div>
-                                            <div class="payout-info">
-                                                <h2 class="title-shadow">50.00</h2>
-                                                <span class="title-shadow">Roll Over</span>
-                                            </div>
-                                        </div>
-                                        <span class="dollar icon-sample">$</span>
-                                        <div class="sample-1  orange-color">
-                                            <div class="simple-2  orange-color">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sample">
-                                        <div class="info-sample">
-                                            <div class="img-payout"></div>
-                                            <div class="payout-info">
-                                                <h2>1.98x</h2>
-                                                <span>Payout</span>
-                                            </div>
-                                        </div>
-                                        <span class="icon-sample">%</span>
-                                        <div class="sample-1">
-                                            <div class="simple-2">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="large-block">
-                            <h2>Roll Dice</h2>
-                            <span>0 - 100</span>
-                        </div>
-                    </div>
-                    <div class="dice-change-block">
-                        <div class="scale">
-                            <ul class="scale-numbers">
-                                <li>0 <span>|</span></li>
-                                <li>25 <span>|</span></li>
-                                <li class="central">50 <span>|</span></li>
-                                <li>75 <span>|</span></li>
-                                <li>100 <span>|</span></li>
-                            </ul>
-                            <div class="scale-block">
-                                <div class="normal"></div>
+                                </div>
+                                <div class="coins-result">
+                                    <p>1 chip = <span>0.1000000000</span> BTC</p>
+                                </div>
+                                <div class="buttons-roulette-options">
+                                    <button type="button" class="red-options">
+                                        <h2>X2</h2>
+                                        <h2>RED</h2>
+                                    </button>
+                                    <button type="button" class="green-options">
+                                        <h2>X14</h2>
+                                        <h2>GREEN</h2>
+                                    </button>
+                                    <button type="button" class="black-options">
+                                        <h2>X2</h2>
+                                        <h2>BLACK</h2>
+                                    </button>
+                                </div>
+                                <button type="button" class="bets-buttons">Bet 0.1000000000 BTC</button>
+                                <div class="buttons-roulette">
+                                    <button type="button" class="level">X</button>
+                                    <button type="button" class="clear-first">Clear Table</button>
+                                    <button type="button" class="clear">Reset Chips</button>
+                                </div>
                             </div>
-                            <div class="smart-cub"></div>
+                            <div class="variables">
+                                <div class="img-rouletta">
+                                    <img src="images/rouletta.png" alt="rouletta"/>
+                                </div>
+                            </div>
                         </div>
-                    </div>
                 </div>
+            </div>
                 <div class="buttons-dice">
                     <button type="button" class="my-bets">My Bets</button>
                     <div class="right-buttons">

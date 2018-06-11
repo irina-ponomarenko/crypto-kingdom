@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dice</title>
+    <title>BlackJack</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="./styles/css/style.css" rel="stylesheet"/>
     <link href="./styles/css/games.css" rel="stylesheet"/>
     <link href="fonts/roboto%20medium/stylesheet.css" rel="stylesheet"/>
     <link href="fonts/roboto%20regular/stylesheet.css" rel="stylesheet"/>
     <link href="fonts/font-awesome/font-awesome.min.css" rel="stylesheet"/>
-    <link href="./styles/css/media.css" rel="stylesheet"/>
+    <link href="styles/css/media.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="wrapper-account">
@@ -78,7 +78,7 @@
                             </a>
                         </li>
                         <li class="dice">
-                            <a href="" class="active-dice">
+                            <a href="">
                                 DICE
                             </a>
                         </li>
@@ -178,87 +178,100 @@
             </div>
         </div>
         <div class="account">
-            <div class="wrapper-games">
+            <div class="wrapper-games blackjack-game-wrapper">
                 <div class="dice-content">
-                    <div class="wrapper-gamemode">
-                        <div class="header-games">
-                            <h2>DICE</h2>
+                    <div class="wrapper-gamemode crash-game overflow-block">
+                        <div class="wrapper-blackjack-variables">
+                            <div class="header-games">
+                            <h2>BLACKJACK</h2>
                             <span>Betting Options</span>
                         </div>
-                        <div class="variables">
-                            <input type="text" class="amount-input" placeholder="Bet amount... (BTC)"/>
-                            <input type="text" class="amount-input" placeholder="Profit on win... (BTC)"/>
-                        </div>
-                        <div class="variables">
-                            <ul class="sample-list">
-                                <li>
-                                    <div class="sample">
-                                        <div class="info-sample">
-                                            <div class="img-payout"></div>
-                                            <div class="payout-info">
-                                                <h2>1.98x</h2>
-                                                <span>Payout</span>
-                                            </div>
-                                        </div>
-                                        <span class="icon-sample">X</span>
-                                        <div class="sample-1">
-                                            <div class="simple-2">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sample orange-color">
-                                        <div class="info-sample">
-                                            <div class="img-rolover"></div>
-                                            <div class="payout-info">
-                                                <h2 class="title-shadow">50.00</h2>
-                                                <span class="title-shadow">Roll Over</span>
-                                            </div>
-                                        </div>
-                                        <span class="dollar icon-sample">$</span>
-                                        <div class="sample-1  orange-color">
-                                            <div class="simple-2  orange-color">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sample">
-                                        <div class="info-sample">
-                                            <div class="img-payout"></div>
-                                            <div class="payout-info">
-                                                <h2>1.98x</h2>
-                                                <span>Payout</span>
-                                            </div>
-                                        </div>
-                                        <span class="icon-sample">%</span>
-                                        <div class="sample-1">
-                                            <div class="simple-2">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="large-block">
-                            <h2>Roll Dice</h2>
-                            <span>0 - 100</span>
-                        </div>
-                    </div>
-                    <div class="dice-change-block">
-                        <div class="scale">
-                            <ul class="scale-numbers">
-                                <li>0 <span>|</span></li>
-                                <li>25 <span>|</span></li>
-                                <li class="central">50 <span>|</span></li>
-                                <li>75 <span>|</span></li>
-                                <li>100 <span>|</span></li>
-                            </ul>
-                            <div class="scale-block">
-                                <div class="normal"></div>
+                            <div class="variables blackjack-position">
+                                <div class="blackjack-input">
+                                    <input type="text" class="blackjack-input-amount" placeholder="Bet amount..."/>
+                                </div>
+                                <div class="buttons-blackjack">
+                                <button type="button" class="level">X</button>
+                                    <button type="button" class="blackjack-clear hit">Hit</button>
+                                    <button type="button" class="blackjack-clear stand">Stand</button>
+                                </div>
+                                <div class="buttons-blackjack">
+                                    <button type="button" class="blackjack-clear split">Split</button>
+                                    <button type="button" class="blackjack-clear double">Double</button>
+                                </div>
+                                <button type="button" class="blackjack-buttons">Insurance</button>
                             </div>
-                            <div class="smart-cub"></div>
+                        </div>
+                         <div class="variables variables-blackjack">
+                             <div class="game-player">
+                                <div class="play-wrapper">
+                                    <div class="play">
+                                        <p>BLACKJACK PAYS 3 TO 2</p>
+                                    </div>
+                                    <div class="play no-background">
+                                        <p>INSURANCE PAYS 2 TO 1</p>
+                                    </div>
+                                </div>
+                                 <div class="game-play">
+                                     <div class="player-1 play-outs">
+                                         <div class="cards-hearts">
+                                             <div class="number">5</div>
+                                             <div class="img-cards-small">
+                                                 <h2>5</h2>
+                                                 <div class="heart-options"></div>
+                                             </div>
+                                             <div class="img-cards-small dark-cards-small">
+                                                 <div class="img-logo-small"></div>
+                                             </div>
+                                         </div>
+                                     </div>
+                                     <div class="player-2 position-player">
+                                         <div class="cards-hearts">
+                                             <div class="number">20</div>
+                                             <div class="img-cards-small border-cards">
+                                                 <h2>K</h2>
+                                                 <div class="heart-options"></div>
+                                             </div>
+                                             <div class="img-cards-small position-cards border-cards">
+                                                 <h2>10</h2>
+                                                 <div class="heart-options"></div>
+                                             </div>
+                                         </div>
+                                     </div>
+                                     <div class="desk">
+                                         <div class="card-desk">
+                                             <div class="img-desk"></div>
+                                         </div>
+                                         <div class="card-desk top-1">
+                                             <div class="img-desk"></div>
+                                         </div>
+                                         <div class="card-desk top-2">
+                                             <div class="img-desk"></div>
+                                         </div>
+                                         <div class="card-desk top-3">
+                                             <div class="img-desk"></div>
+                                         </div>
+                                         <div class="card-desk top-4">
+                                             <div class="img-desk"></div>
+                                         </div>
+                                         <div class="card-desk top-5">
+                                             <div class="img-desk"></div>
+                                         </div>
+                                         <div class="card-desk top-6">
+                                             <div class="img-desk"></div>
+                                         </div>
+                                         <div class="card-desk top-7">
+                                             <div class="img-desk"></div>
+                                         </div>
+                                         <div class="card-desk top-8">
+                                             <div class="img-desk"></div>
+                                         </div>
+                                         <div class="card-desk top-9">
+                                             <div class="img-desk"></div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
                         </div>
                     </div>
                 </div>

@@ -106,7 +106,7 @@
     padding-left: 43px;
     &:hover{
       color: $select-color;
-      transition: .3s
+      transition: .3s;
     }
   }
 }
@@ -114,6 +114,33 @@
   content: '';
   position: absolute;
   background-image: url("../../images/roulette.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+a.active-roulette{
+  color: $select-color;
+  &:after {
+    content: '';
+    position: absolute;
+    background-image: url("../../images/roulette-hover.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+.roulette a:hover:after {
+  content: '';
+  position: absolute;
+  background-image: url("../../images/roulette-hover.png");
   background-repeat: no-repeat;
   width: 25px;
   height: 25px;
@@ -134,6 +161,18 @@
   right: 0;
   bottom: 0;
 }
+.crash a:hover:after{
+  content: '';
+  position: absolute;
+  background-image: url("../../images/chart-line-hover.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 29px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 .dice a:before{
   content: '';
   position: absolute;
@@ -146,10 +185,49 @@
   right: 0;
   bottom: 0;
 }
+a.active-dice{
+  color: $select-color;
+  &:after {
+    content: '';
+    position: absolute;
+    background-image: url("../../images/cube-hover.png");
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+.dice a:hover:after{
+  content: '';
+  position: absolute;
+  background-image: url("../../images/cube-hover.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 25px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 .blackjack a:before{
   content: '';
   position: absolute;
   background-image: url("../../images/pika.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.blackjack a:hover:after{
+  content: '';
+  position: absolute;
+  background-image: url("../../images/pika-hover.png");
   background-repeat: no-repeat;
   width: 26px;
   height: 26px;
