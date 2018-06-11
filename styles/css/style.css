@@ -787,6 +787,28 @@ input:checked + .slider:before {
   margin-bottom: 0 !important;
 }
 
+.claim {
+  max-width: 366px;
+  width: 100%;
+  padding: 25px 0;
+  font-size: 17px;
+  color: #1c2125;
+  border-radius: 5px;
+  border: none;
+  background: #e2c45e;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.claim:hover {
+  opacity: 0.3;
+  transition: .3s;
+}
+
 .left-content {
   max-width: 365px;
   width: 100%;
@@ -1793,6 +1815,9 @@ input.placeholder-color::placeholder {
   margin-top: 0;
 }
 
+.create-account {
+  display: none;
+}
 .create-account .title-pop-up h2 {
   color: #fff;
 }
@@ -1835,6 +1860,74 @@ input.placeholder-color::placeholder {
 
 .popup_visible #fadeandscale {
   transform: scale(1);
+}
+
+.ellipsis {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border: 4px solid #1abe66;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.img-green-bitcoin {
+  background-image: url("../../images/green-bitcoin.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.ellipsis-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ellipsis-wrapper h2 {
+  font-size: 25px;
+  color: #fff;
+}
+.ellipsis-wrapper p {
+  max-width: 278px;
+  font-size: 17px;
+  margin: 25px 0;
+}
+.ellipsis-wrapper p span {
+  color: #bfbfbf;
+}
+
+.reCaptcha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.g-recaptcha {
+  max-width: 366px;
+  height: auto;
+  width: 100%;
+  transform: scale(1.21);
+  -webkit-transform: scale(1.21);
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  margin-bottom: 15px;
+}
+
+.footer-pop-up {
+  background: #191e21;
+  padding: 30px 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.footer-pop-up p {
+  margin: 0;
+  font-size: 15px;
+  opacity: 0.4;
+  padding: 0;
 }
 
 .margin-top-none {

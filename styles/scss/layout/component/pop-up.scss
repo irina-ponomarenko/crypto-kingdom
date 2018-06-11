@@ -150,6 +150,7 @@
   }
 }
 .create-account{
+  display: none;
   .title-pop-up{
     h2{
       color: $select-color;
@@ -194,4 +195,67 @@
 }
 .popup_visible #fadeandscale {
   transform: scale(1);
+}
+
+.ellipsis{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border: 4px solid $light-green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px 0;
+}
+.img-green-bitcoin{
+  background-image: url("../../images/green-bitcoin.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.ellipsis-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h2{
+    font-size: 25px;
+    color: $select-color;
+  }
+  p{
+    max-width: 278px;
+    font-size: 17px;
+    margin: 25px 0;
+    span{
+      color: #bfbfbf;
+    }
+  }
+}
+.reCaptcha{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.g-recaptcha{
+  max-width: 366px;
+  height: auto;
+  width: 100%;
+  transform:scale(1.21);
+  -webkit-transform:scale(1.21);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
+  margin-bottom: 15px;
+}
+.footer-pop-up{
+  background: $color-dark;
+  padding: 30px 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  p{
+    margin: 0;
+    font-size: 15px;
+    opacity: 0.4;
+    padding: 0;
+  }
 }

@@ -673,6 +673,39 @@
     .top-9{
         bottom: -108px;
     }
+    .ellipsis{
+        width: 100px;
+        height: 100px;
+        margin: 22px 0;
+    }
+    .img-green-bitcoin{
+        width: 40px;
+        height: 40px;
+        background-size: contain;
+    }
+    .ellipsis-wrapper h2{
+        font-size: 18px;
+    }
+    .g-recaptcha{
+        transform:scale(1.00);
+        -webkit-transform:scale(1.00);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;
+        margin-bottom: 0;
+        max-width: 302px;
+    }
+    .claim{
+        max-width: 302px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .footer-pop-up{
+        padding: 20px 0;
+    }
+    .footer-pop-up p{
+        padding: 0;
+        font-size: 14px;
+    }
 }
 @media (max-width: 1280px) {
     .buttons button{
