@@ -226,6 +226,7 @@
     max-width: 278px;
     font-size: 17px;
     margin: 25px 0;
+    padding: 0;
     span{
       color: #bfbfbf;
     }
@@ -258,4 +259,16 @@
     opacity: 0.4;
     padding: 0;
   }
+}
+.img-check{
+  background-image: url("../../images/check.png");
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 31px;
+}
+.congratulation-info{
+  max-width: 274px;
+}
+.congratulation{
+  margin-bottom: 10px;
 }
