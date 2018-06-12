@@ -188,7 +188,7 @@
     }
     .copy-address{
         padding: 18px;
-        right: -192px;
+        right: -187px;
     }
     .save{
         max-width: 335px;
@@ -708,6 +708,52 @@
     .footer-pop-up p{
         padding: 0;
         font-size: 14px;
+    }
+    .toast-item{
+        max-width: 260px;
+        padding: 13px 21px;
+        right: -59px;
+        top: 190px;
+    }
+    .toast-item p{
+        max-width: 180px;
+        font-size: 13px;
+    }
+    .toast-item-image-success{
+        width: 26px;
+        height: 28px;
+        left: 17px;
+    }
+    .toast-item-image-error{
+        width: 28px;
+        height: 28px;
+        left: 17px;
+    }
+    .toast-item-close{
+        width: 15px;
+        height: 15px;
+        right: 16px;
+    }
+    .img-dismiss{
+        width: 15px;
+        height: 15px;
+        background-size: contain;
+    }
+    .img-block.success-img{
+        width: 26px;
+        height: 28px;
+        background-size: contain;
+    }
+    .img-block.error-img{
+        width: 28px;
+        height: 28px;
+        background-size: contain;
+    }
+    .dropdown-info p{
+        font-size: 14px;
+    }
+    .sidebar{
+        max-height: 202px;
     }
 }
 @media (max-width: 1280px) {

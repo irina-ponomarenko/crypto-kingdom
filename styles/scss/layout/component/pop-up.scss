@@ -16,7 +16,7 @@
 .img-dismiss-pop-up{
   background: transparent;
   border: none;
-  background-image: url("../../images/dissmiss.png");
+  background-image: url("../../images/close.png");
   background-repeat: no-repeat;
   width: 17px;
   height: 17px;
@@ -24,7 +24,7 @@
   position: absolute;
   right: 30px;
   &:hover{
-    background-image: url("../../images/dissmiss-white.png");
+    background-image: url("../../images/close-white.png");
     background-repeat: no-repeat;
   }
 }

@@ -1,54 +1,198 @@
-.alert{
-  background: $select-color;
+.toast-container {
+  width: 360px;
+  z-index: 9999;
+}
+
+
+* html .toast-container {
+  position: absolute;
+}
+
+.toast-item {
+  height: auto;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  color: black;
+  padding: 23px 31px;
+  font-family: 'robotomedium', Arial, sans-serif;
+  font-size: 14px;
+  display: flex;
+  position: relative;
+  margin: 0 0 12px 0;
+  background: white;
   border-radius: 5px;
-  position: fixed;
-  right: 20px;
-  top: 220px;
-  display: none;
+  right: 60px;
+  top: 200px;
   align-items: center;
   justify-content: space-between;
-  padding: 23px 31px;
   max-width: 360px;
   width: 100%;
   z-index: 999;
+}
 
-  p{
-    max-width: 230px;
-    width: 100%;
-    line-height: 20px;
-    color: black;
-  }
+.toast-item p {
+  max-width: 230px;
+  width: 100%;
+  line-height: 20px;
+  margin: 0 auto;
+  font-size: 17px;
 }
-.success{
-  border-bottom: 7px solid $light-green;
-}
-.error{
-  border-bottom: 7px solid $background-off;
-  top: 340px;
+
+.toast-item-close {
+  background: white;
+  background:url(../../images/close.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  position: absolute;
   right: 20px;
 }
-.img-block.success-img{
-  background-image: url("../../images/success.png");
+
+.toast-item-image {
+  width:32px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  left: 10px;
+}
+
+.toast-item-image-notice {
+  background:url(../../images/notice.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 23px;
+}
+
+.toast-item-image-success {
+  background:url(../../images/success.png);
+  min-height: 27px;
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 36px;
   height: 38px;
+  position: absolute;
+  left: 23px;
 }
-.img-block.error-img{
-  background-image: url("../../images/error.png");
+
+.toast-item-image-warning {
+  background:url(../../images/warning.png);
   background-repeat: no-repeat;
   width: 38px;
   height: 38px;
+  background-size: contain;
+  position: absolute;
+  left: 23px;
 }
+
+.toast-item-image-error {
+  background:url(../../images/error.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: 23px;
+}
+
+
+/**
+ * toast types
+ *
+ * pattern: toast-type-[value]
+ * where 'value' is the real value of the plugin option 'type'
+ *
+ */
+.toast-type-notice {
+  color: white;
+  border-bottom: 7px solid dodgerblue;
+}
+
+.toast-type-success {
+  color: black;
+  border-bottom: 7px solid #1abe66;
+}
+
+.toast-type-warning {
+  color: black;
+  border-bottom: 7px solid #FCBD57;
+}
+
+.toast-type-error {
+  color: black;
+  border-bottom: 7px solid #c75353;
+  min-height: 40px;
+}
+
+/**
+ * positions
+ *
+ * pattern: toast-position-[value]
+ * where 'value' is the real value of the plugin option 'position'
+ *
+ */
+.toast-position-top-left {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+}
+
+.toast-position-top-center {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  margin-left: -140px;
+}
+
+.toast-position-top-right {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.toast-position-middle-left {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  margin-top: -40px;
+}
+
+.toast-position-middle-center {
+  position: fixed;
+  left: 50%;
+  margin-left: -140px;
+  margin-top: -40px;
+  top: 50%;
+}
+
+.toast-position-middle-right {
+  position: fixed;
+  right: 20px;
+  margin-left: -140px;
+  margin-top: -40px;
+  top: 50%;
+}
+
 .img-dismiss{
   background: $select-color;
-  background-image: url("../../images/dissmiss.png");
+  background-image: url("../../images/close.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 18px;
   height: 18px;
   cursor: pointer;
   border: none;
   outline: none;
 }
+
+
 .balance{
   background: $background-nav;
   position: absolute;
@@ -70,6 +214,7 @@
 }
 .icon-balance{
   background-image: url("../../images/balance.png");
+  background-size: contain;
   background-repeat: no-repeat;
   width: 32px;
   height: 32px;
@@ -94,6 +239,7 @@
   width: 21px;
   height: 21px;
   background-image: url("../../images/clone.png");
+  background-size: contain;
   background-repeat: no-repeat;
   margin-right: 30px;
 }
@@ -105,3 +251,8 @@
 
   }
 }
+
+
+
+
+

@@ -10,26 +10,6 @@ $(document).ready(function () {
     });
 
 
-    setTimeout(function() {
-        $('.success').css('display', 'flex');
-    }, 5000);
-    setTimeout ("$('.success').fadeIn('slow');", 5000);
-    setTimeout ("$('.success').fadeOut('slow');", 8000);
-
-    setTimeout(function() {
-        $('.error').css('display', 'flex');
-    }, 6000);
-    setTimeout ("$('.error').fadeIn('slow');", 6000);
-    setTimeout ("$('.error').fadeOut('slow');", 9000);
-
-    $('.success-click').on('click',function () {
-        $('.success').css('display', 'none');
-    });
-    $('.error-click').on('click',function () {
-        $('.error').css('display', 'none');
-    });
-
-
     $('.btn-js').focus(function() {
         $(this)
             .parent()
@@ -121,4 +101,24 @@ $(document).ready(function () {
         $('.circle_animation').css('stroke-dashoffset', initialOffset-((i+1)*(initialOffset/time)));
         i++;
     }, 1000);
+    
+    
+    $('.deposit').click(function () {
+        $().toastmessage('showSuccessToast', "You have successfully added 32 BTC’s to your Wallet.");
+    });
+    $('#save_change').click(function () {
+        $().toastmessage('showErrorToast', "Withdraw Error.");
+    });
+    $('#campaing_save').click(function () {
+        $().toastmessage('showSuccessToast', "You have successfully added 32 BTC’s to your Wallet.");
+    });
+    $('#affiliate_save').click(function () {
+        $().toastmessage('showErrorToast', "Withdraw Error.");
+    });
+    $('.hit').click(function () {
+        $().toastmessage('showErrorToast', "Withdraw Error.");
+    });
+    $('.stand').click(function () {
+        $().toastmessage('showSuccessToast', "You have successfully added 32 BTC’s to your Wallet.");
+    });
 });

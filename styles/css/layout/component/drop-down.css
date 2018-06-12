@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$border-dark".
-        on line 12 of E:/Crypto Kingdom/styles/scss/layout/component/drop-down.scss
+        on line 18 of E:/Crypto Kingdom/styles/scss/layout/component/drop-down.scss
 
-7: }
-8: .display-change{
-9:   flex-direction: column;
-10: }
-11: .dropdown-info-block{
-12:   border-top: 1px solid $border-dark;
-13:   border-top-right-radius: 0;
-14:   border-top-left-radius: 0;
-15:   display: none;
-16:   p{
-17:     margin-left: 40px;
+13: }
+14: .display-change{
+15:   flex-direction: column;
+16: }
+17: .dropdown-info-block{
+18:   border-top: 1px solid $border-dark;
+19:   border-top-right-radius: 0;
+20:   border-top-left-radius: 0;
+21:   display: none;
+22:   p{
+23:     margin-left: 40px;
 
 Backtrace:
-E:/Crypto Kingdom/styles/scss/layout/component/drop-down.scss:12
+E:/Crypto Kingdom/styles/scss/layout/component/drop-down.scss:18
 C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
@@ -71,4 +71,4 @@ C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$border-dark\".\A         on line 12 of E:/Crypto Kingdom/styles/scss/layout/component/drop-down.scss\A \A 7: }\A 8: .display-change{\A 9:   flex-direction: column;\A 10: }\A 11: .dropdown-info-block{\A 12:   border-top: 1px solid $border-dark;\A 13:   border-top-right-radius: 0;\A 14:   border-top-left-radius: 0;\A 15:   display: none;\A 16:   p{\A 17:     margin-left: 40px;"; }
+  content: "Error: Undefined variable: \"$border-dark\".\A         on line 18 of E:/Crypto Kingdom/styles/scss/layout/component/drop-down.scss\A \A 13: }\A 14: .display-change{\A 15:   flex-direction: column;\A 16: }\A 17: .dropdown-info-block{\A 18:   border-top: 1px solid $border-dark;\A 19:   border-top-right-radius: 0;\A 20:   border-top-left-radius: 0;\A 21:   display: none;\A 22:   p{\A 23:     margin-left: 40px;"; }
