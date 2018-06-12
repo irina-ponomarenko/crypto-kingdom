@@ -51,7 +51,6 @@
  *   included some nice free icons
  *   reimplemented to follow jquery plugin good practices rules
  *
- *   Author: Daniel Bremer-Tonn
 **/
 (function($)
 {
