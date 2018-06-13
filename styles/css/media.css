@@ -755,6 +755,62 @@
     .sidebar{
         max-height: 202px;
     }
+
+
+
+    .cards-small{
+        padding: 10px 12px;
+        max-width: 55px;
+        height: 109px;
+        border-radius: 6px;
+    }
+    .cadr-img-heart-small{
+        width: 34px;
+        height: 34px;
+        margin-top: 6px;
+    }
+    .cadr-img-spade-small{
+        width: 34px;
+        height: 34px;
+        margin-top: 6px;
+    }
+    .cadr-img-diamonds-small{
+        width: 34px;
+        height: 34px;
+        margin-top: 6px;
+    }
+    .cadr-img-clubs-small{
+        width: 34px;
+        height: 34px;
+        margin-top: 6px;
+    }
+    .cards-small h2{
+        font-size: 28px;
+    }
+    .none-card-small{
+        padding: 10px 12px;
+        max-width: 55px;
+        height: 109px;
+        border-radius: 6px;
+    }
+    .cards-small-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding-top: 20px;
+    }
+    .cards-small-list li{
+        max-width: 79px;
+        height: 129px;
+        margin-right: 20px;
+    }
+    .cards-small-list:last-child{
+        margin-top: 20px;
+    }
+
+
+
 }
 @media (max-width: 1280px) {
     .buttons button{
