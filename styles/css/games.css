@@ -210,7 +210,7 @@
     width: 25%;
 }
 
-.result h2 {
+.title-game-table {
     color: #fff;
     line-height: 23px;
 }
@@ -725,6 +725,10 @@
     font-size: 17px;
     border-radius: 5px;
     border: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .buttons-roulette-options button:hover {
      color: white;
