@@ -283,6 +283,22 @@ a.active-roulette:after {
   bottom: 0;
 }
 
+a.active-crash {
+  color: #fff;
+}
+a.active-crash:after {
+  content: '';
+  position: absolute;
+  background-image: url("../../images/chart-line-hover.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 29px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .crash a:hover:after {
   content: '';
   position: absolute;
@@ -365,6 +381,22 @@ a.active-dice:after {
   right: 0;
   bottom: 0;
   transition: .3s;
+}
+
+a.active-blackjack {
+  color: #fff;
+}
+a.active-blackjack:after {
+  content: '';
+  position: absolute;
+  background-image: url("../../images/pika-hover.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .nav-left {
