@@ -57,12 +57,9 @@
   border: 8px solid $color-nav;
   border-radius: 5px;
 }
-.img-code-qr{
+.img-code-qr img{
   width: 128px;
   height: 128px;
-  background-image: url("../../images/qr-code.png");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 .padding-form{
   padding: 0 30px;

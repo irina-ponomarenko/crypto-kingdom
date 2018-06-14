@@ -148,6 +148,7 @@ a.active-roulette{
   left: 0;
   right: 0;
   bottom: 0;
+  transition: .3s;
 }
 .crash a:before{
   content: '';
@@ -172,6 +173,7 @@ a.active-roulette{
   left: 0;
   right: 0;
   bottom: 0;
+  transition: .3s;
 }
 .dice a:before{
   content: '';
@@ -211,6 +213,7 @@ a.active-dice{
   left: 0;
   right: 0;
   bottom: 0;
+  transition: .3s;
 }
 .blackjack a:before{
   content: '';
@@ -235,6 +238,7 @@ a.active-dice{
   left: 0;
   right: 0;
   bottom: 0;
+  transition: .3s;
 }
 .nav-left{
   border-right: 1px solid $border-dark;
@@ -254,6 +258,7 @@ a.active-dice{
     cursor: pointer;
     &:hover{
       color: $hover-color;
+      transition: .3s;
     }
   }
 }
@@ -283,6 +288,7 @@ a.active-dice{
     a{
       &:hover{
         color: $select-color;
+        transition: .3s;
       }
     }
   }

@@ -144,6 +144,9 @@
         max-width: 260px;
         padding: 24px 40px;
     }
+    .games ul li.crash-game .title-bottom{
+        bottom: 25px;
+    }
     .game-wrapper{
         max-width: 695px;
     }

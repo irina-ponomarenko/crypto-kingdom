@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="./styles/css/style.css" rel="stylesheet"/>
-    <link href="fonts/roboto%20medium/stylesheet.css" rel="stylesheet"/>
-    <link href="fonts/roboto%20regular/stylesheet.css" rel="stylesheet"/>
+    <link href="./styles/css/games.css" rel="stylesheet"/>
+    <link href="fonts/roboto_medium/stylesheet.css" rel="stylesheet"/>
+    <link href="fonts/roboto_regular/stylesheet.css" rel="stylesheet"/>
     <link href="fonts/font-awesome/font-awesome.min.css" rel="stylesheet"/>
+    <link href="fonts/circe_extra_bold/stylesheet.css" rel="stylesheet"/>
     <link href="styles/css/media.css" rel="stylesheet"/>
 </head>
 <body>
@@ -36,15 +39,15 @@
             <div class="navigation-top-right">
                 <ul class="social-navigation">
                     <li class="discort">
-                        <a href="">
+                        <a href="" target="_blank">
                         </a>
                     </li>
                     <li class="facebook">
-                        <a href="">
+                        <a href="" target="_blank">
                         </a>
                     </li>
                     <li class="tweeter">
-                        <a href="">
+                        <a href="" target="_blank">
                         </a>
                     </li>
                 </ul>
@@ -61,7 +64,7 @@
                 <div class="nav-right">
                     <div class="logo">
                         <a href="">
-                            <img src="images/full%20(stroke).png" alt="logo"/>
+                            <img src="images/full-(stroke).png" alt="logo"/>
                         </a>
                     </div>
                     <ul class="nav-bottom">
@@ -198,10 +201,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="email-adress">
+                <form class="email-adress">
                     <input type="email" placeholder="contact@taylorcara.com"/>
                     <button type="submit" class="save-change" id="save_change">SAVE CHANGES</button>
-                </div>
+                </form>
                 <div class="wrapper-notifications">
                     <h2>NOTIFICATIONS</h2>
                     <ul class="category">
@@ -285,7 +288,9 @@
 </div>
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/jquery.popupoverlay.js"></script>
+<script src="js/circle.js"></script>
 <script src="js/jquery.toastmessage.js"></script>
+<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
 <script src="js/main.js"></script>
 </body>
 </html>

@@ -35,8 +35,6 @@ $(document).ready(function () {
         el.select();
 
         document.execCommand('copy');
-
-        // alert("Copied the text: " + el.value);
     });
 
 
@@ -60,6 +58,7 @@ $(document).ready(function () {
         $('.dropdown-profile').toggleClass('active-profile');
 
     });
+
 
 
     $('.drop_down').click(function() {

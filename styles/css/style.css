@@ -267,6 +267,7 @@ a.active-roulette:after {
   left: 0;
   right: 0;
   bottom: 0;
+  transition: .3s;
 }
 
 .crash a:before {
@@ -293,6 +294,7 @@ a.active-roulette:after {
   left: 0;
   right: 0;
   bottom: 0;
+  transition: .3s;
 }
 
 .dice a:before {
@@ -335,6 +337,7 @@ a.active-dice:after {
   left: 0;
   right: 0;
   bottom: 0;
+  transition: .3s;
 }
 
 .blackjack a:before {
@@ -361,6 +364,7 @@ a.active-dice:after {
   left: 0;
   right: 0;
   bottom: 0;
+  transition: .3s;
 }
 
 .nav-left {
@@ -385,6 +389,7 @@ a.active-dice:after {
 }
 .profile-left-wrapper i:hover {
   color: #e2c45e;
+  transition: .3s;
 }
 
 .profile-left {
@@ -415,6 +420,7 @@ a.active-dice:after {
 }
 .nav-account li a:hover {
   color: #fff;
+  transition: .3s;
 }
 
 .active {
@@ -766,7 +772,7 @@ input:checked + .slider:before {
 .sign-in {
   background: #1abe66;
   color: #fff;
-  display: none;
+  display: block;
 }
 .sign-in:hover {
   background: #171b1f;
@@ -849,6 +855,7 @@ input:checked + .slider:before {
   font-size: 25px;
   color: #43484b;
   cursor: pointer;
+  padding-left: 15px;
 }
 .wrapper-left-block i:hover {
   color: #e2c45e;
@@ -1585,6 +1592,9 @@ i.click-hide:hover {
   -webkit-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
   -moz-text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.35);
 }
+.games ul li.crash-game .title-bottom {
+  bottom: 35px;
+}
 
 .games ul:last-child {
   margin-top: 20px;
@@ -1689,12 +1699,9 @@ i.click-hide:hover {
   border-radius: 5px;
 }
 
-.img-code-qr {
+.img-code-qr img {
   width: 128px;
   height: 128px;
-  background-image: url("../../images/qr-code.png");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .padding-form {

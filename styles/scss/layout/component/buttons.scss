@@ -271,7 +271,7 @@ input:checked + .slider:before {
 .sign-in{
   background: $light-green;
   color: $select-color;
-  display: none;
+  display: block;
   &:hover{
     background: $level-line;
     color: $light-green;
