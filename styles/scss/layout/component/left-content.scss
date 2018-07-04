@@ -1,13 +1,13 @@
 .left-content{
   max-width: 365px;
   width: 100%;
-  min-height: 100vh;
-  height: auto;
+  height: 100vh;
   background: $color-nav;
   font-family: $font-roboto-regular;
   font-size: 15px;
   color: $select-color;
-  position: relative;
+  position: sticky;
+  top: 0;
 }
 .left-block{
   font-size: 20px;
@@ -22,6 +22,13 @@
   span{
     margin-right: 20px;
   }
+}
+.wrapper-chat-block{
+  max-height: calc(100vh - 180px);
+  overflow: auto;
+}
+.wrapper-chat-block::-webkit-scrollbar {
+  display: none;
 }
 .wrapper-left-block{
   display: flex;
@@ -48,11 +55,11 @@
   flex-direction: column;
   border-top: 1px solid $border-color;
   position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   width: 305px;
-  top: calc(100vh - 121px);
   bottom: 0;
   box-shadow: none;
+  background: $color-nav;
   .left-block{
     justify-content: space-between;
     width: 100%;

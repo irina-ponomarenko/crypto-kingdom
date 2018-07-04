@@ -850,13 +850,13 @@ input:checked + .slider:before {
 .left-content {
   max-width: 365px;
   width: 100%;
-  min-height: 100vh;
-  height: auto;
+  height: 100vh;
   background: #1c2125;
   font-family: "robotoregular", Arial, sans-serif;
   font-size: 15px;
   color: #fff;
-  position: relative;
+  position: sticky;
+  top: 0;
 }
 
 .left-block {
@@ -872,6 +872,15 @@ input:checked + .slider:before {
 }
 .left-block span {
   margin-right: 20px;
+}
+
+.wrapper-chat-block {
+  max-height: calc(100vh - 180px);
+  overflow: auto;
+}
+
+.wrapper-chat-block::-webkit-scrollbar {
+  display: none;
 }
 
 .wrapper-left-block {
@@ -900,11 +909,11 @@ input:checked + .slider:before {
   flex-direction: column;
   border-top: 1px solid #43484b;
   position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   width: 305px;
-  top: calc(100vh - 121px);
   bottom: 0;
   box-shadow: none;
+  background: #1c2125;
 }
 .left-block-bottom .left-block {
   justify-content: space-between;
@@ -1088,12 +1097,12 @@ i.click-hide:hover {
   align-items: center;
 }
 
-.img-user {
-  width: 103px;
-  height: 103px;
-  background-image: url("../../images/account-img.png");
-  background-repeat: no-repeat;
+.img-user img {
+  width: 100%;
   border-radius: 5px;
+}
+
+.img-user {
   margin-right: 17px;
 }
 

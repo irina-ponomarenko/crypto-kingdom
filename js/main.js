@@ -48,6 +48,16 @@ $(document).ready(function () {
             }
         });
     });
+    $('.sign_open').on('click', function() {
+        $(".wrapper-account").addClass("overflow");
+        $('#sign').popup({
+            transition: 'all 0.3s',
+            scrolllock: true,
+            onclose: function () {
+                $(".wrapper-account").removeClass("overflow");
+            }
+        });
+    });
 
 
     $("#click_down_1").on("click", function(){

@@ -51,7 +51,7 @@
                 </div>
                 <div class="buttons-start">
                     <button type="button" class="create fade_open">CREATE ACCOUNT</button>
-                    <button type="button" class="sign">SIGN IN</button>
+                    <button type="button" class="sign sign_open">SIGN IN</button>
                 </div>
             </div>
         </div>
@@ -84,6 +84,31 @@
         </ul>
         <p>By clicking below, you agree to our TOS</p>
         <button type="submit" class="submit">CREATE ACCOUNT</button>
+    </form>
+</div>
+
+<div class="pop_up create-account" id="sign">
+    <div class="title-pop-up">
+        <h2>SIGNING IN</h2>
+        <button type="button" class="img-dismiss-pop-up fade_close"></button>
+    </div>
+    <form class="account-create">
+        <ul class="pop-up-block account-block">
+            <li>
+                <input type="text" id="username1" placeholder="Username"/>
+                <label for="username">Enter Username</label>
+            </li>
+            <li>
+                <input type="password" id="password1" placeholder="Password"/>
+                <label for="password">Enter Password</label>
+            </li>
+            <li>
+                <input type="text" id="code" placeholder="2FA"/>
+                <label for="code">Enter 2FA Code</label>
+            </li>
+        </ul>
+        <p>By signing in, you agree to our Terms of Serivce</p>
+        <button type="submit" class="submit sign-in">SIGN IN</button>
     </form>
 </div>
 

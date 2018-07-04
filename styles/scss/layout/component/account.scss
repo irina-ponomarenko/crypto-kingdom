@@ -18,12 +18,11 @@
   display: flex;
   align-items: center;
 }
-.img-user{
-  width: 103px;
-  height: 103px;
-  background-image: url("../../images/account-img.png");
-  background-repeat: no-repeat;
+.img-user img{
+  width: 100%;
   border-radius: 5px;
+}
+.img-user{
   margin-right: 17px;
 }
 .info-user{
