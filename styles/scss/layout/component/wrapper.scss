@@ -4,7 +4,7 @@
 .wrapper-account{
   background: $color-wrapper;
   width: 100%;
-  height: auto;
+  min-height: 100vh;
   margin: 0 auto;
   background-image: url("../../images/background-image.png");
   background-repeat: no-repeat;

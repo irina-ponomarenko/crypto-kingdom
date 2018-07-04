@@ -430,12 +430,11 @@
     }
     .carousel {
         border-radius: 30px;
-        padding: 10px;
-        margin-right: 10px;
-        margin-left: 10px;
-        max-width: 290px;
     }
-    .carousel li{
+    .wrapper-carousel{
+        max-width: 240px;
+    }
+    .carousel li span{
         width: 30px;
         height: 30px;
         font-size: 10px;
