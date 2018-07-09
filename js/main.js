@@ -130,4 +130,10 @@ $(document).ready(function () {
     $('.stand').click(function () {
         $().toastmessage('showSuccessToast', "You have successfully added 32 BTC’s to your Wallet.");
     });
+    $("#scale").slider({
+        value: 50,
+        slide: function( event, ui ) {
+            $('#normal').css('width', ui.value + '%');
+        }
+    });
 });
