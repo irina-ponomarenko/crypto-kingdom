@@ -1137,7 +1137,7 @@ i.click-hide:hover {
 }
 .email-adress input {
   padding: 35px 33px;
-  background: #1c2125;
+  background: #13171a;
   border: none;
   font-size: 17px;
   width: 76%;
@@ -1149,7 +1149,7 @@ i.click-hide:hover {
 .email-adress button {
   padding: 35px 33px;
   display: flex;
-  background: #23282c;
+  background: #191e21;
   border: none;
   color: #7b7e80;
   cursor: pointer;
@@ -1443,7 +1443,7 @@ i.click-hide:hover {
   max-width: 224px;
   width: 100%;
   max-height: 228px;
-  background: #1c2125;
+  background: #13171a;
   font-family: "robotomedium", Arial, sans-serif;
   font-size: 17px;
   color: #7b7e80;
@@ -1454,7 +1454,7 @@ i.click-hide:hover {
 .sidebar li {
   padding: 30px 28px;
   text-align: right;
-  border-bottom: 1px solid #43484b;
+  border-bottom: 1px solid #212527;
 }
 .sidebar li:last-child {
   border-bottom: none;
@@ -1469,7 +1469,7 @@ i.click-hide:hover {
 }
 
 .form-setting {
-  background: #1c2125;
+  background: #13171a;
   border-radius: 5px;
   padding: 33px;
   width: 100%;
@@ -1491,6 +1491,10 @@ i.click-hide:hover {
   color: #7b7e80;
   font-size: 17px;
   font-family: "robotomedium", Arial, sans-serif;
+}
+
+.new-background-grey {
+  background: #1c2125;
 }
 
 .change-input-width input {
@@ -1816,7 +1820,7 @@ input.placeholder-color::placeholder {
   max-width: 835px;
   width: 100%;
   justify-content: space-between;
-  background: #1c2125;
+  background: #23282c;
   padding: 27px 30px;
   margin-top: 20px;
   border-radius: 5px;

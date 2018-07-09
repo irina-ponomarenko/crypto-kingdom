@@ -1,12 +1,12 @@
 /*
-Error: Undefined variable: "$color-nav".
+Error: Undefined variable: "$color-black".
         on line 5 of E:/Crypto Kingdom/styles/scss/layout/component/sidebar.scss
 
 1: .sidebar{
 2:   max-width: 224px;
 3:   width: 100%;
 4:   max-height: 228px;
-5:   background: $color-nav;
+5:   background: $color-black;
 6:   font-family: $font-roboto-medium;
 7:   font-size: 17px;
 8:   color: $color-text;
@@ -56,19 +56,14 @@ C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:i
 C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
 C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:294:in `watch'
-C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
-C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
-C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-C:/Ruby24/bin/compass:23:in `load'
-C:/Ruby24/bin/compass:23:in `<main>'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-nav\".\A         on line 5 of E:/Crypto Kingdom/styles/scss/layout/component/sidebar.scss\A \A 1: .sidebar{\A 2:   max-width: 224px;\A 3:   width: 100%;\A 4:   max-height: 228px;\A 5:   background: $color-nav;\A 6:   font-family: $font-roboto-medium;\A 7:   font-size: 17px;\A 8:   color: $color-text;\A 9:   margin-left: 30px;\A 10:   margin-top: 100px;"; }
+  content: "Error: Undefined variable: \"$color-black\".\A         on line 5 of E:/Crypto Kingdom/styles/scss/layout/component/sidebar.scss\A \A 1: .sidebar{\A 2:   max-width: 224px;\A 3:   width: 100%;\A 4:   max-height: 228px;\A 5:   background: $color-black;\A 6:   font-family: $font-roboto-medium;\A 7:   font-size: 17px;\A 8:   color: $color-text;\A 9:   margin-left: 30px;\A 10:   margin-top: 100px;"; }

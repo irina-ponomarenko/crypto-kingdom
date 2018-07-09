@@ -1,5 +1,5 @@
 .form-setting{
-  background: $color-nav;
+  background: $color-black;
   border-radius: 5px;
   padding: 33px;
   width: 100%;
@@ -21,6 +21,9 @@
       font-family: $font-roboto-medium;
     }
   }
+}
+.new-background-grey{
+  background: $color-nav;
 }
 .change-input-width{
   input{

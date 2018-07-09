@@ -2,7 +2,7 @@
   max-width: 224px;
   width: 100%;
   max-height: 228px;
-  background: $color-nav;
+  background: $color-black;
   font-family: $font-roboto-medium;
   font-size: 17px;
   color: $color-text;
@@ -12,7 +12,7 @@
   li{
     padding: 30px 28px;
     text-align: right;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid $color-dark-grey;
     &:last-child{
       border-bottom: none;
     }
