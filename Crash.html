@@ -88,6 +88,11 @@
                                 BLACKJACK
                             </a>
                         </li>
+                        <li class="jackpot">
+                            <a href="" class="active-jackpot">
+                                JACKPOT
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="nav-bottom-left">
@@ -100,7 +105,10 @@
                     <div class="profile-left-wrapper">
                         <div class="profile-left">
                             <p>Long Username (BTC)</p>
-                            <span>32.3432000</span>
+                             <span>
+                                <img class="corona-img" src="images/bet.png" alt='bet img'/>
+                                32.3432000
+                           </span>
                         </div>
                         <i class="fa fa-chevron-down" id="click_dropdown" aria-hidden="true"></i>
                     </div>
@@ -179,7 +187,24 @@
             </div>
         </div>
         <div class="account">
-            <div class="wrapper-games">
+            <div class="slider-wrapper">
+                <h2>CRASH</h2>
+                <div class="container-slider">
+                    <ul class="slider-list">
+                        <li>2.45x</li>
+                        <li>7.09x</li>
+                        <li class="red-border">1.01x</li>
+                        <li>1.50x</li>
+                        <li class="red-border">1.01x</li>
+                        <li class="red-border">1.01x</li>
+                        <li class="red-border">1.01x</li>
+                        <li class="red-border">1.01x</li>
+                        <li>2.45x</li>
+                        <li>2.45x</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wrapper-games crash-width">
                 <div class="dice-content">
                     <div class="wrapper-gamemode crash-game">
                         <div class="wrapper-crash-variables">
@@ -189,13 +214,21 @@
                         </div>
                             <div class="variables crash-position">
                                 <div class="crash-input">
-                                    <input type="text" class="amount-input" placeholder="Bet amount..."/>
-                                    <input type="text" class="amount-input" placeholder="Auto Cashout..."/>
+                                   <span>
+                                        <img src="images/bet.png" alt="my bet"/>
+                                    </span>
+                                    <input type="text" class="blackjack-input-amount" value="1,034"/>
                                 </div>
-                                <button type="button" class="crash-buttons">Bet 0.1000000000 BTC</button>
+                                <div class="crash-input">
+                                   <span>
+                                        X
+                                    </span>
+                                    <input type="text" class="blackjack-input-amount" value="15.45"/>
+                                </div>
                             </div>
+                            <button type="button" class="crash-buttons">PLACE BET</button>
                         </div>
-                         <div class="variables crash-graphic">
+                        <div class="variables crash-graphic">
                             <img src="images/crash-graph.png" alt="crash graphic"/>
                         </div>
                     </div>
