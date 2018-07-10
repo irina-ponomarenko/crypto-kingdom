@@ -58,13 +58,15 @@
     }
 }
 
-@media (max-width: 1540px) {
+@media (max-width: 1560px) {
     * a{
         font-size: 14px;
     }
     .nav-left{
         line-height: 100px;
         padding: 15px 0;
+        display: flex;
+        align-items: center;
     }
     .buttons button{
         max-width: 123px;
@@ -78,13 +80,14 @@
         margin-right: 20px;
     }
     .profile-left p{
-        font-size: 14px;
+        font-size: 12px;
     }
     .profile-left span{
-        font-size: 17px;
+        font-size: 15px;
     }
     .logo img{
-        max-width: 206px;
+        max-width: 195px;
+        height: auto;
     }
     .nav-bottom li a{
         padding-left: 33px;
@@ -285,7 +288,7 @@
         font-size: 14px;
     }
     .dropdown-profile{
-        max-width: 230px;
+        max-width: 198px;
     }
     .wrapper-notifications h2{
         color: #fff;
@@ -810,9 +813,115 @@
     .cards-small-list:last-child{
         margin-top: 20px;
     }
+    .currency img{
+        max-width: 200px;
+    }
+    .title-currency{
+        margin-top: 40px;
+    }
+    .title-currency h3,
+    .title-currency p{
+        line-height: 23px;
+    }
+    .title-currency h3{
+        font-size: 17px;
+    }
+    .title-currency p{
+        font-size: 12px;
+    }
+    .roulette a:before{
+        width: 20px;
+        height: 20px;
+    }
 
-
-
+    a.active-roulette:after {
+     width: 20px;
+     height: 20px;
+    }
+    .roulette a:hover:before {
+        width: 20px;
+        height: 20px;
+    }
+    .crash a:before{
+        width: 21px;
+        height: 14px;
+    }
+    a.active-crash:after {
+        width: 21px;
+        height: 14px;
+    }
+    .crash a:hover:before{
+        width: 21px;
+        height: 14px;
+    }
+    .dice a:before{
+        width: 21px;
+        height: 20px;
+    }
+    a.active-dice:after {
+        width: 21px;
+        height: 20px;
+    }
+    .dice a:hover:before{
+        width: 21px;
+        height: 20px;
+    }
+    .blackjack a:before{
+        width: 21px;
+        height: 21px;
+    }
+    .blackjack a:hover:before{
+        width: 21px;
+        height: 21px;
+    }
+    a.active-blackjack:after {
+        width: 21px;
+        height: 21px;
+    }
+    .jackpot a:before {
+        width: 21px;
+        height: 21px;
+    }
+    .jackpot a:hover:before {
+        width: 21px;
+        height: 21px;
+    }
+    .nav-bottom li{
+        margin-right: 25px;
+    }
+    .nav-bottom li:last-child {
+        margin-right: 25px;
+    }
+    .navigation-bottom{
+        padding: 0 20px;
+    }
+    .slider-wrapper h2{
+        font-size: 25px;
+        margin-right: 45px;
+    }
+    .slider-list li{
+        width: 70px;
+        padding: 8px 0;
+        margin-right: 13px;
+        font-size: 12px;
+    }
+    .slider-wrapper{
+        max-width: 936px;
+        padding: 30px 0;
+    }
+    .blackjack-input span{
+        margin-left: 15px;
+    }
+    .blackjack-input span img {
+        width: 30px;
+    }
+    .blackjack-input input{
+        font-size: 20px;
+    }
+    .corona-img{
+        margin-right: 10px;
+        max-width: 24px;
+    }
 }
 @media (max-width: 1280px) {
     .buttons button{

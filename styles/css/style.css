@@ -232,6 +232,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: absolute;
   background-image: url("../../images/roulette.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 25px;
   height: 25px;
   top: 0;
@@ -248,6 +249,7 @@ a.active-roulette:after {
   position: absolute;
   background-image: url("../../images/roulette-hover.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 25px;
   height: 25px;
   top: 0;
@@ -256,11 +258,12 @@ a.active-roulette:after {
   bottom: 0;
 }
 
-.roulette a:hover:after {
+.roulette a:hover:before {
   content: '';
   position: absolute;
   background-image: url("../../images/roulette-hover.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 25px;
   height: 25px;
   top: 0;
@@ -275,6 +278,7 @@ a.active-roulette:after {
   position: absolute;
   background-image: url("../../images/chart-line.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 26px;
   height: 19px;
   top: 0;
@@ -291,6 +295,7 @@ a.active-crash:after {
   position: absolute;
   background-image: url("../../images/chart-line-hover.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 26px;
   height: 29px;
   top: 0;
@@ -299,11 +304,12 @@ a.active-crash:after {
   bottom: 0;
 }
 
-.crash a:hover:after {
+.crash a:hover:before {
   content: '';
   position: absolute;
   background-image: url("../../images/chart-line-hover.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 26px;
   height: 29px;
   top: 0;
@@ -318,6 +324,7 @@ a.active-crash:after {
   position: absolute;
   background-image: url("../../images/cube.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 26px;
   height: 25px;
   top: 0;
@@ -334,6 +341,7 @@ a.active-dice:after {
   position: absolute;
   background-image: url("../../images/cube-hover.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 26px;
   height: 25px;
   top: 0;
@@ -342,11 +350,12 @@ a.active-dice:after {
   bottom: 0;
 }
 
-.dice a:hover:after {
+.dice a:hover:before {
   content: '';
   position: absolute;
   background-image: url("../../images/cube-hover.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 26px;
   height: 25px;
   top: 0;
@@ -361,6 +370,7 @@ a.active-dice:after {
   position: absolute;
   background-image: url("../../images/pika.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 26px;
   height: 26px;
   top: 0;
@@ -369,11 +379,12 @@ a.active-dice:after {
   bottom: 0;
 }
 
-.blackjack a:hover:after {
+.blackjack a:hover:before {
   content: '';
   position: absolute;
   background-image: url("../../images/pika-hover.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 26px;
   height: 26px;
   top: 0;
@@ -391,12 +402,45 @@ a.active-blackjack:after {
   position: absolute;
   background-image: url("../../images/pika-hover.png");
   background-repeat: no-repeat;
+  background-size: contain;
   width: 26px;
   height: 26px;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.jackpot {
+  position: relative;
+}
+
+.jackpot a:before {
+  content: '';
+  position: absolute;
+  background-image: url("../../images/circular.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 26px;
+  height: 26px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.jackpot a:hover:before {
+  content: '';
+  position: absolute;
+  background-image: url("../../images/circular-hover.png");
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: .3s;
 }
 
 .nav-left {
@@ -1090,6 +1134,8 @@ i.click-hide:hover {
   display: flex;
   justify-content: center;
   position: relative;
+  flex-direction: column;
+  align-items: center;
 }
 
 .avatar-user {
