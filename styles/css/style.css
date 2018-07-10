@@ -2263,7 +2263,7 @@ input.placeholder-color::placeholder {
   width: 100%;
   background: #23282c;
   position: absolute;
-  right: 0;
+  right: -16px;
   top: 186px;
   display: none;
   z-index: 100;
