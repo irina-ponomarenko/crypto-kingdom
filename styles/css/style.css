@@ -2259,11 +2259,11 @@ input.placeholder-color::placeholder {
 }
 
 .dropdown-profile {
-  max-width: 264px;
+  max-width: 247px;
   width: 100%;
   background: #23282c;
   position: absolute;
-  right: -16px;
+  right: 0;
   top: 186px;
   display: none;
   z-index: 100;
