@@ -1331,6 +1331,7 @@
 .header-game-wrapper h2{
     font-size: 25px;
     color: #fff;
+    font-family: 'robotoregular';
 }
 .game-list{
     display: flex;
@@ -1399,10 +1400,12 @@ a.active-jackpot:after {
     font-size: 25px;
     color: #fff;
     margin-bottom: 15px;
+    font-family: 'robotoregular';
 }
 .info-spiner h2 span{
     font-size: 15px;
     color: #e2c45e;
+    font-family: 'robotoregular';
 }
 .info-spiner  .price-span{
     font-size: 20px;
@@ -1569,7 +1572,8 @@ li.border-color-rouse{
 .active-winner{
     background-color: #23282c;
 }
-.start-game{
+.start-game,
+.waiting-game{
     border: none;
     background-color: #e2c45e;
     outline: none;
@@ -1580,6 +1584,19 @@ li.border-color-rouse{
     border-radius: 5px;
     cursor: pointer;
     margin: 30px 0;
+}
+.waiting-game{
+    background-color: #43484b;
+    color: #fff;
+    position: relative;
+}
+.progress-border{
+    width: 40%;
+    height: 2px;
+    display: flex;
+    background-color: #7c7f81;
+    position: absolute;
+    bottom: 0;
 }
 .start-game:hover{
     transition: .3s;
@@ -1616,6 +1633,31 @@ li.border-color-rouse{
     justify-content: flex-start;
 }
 
+.beasty{
+    color: #e2c45e;
+    font-size: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e2c45e;
+}
+.user-result{
+    margin-top: 70px;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'robotoregular';
+    position: relative;
+    padding-left: 50px;
+}
+.user-result:before{
+    content: '';
+    position: absolute;
+    background-image: url('../../images/bet.png');
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 38px;
+    background-size: contain;
+}
 /*-----------scroll-bar-----------*/
 
 ::-webkit-scrollbar-button {
