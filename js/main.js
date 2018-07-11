@@ -136,4 +136,17 @@ $(document).ready(function () {
             $('#normal').css('width', ui.value + '%');
         }
     });
+    $( ".slider-progress" ).slider({
+        animate: true,
+        range: "min",
+        value: 70,
+        min: 1,
+        max: 100,
+        step: 1,
+
+        change: function(event, ui) {
+            $('#place').attr('value', ui.value);
+        }
+
+    });
 });
