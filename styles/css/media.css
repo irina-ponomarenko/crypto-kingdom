@@ -926,6 +926,109 @@
     .crash-width{
         max-width: 795px;
     }
+    .game-list li h2{
+        font-size: 15px;
+    }
+    .game-list li span {
+        font-size: 15px;
+    }
+    .game-list li{
+        margin-right: 35px;
+        padding: 10px 10px 25px;
+    }
+    .game-history {
+        font-size: 15px;
+    }
+    .header-game-wrapper{
+        padding-top: 20px;
+        max-width: 920px;
+    }
+    .spiner {
+        max-width: 355px;
+        width: 100%;
+    }
+    .spiner img{
+        max-width: 355px;
+    }
+    .info-spiner h2{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .info-spiner .price-span{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .user-position {
+        margin-top: 40px;
+    }
+    .user-position span {
+        font-size: 15px;
+    }
+    .user-position img {
+        max-width: 20px;
+        margin-bottom: 15px;
+    }
+    .header-game-wrapper h2 {
+        font-size: 20px;
+    }
+    .active-pot {
+        font-size: 20px;
+    }
+    .user-information-game li img {
+        max-width: 42px;
+        margin-right: 10px;
+    }
+    .user-information-game li {
+        max-width: 350px;
+        width: 100%;
+        padding: 10px;
+    }
+    .user-account {
+        max-width: 130px;
+    }
+    .title-name-user h3 {
+        font-size: 12px;
+    }
+    .title-name-user span {
+        font-size: 12px;
+    }
+    .title-result h3 {
+        font-size: 12px;
+    }
+    .result-user span {
+        font-size: 12px;
+    }
+    .progress-line{
+        max-width: 100px;
+    }
+    .status-position-user p {
+        font-size: 12px;
+    }
+    .jackpot-game-wrapper{
+        max-width: 795px;
+    }
+    .scroll-history-list {
+        max-height: 450px;
+    }
+    .user-information-game {
+        max-height: 290px;
+    }
+    .previous {
+        font-size: 15px;
+    }
+    .winner img{
+        max-width: 35px !important;
+    }
+    .start-game, .waiting-game {
+        font-size: 15px;
+        max-width: 240px;
+        width: 100%;
+        padding: 20px 0;
+        margin: 20px 0;
+    }
+    .scale-spiner p {
+        font-size: 17px;
+    }
 }
 @media (max-width: 1280px) {
     .buttons button{

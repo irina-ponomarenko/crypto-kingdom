@@ -773,6 +773,38 @@
 .coins-result span{
     color: white;
 }
+.rouse-border{
+    border: 2px solid #ea6375 !important;
+}
+.black-border{
+    border: 2px solid #333a40 !important;
+}
+.lightgreen-border{
+    border: 2px solid #51712f !important;
+}
+.rouletta-input{
+    width: 100%;
+    background-color: #191e21;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.rouletta-input span{
+    margin-left: 15px;
+}
+.rouletta-input .rouletta-input-amount{
+    padding: 18px;
+    max-width: 280px;
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
 .buttons-roulette-options button {
     width: 118px;
     height: 112px;
@@ -1365,7 +1397,7 @@
 a.active-jackpot {
     color: #fff;
 }
-a.active-jackpot:after {
+a.active-jackpot:before{
     content: '';
     position: absolute;
     background-image: url("../../images/circular-hover.png");
@@ -1450,8 +1482,7 @@ a.active-jackpot:after {
     width: 100%;
 }
 .user-information-game {
-    min-height: 374px;
-    margin: 25px 0;
+    max-height: 374px;
 }
 .user-information-game:last-child {
     margin-bottom: 0;
@@ -1552,11 +1583,13 @@ li.border-color-rouse{
 .active-pot{
     font-size: 25px;
     color: #fff;
+    margin-bottom: 25px;
 }
 .previous{
     font-size: 20px;
     text-transform: uppercase;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 .last-winner{
     color: #fff;
