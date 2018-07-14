@@ -290,6 +290,7 @@
     .dropdown-profile{
         max-width: 198px;
         right: 0;
+        top: 151px;
     }
     .wrapper-notifications h2{
         color: #fff;
@@ -1028,6 +1029,41 @@
     }
     .scale-spiner p {
         font-size: 17px;
+    }
+    .social-navigation li{
+        border: 3px solid #43484b;
+        width: 35px;
+        height: 35px;
+    }
+    .dropdown-language {
+        width: 63px;
+        height: 43px;
+        border-radius: 63px;
+        border: 3px solid #43484b;
+    }
+    .dropdown-language:hover {
+        transition: .3s;
+        border: 3px solid #e2c45e;
+    }
+    .social-navigation li:hover {
+        border: 3px solid #e2c45e;
+    }
+    .social-navigation li a {
+        width: 35px;
+        height: 35px;
+    }
+    .top-navigation{
+        height: 70px;
+    }
+    .modal-info p, .modal-info-green p{
+        padding: 23px 0;
+        font-size: 15px;
+    }
+    .btn-close-modal, .btn-close-modal-2{
+        width: 15px;
+        height: 15px;
+        top: 20px;
+        right: 20px;
     }
 }
 @media (max-width: 1280px) {

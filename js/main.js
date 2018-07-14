@@ -149,4 +149,23 @@ $(document).ready(function () {
         }
 
     });
+    $(".show").click(function(){
+        $("#bg").show();
+        $("#"+($(this).attr("box"))).slideDown("fast");
+    });
+    $(".close").click(function(){
+        $("#bg").hide();
+        $(".hiddenBlock").slideUp("fast");
+        return false; //чтобы не активировалась форма, в которой кнопка закрытия
+    });
+    var delay_popup = 3000;
+    setTimeout("document.getElementById('modal-info-green').style.display='block'", delay_popup);
+    $('.btn-close-modal-2').click(function () {
+        $('.modal-info-green').fadeOut();
+    });
+    var delay_popup = 6000;
+    setTimeout("document.getElementById('modal-info').style.display='block'", delay_popup);
+    $('.btn-close-modal').click(function () {
+        $('.modal-info').fadeOut();
+    });
 });

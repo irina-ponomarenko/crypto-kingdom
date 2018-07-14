@@ -251,6 +251,40 @@
 
   }
 }
+.modal-info,
+.modal-info-green{
+  background: #be1a1a;
+  z-index: 1000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  transition: .4s;
+  p{
+    font-size: 20px;
+    text-align: center;
+    color: $select-color;
+    padding: 28px 0;
+    font-family: $font-roboto-medium;
+  }
+}
+.modal-info-green{
+  background: #1abe66;
+}
+.btn-close-modal,
+.btn-close-modal-2{
+  background-image: url("../../images/btn-close-modal.png");
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
 
 
 
