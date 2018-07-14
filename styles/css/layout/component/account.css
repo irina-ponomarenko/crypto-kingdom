@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$select-color".
-        on line 33 of E:/Crypto Kingdom/styles/scss/layout/component/account.scss
+        on line 35 of E:/Crypto Kingdom/styles/scss/layout/component/account.scss
 
-28:   margin-right: 17px;
-29: }
-30: .info-user{
-31:   h2{
-32:     font-size: 25px;
-33:     color: $select-color;
-34:     margin-bottom: 18px;
-35:   }
-36:   span{
-37:     color: $hover-color;
-38:   }
+30:   margin-right: 17px;
+31: }
+32: .info-user{
+33:   h2{
+34:     font-size: 25px;
+35:     color: $select-color;
+36:     margin-bottom: 18px;
+37:   }
+38:   span{
+39:     color: $hover-color;
+40:   }
 
 Backtrace:
-E:/Crypto Kingdom/styles/scss/layout/component/account.scss:33
+E:/Crypto Kingdom/styles/scss/layout/component/account.scss:35
 C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -78,4 +78,4 @@ C:/Ruby24/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$select-color\".\A         on line 33 of E:/Crypto Kingdom/styles/scss/layout/component/account.scss\A \A 28:   margin-right: 17px;\A 29: }\A 30: .info-user{\A 31:   h2{\A 32:     font-size: 25px;\A 33:     color: $select-color;\A 34:     margin-bottom: 18px;\A 35:   }\A 36:   span{\A 37:     color: $hover-color;\A 38:   }"; }
+  content: "Error: Undefined variable: \"$select-color\".\A         on line 35 of E:/Crypto Kingdom/styles/scss/layout/component/account.scss\A \A 30:   margin-right: 17px;\A 31: }\A 32: .info-user{\A 33:   h2{\A 34:     font-size: 25px;\A 35:     color: $select-color;\A 36:     margin-bottom: 18px;\A 37:   }\A 38:   span{\A 39:     color: $hover-color;\A 40:   }"; }

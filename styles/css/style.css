@@ -1134,6 +1134,9 @@ i.click-hide:hover {
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+.account-position {
   flex-direction: column;
   align-items: center;
 }
@@ -2255,6 +2258,25 @@ input.placeholder-color::placeholder {
 }
 .amount-input:first-child {
   margin-right: 30px;
+}
+
+.affiliate-form label {
+  width: 50%;
+  color: #7b7e80;
+}
+
+.affiliate-form .large-text {
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  width: auto;
+  padding-left: 45px;
+  background: url("../../images/bet.png") no-repeat;
+  background-size: 38px;
+}
+
+.affiliate-form input {
+  color: #fff;
 }
 
 .dropdown-info {
