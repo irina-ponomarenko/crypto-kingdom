@@ -179,7 +179,7 @@ $(document).ready(function () {
         $('.modal-info').fadeOut();
     });
 
-    $('.holder_crach_close').click(function(){
+    $('.holder_crash_close').click(function(){
         $('#holder_crash').css('display', 'none');
 
     });

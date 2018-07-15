@@ -1868,6 +1868,10 @@ li.border-color-rouse{
     max-width: 310px;
     background: #23282c;
     padding: 20px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 138px;
 }
 .window-block .title-pop-up{
     padding-bottom: 20px;
