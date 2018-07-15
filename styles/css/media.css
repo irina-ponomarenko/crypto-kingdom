@@ -1120,6 +1120,10 @@
     .left-content{
         max-width: 340px;
     }
+    .affiliate-form .large-text{
+        font-size: 18px;
+        background-size: 30px;
+    }
 }
 @media (max-width: 1280px) {
     .buttons button{
