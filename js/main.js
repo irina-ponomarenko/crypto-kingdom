@@ -58,6 +58,16 @@ $(document).ready(function () {
             }
         });
     });
+    $('.holder_open').on('click', function() {
+        $(".wrapper-account").addClass("overflow");
+        $('#holder').popup({
+            transition: 'all 0.3s',
+            scrolllock: true,
+            onclose: function () {
+                $(".wrapper-account").removeClass("overflow");
+            }
+        });
+    });
 
 
     $("#click_down_1").on("click", function(){
@@ -168,4 +178,10 @@ $(document).ready(function () {
     $('.btn-close-modal').click(function () {
         $('.modal-info').fadeOut();
     });
+
+    $('.holder_crach_close').click(function(){
+        $('#holder_crash').css('display', 'none');
+
+    });
+
 });

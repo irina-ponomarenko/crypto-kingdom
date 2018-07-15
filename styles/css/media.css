@@ -1065,6 +1065,29 @@
         top: 20px;
         right: 20px;
     }
+    .title-botoom-info {
+        font-size: 12px;
+    }
+    .check-out, .continue{
+        max-width: 186px;
+        padding: 15px 0;
+    }
+    .holder-popup{
+        padding-bottom: 20px;
+    }
+    .update-title {
+        padding: 20px 44px 0;
+        font-size: 15px;
+    }
+    .img-dismiss-pop-up{
+        width: 15px;
+        height: 15px;
+        background-size: contain;
+        right: 20px;
+    }
+    .title-botoom-info{
+        padding: 20px 44px 20px;
+    }
 }
 @media (max-width: 1280px) {
     .buttons button{
