@@ -533,6 +533,7 @@ a.active-blackjack:after {
   font-size: 11px;
   color: #43484b;
   cursor: pointer;
+  display: none;
 }
 .profile-left-wrapper i:hover {
   color: #e2c45e;
@@ -602,17 +603,32 @@ a.active-blackjack:after {
   -webkit-box-shadow: inset 0px -5px 0px 0px rgba(77,79,84,1);
   -moz-box-shadow: inset 0px -5px 0px 0px rgba(77,79,84,1);
   box-shadow: inset 0px -5px 0px 0px rgba(77,79,84,1);
-  padding: 15px 0 18px;
+  padding: 13px 0 14px;
   border-radius: 8px;
 }
-.logout-btn:hover{
+.logout-btn:hover,
+.affiliate-btn:hover{
   transition: .3s;
   background-color: #efeef1;
   -webkit-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
   -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
   box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
 }
-
+.affiliate-btn{
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    margin-right: 105px;
+    border-radius: 8px;
+    font-family: "Circular Std Bold";
+    color: #1c2125;
+    background-color: #e2c45e;
+    width: 317px;
+    padding: 13px 18px 14px;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+}
 .discort {
   background-image: url("../../images/discord.png");
   background-repeat: no-repeat;
@@ -756,6 +772,10 @@ a.active-blackjack:after {
     -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
     -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
     box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+}
+.affiliate-save{
+    max-width: 335px;
+    margin-top: 0;
 }
 .save:hover {
   opacity: 0.5;
@@ -1848,7 +1868,7 @@ i.click-hide:hover {
 }
 .form-setting input::placeholder {
   color: #7b7e80;
-  font-size: 17px;
+  font-size: 16px;
   font-family: "Circular Std Medium", Arial, sans-serif;
 }
 
@@ -2396,7 +2416,14 @@ input.placeholder-color::placeholder {
   padding: 30px;
   text-align: justify !important;
 }
-
+.affiliate-create-text p{
+    font-size: 16px;
+    font-family: "Circular Std Medium", Arial;
+    color: #ffffff !important;
+}
+.affiliate-create-text p span{
+    color: #7b7e80;
+}
 .wrapper-pop-up {
   display: flex;
   max-width: 1105px;
@@ -2621,7 +2648,10 @@ input.placeholder-color::placeholder {
 .info-profile a:hover {
   color: #fff;
 }
-
+.affiliat-title{
+    font-size: 18px !important;
+    margin-top: 49px !important;
+}
 .active-profile {
   display: block;
 }

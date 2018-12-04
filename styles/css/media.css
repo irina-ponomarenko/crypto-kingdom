@@ -204,6 +204,9 @@
         padding: 18px;
         right: -187px;
     }
+    .affiliate-create-text p{
+        font-size: 14px;
+    }
     .save{
         padding-bottom: 18px;
         padding-top: 18px;
