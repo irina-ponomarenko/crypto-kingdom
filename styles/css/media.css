@@ -192,7 +192,7 @@
         margin-bottom: 5px;
     }
     .change-width{
-        max-width: 495px;
+        max-width: 635px;
     }
     .form-setting{
         padding: 18px;
@@ -253,9 +253,6 @@
     }
     .send-to-value{
         font-size: 14px;
-    }
-    .change-width{
-        max-width: 495px;
     }
     .right-bitcoin-info h2{
         font-size: 14px;

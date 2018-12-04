@@ -1366,9 +1366,8 @@ i.click-hide:hover {
 }
 
 .change-width {
-  max-width: 677px;
+  max-width: 998px;
 }
-
 .account {
   width: 100%;
   display: flex;
