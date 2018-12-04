@@ -614,6 +614,9 @@ a.active-blackjack:after {
   -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
   box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
 }
+.deposit-btn{
+    max-width: 211px;
+}
 .affiliate-btn{
     cursor: pointer;
     border: none;
@@ -1069,7 +1072,7 @@ input:checked + .slider:before {
   text-transform: uppercase;
 }
 .left-block span {
-  margin-right: 20px;
+  margin-right: 10px;
   font-size: 24px;
   font-family: "Circular Std Bold", Arial;
 }
