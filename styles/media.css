@@ -73,9 +73,6 @@
         width: 100%;
         padding: 15px 30px;
     }
-    .text-avatar-container p{
-        font-size: 14px;
-    }
     .logo{
         margin-right: 53px;
     }
@@ -114,7 +111,7 @@
         font-size: 17px;
     }
     .wrapper-account-info{
-        max-width: 795px;
+        max-width: 695px;
     }
     .title-wrapper h2{
         font-size: 14px;
@@ -126,8 +123,8 @@
         font-size: 14px;
     }
     .games ul li:first-child{
-        margin-right: 25px;
-    }
+         margin-right: 25px;
+     }
     .stats li{
         font-size: 14px;
     }
@@ -168,9 +165,14 @@
         height: 93px;
         background-size: contain;
     }
-    .wrapper-add-email ,
+    .email-adress input{
+        padding: 25px 23px;
+        font-size: 14px;
+        width: 74%;
+    }
     .email-adress button{
-        padding: 20px;
+        padding: 25px 23px;
+        font-size: 12px;
     }
     .category {
         font-size: 14px;
@@ -312,8 +314,8 @@
         margin-bottom: 25px;
     }
     .games-start ul li:last-child{
-        margin-right: 0;
-        margin-bottom: 0;
+         margin-right: 0;
+         margin-bottom: 0;
     }
     .create,
     .sign{
@@ -332,7 +334,7 @@
         font-size: 14px;
     }
     .account-block li:first-child{
-        margin-top: 0;
+         margin-top: 0;
     }
     .games ul li.blackjack-game,
     .games ul li.dice,
@@ -411,7 +413,7 @@
         margin-right: 45px;
     }
     .cards li:last-child{
-        margin-right: 0;
+         margin-right: 0;
     }
     .dark-cards{
         border-radius: 10px;
@@ -496,7 +498,7 @@
         font-size: 14px;
     }
     .amount-input:first-child{
-        margin-right: 20px;
+         margin-right: 20px;
     }
     .sample {
         width: 200px;
@@ -834,8 +836,8 @@
     }
 
     a.active-roulette:after {
-        width: 20px;
-        height: 20px;
+     width: 20px;
+     height: 20px;
     }
     .roulette a:hover:before {
         width: 20px;
