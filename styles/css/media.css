@@ -205,10 +205,15 @@
         right: -187px;
     }
     .save{
-        max-width: 335px;
         padding-bottom: 18px;
         padding-top: 18px;
         font-size: 14px;
+    }
+    .nav-account li a {
+        font-size: 20px;
+    }
+    .nav-account li a:hover, .nav-account li a.active {
+        font-size: 25px;
     }
     .sidebar li{
         padding: 25px 22px;
@@ -296,7 +301,7 @@
         font-size: 14px;
     }
     .dropdown-profile{
-        top: 87px;
+        top: 85px;
     }
     .wrapper-notifications h2{
         color: #fff;
@@ -696,6 +701,9 @@
         width: 40px;
         height: 40px;
         background-size: contain;
+    }
+    .setting-width-change{
+        max-width: 635px;
     }
     .ellipsis-wrapper h2{
         font-size: 18px;

@@ -567,6 +567,7 @@ a.active-blackjack:after {
 }
 .nav-account {
   display: flex;
+  align-items: center;
   margin-left: 105px;
 }
 .nav-account li {
@@ -742,17 +743,19 @@ a.active-blackjack:after {
   text-align: center;
   font-family: "Circular Std Medium", Arial, sans-serif;
   font-size: 17px;
-  color: #fff;
-  background: #1abe66;
+  color: #1c2125;
+  background: #e2c45e;
   border: none;
-  border-radius: 5px;
-  max-width: 435px;
+  border-radius: 8px;
   width: 100%;
   padding-bottom: 22px;
   padding-top: 22px;
   cursor: pointer;
   outline: none;
-  margin-top: 20px;
+  margin-top: 10px;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
 }
 .save:hover {
   opacity: 0.5;
@@ -1145,6 +1148,7 @@ input:checked + .slider:before {
 }
 .left-block-bottom .last-child a {
   cursor: pointer;
+    font-size: 15px;
 }
 .left-block-bottom .last-child a:hover {
   color: #e2c45e;
@@ -1310,6 +1314,7 @@ input:checked + .slider:before {
   padding-right: 10px;
   padding-left: 10px;
 }
+
 .icon-block i {
   color: #43484b;
   cursor: pointer;
@@ -1487,8 +1492,8 @@ i.click-hide:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .category li p{
     color: #7b7e80;
@@ -1727,7 +1732,7 @@ i.click-hide:hover {
   display: flex;
   opacity: 0;
   transition: .3s;
-  padding: 32px;
+  padding: 26px;
   position: absolute;
   right: -215px;
   z-index: -998;
@@ -1823,9 +1828,10 @@ i.click-hide:hover {
 }
 
 .form-setting {
-  background: #13171a;
+  background: #22272b;
   border-radius: 5px;
-  padding: 33px;
+  padding: 26px;
+  padding-right: 30px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -1835,8 +1841,8 @@ i.click-hide:hover {
 .form-setting input {
   border: none;
   background: transparent;
-  font-size: 17px;
-  color: #7b7e80;
+  font-size: 16px;
+  color: #ffffff;
   width: 80%;
   outline: none;
   text-align: right;
@@ -1856,8 +1862,8 @@ i.click-hide:hover {
 }
 
 .options-info {
-  font-size: 17px;
-  color: #fff;
+  font-size: 16px;
+  color: #78787a;
 }
 
 .game-wrapper {
@@ -2564,7 +2570,9 @@ input.placeholder-color::placeholder {
 .display-change {
   flex-direction: column;
 }
-
+.setting-width-change{
+    max-width: 995px;
+}
 .dropdown-info-block {
   border-top: 1px solid #2e3337;
   border-top-right-radius: 0;
