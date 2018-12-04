@@ -84,6 +84,16 @@
     }
     .profile-left p{
         font-size: 12px;
+        margin-bottom: 0;
+    }
+    .header-account{
+        min-height: 80px;
+    }
+    .profile-left-wrapper{
+        padding-right: 0;
+    }
+    .top-navigation{
+        padding: 0 20px;
     }
     .profile-left span{
         font-size: 15px;
@@ -544,7 +554,7 @@
         font-size: 14px;
     }
     .left-block-bottom {
-        top: calc(100vh - 105px);
+        top: calc(100vh - 88px);
         width: 281px;
     }
     .left-block-bottom .last-child{
@@ -1033,10 +1043,11 @@
         height: 35px;
     }
     .dropdown-language {
-        width: 63px;
-        height: 43px;
+        width: 70px;
+        height: 40px;
         border-radius: 63px;
         border: 3px solid #43484b;
+        padding-left: 15px;
     }
     .dropdown-language:hover {
         transition: .3s;
