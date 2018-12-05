@@ -252,7 +252,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .navigation-bottom {
   padding: 11px 30px;
   padding-right: 0;
-  background: rgb(0,0,0,0.1);
+  background: rgba(0,0,0,0.1);
   font-family: "Circular Std Medium", Arial, sans-serif;
   border-top: 1px solid #303539;
   border-bottom: 1px solid #303539;
@@ -1773,15 +1773,6 @@ i.click-hide:hover {
   background-repeat: no-repeat;
   margin-right: 30px;
 }
-
-.copy-clipboard-js {
-  cursor: pointer;
-}
-.copy-clipboard-js:hover {
-  color: #fff;
-  transition: .3s;
-}
-
 .modal-info,
 .modal-info-green {
   background: #be1a1a;
@@ -2062,11 +2053,13 @@ i.click-hide:hover {
 }
 
 .bitcoin-block {
-  max-width: 80px;
+  max-width: 264px;
   width: 100%;
-  background: #1c2125;
+  background: #21262b;
   border-radius: 5px;
-  padding: 22px 20px;
+  padding: 29px 31px 34px 30px;
+  display: flex;
+  align-items: center;
 }
 
 .bitcoin-wrapper {
@@ -2077,9 +2070,10 @@ i.click-hide:hover {
 .img-bitcoin {
   background-image: url("../../images/bitcoin.png");
   background-repeat: no-repeat;
-  width: 80px;
-  height: 80px;
-  margin-bottom: 20px;
+  width: 67px;
+  height: 67px;
+  margin-right: 27px;
+  background-size: contain;
 }
 
 .dropdown-bitcoin {
@@ -2087,9 +2081,16 @@ i.click-hide:hover {
   align-items: center;
   justify-content: space-between;
   position: relative;
+  max-width: 167px;
+  width: 100%;
+}
+.dropdown-bitcoin p{
+    font-size: 24px;
+    font-family: "Circular Std Medium", Arial;
+    color: #78787a;
 }
 .dropdown-bitcoin i {
-  font-size: 11px;
+  font-size: 33px;
   color: #7b7e80;
   cursor: pointer;
 }
@@ -2098,7 +2099,7 @@ i.click-hide:hover {
 }
 
 .right-bitcoin-info {
-  margin-left: 34px;
+  margin-left: 47px;
 }
 .right-bitcoin-info h2 {
   margin: 0;
@@ -2106,29 +2107,79 @@ i.click-hide:hover {
   font-size: 25px;
 }
 .right-bitcoin-info p {
-  max-width: 499px;
+  max-width: 517px;
+  font-size: 17px;
+  font-family: "Circular Std Medium", Arial;
+  line-height: 23px;
 }
 
 .change-input-width-password {
-  max-width: 895px;
+  max-width: 885px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-
+.wrapper-form-copy{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #21262b;
+    padding: 29px 0;
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+.wrapper-form-copy label{
+    margin-left: 30px;
+}
+.copy-address-btn{
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    border-radius: 8px;
+    font-family: "Circular Std Bold";
+    color: #1c2125;
+    background-color: #e2c45e;
+    width: 100%;
+    padding: 17px 18px;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+}
+.copy-address-btn:hover{
+    transition: .3s;
+    background-color: #efeef1;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+}
 .wrapper-account-info.width-deposit {
   max-width: 895px;
 }
 
 .margin-bitcoin {
-  margin-top: 22px;
+  margin-top: 30px;
 }
 
 .code-qr {
-  border: 8px solid #1c2125;
+  background-color: #21262b;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 19px 17px 16px;
+  max-width: 291px;
+  width: 100%;
 }
-
+.code-qr p{
+    font-size: 24px;
+    font-family: "Circular Std Medium", Arial;
+    color: #78787a;
+}
+.img-code-qr{
+    margin-right: 30px;
+}
 .img-code-qr img {
-  width: 128px;
-  height: 128px;
+  width: 95px;
+  height: 95px;
 }
 
 .padding-form {
@@ -2153,14 +2204,14 @@ input.placeholder-color::placeholder {
 }
 
 .dropdown-bitcoin-block {
-  background: #1c2125;
+  background: #21262b;
   border-top: 1px solid #2e3337;
   position: absolute;
   left: 0;
-  max-width: 81px;
+  max-width: 286px;
   width: 100%;
   padding: 20px;
-  top: 220px;
+  top: 131px;
   text-align: center;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -2170,7 +2221,9 @@ input.placeholder-color::placeholder {
   display: none;
   z-index: 1200;
 }
-
+.dropdown-bitcoin-block p{
+    font-size: 17px;
+}
 .wrapper-history-info {
   margin-top: 30px;
 }
