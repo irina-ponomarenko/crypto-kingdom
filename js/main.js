@@ -184,5 +184,15 @@ $(document).ready(function () {
 
     });
 
+    //---------------------------tabs---------------------//
 
+    $(function() {
+
+        $('ul.tabs__caption').on('click', 'li:not(.active-btn)', function() {
+            $(this)
+                .addClass('active-btn').siblings().removeClass('active-btn')
+                .closest('div.tabs').find('div.tabs__content').removeClass('active-btn').eq($(this).index()).addClass('active-btn');
+        });
+
+    });
 });

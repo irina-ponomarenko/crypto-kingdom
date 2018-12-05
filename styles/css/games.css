@@ -245,24 +245,69 @@
 .history-dice {
     width: 100%;
     border-collapse: separate;
-    border-spacing: 0 28px;
+    padding-top: 30px;
 }
 .history-dice th {
     width: 25%;
+    color: #a5a8aa;
+    font-size: 17px;
+    font-family: "Circular Std Bold", Arial;
+    padding: 7.5px;
 }
-
+.history-dice th:first-child {
+    padding-top: 15px;
+}
+.dice-title,
+.roulette-title,
+.crash-title,
+.blackjack-title{
+    position: relative !important;
+    padding-left: 40px;
+}
+.dice-title:before,
+.roulette-title:before,
+.crash-title:before,
+.blackjack-title:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    background-image: url("../../images/cube.png");
+    width: 27px;
+    height: 25px;
+    top: -2px;
+    background-repeat: no-repeat;
+}
+.roulette-title:before{
+    background-image: url("../../images/roulette.png");
+}
+.crash-title:before{
+    background-image: url("../../images/chart-line.png");
+}
+.blackjack-title:before{
+    background-image: url("../../images/pika.png");
+}
 .title-game-table {
-    color: #fff;
-    line-height: 23px;
+    color: #7b7e80;
+    line-height: 20px;
+    font-size: 17px;
+    font-family: "Circular Std Bold", Arial;
+}
+.green-text{
+    white-space: nowrap;
+    color: #8ac53c;
 }
 
 /*----------------------------buttons--------------------------*/
 
 .buttons-dice {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: initial;
     margin-top: 30px;
+}
+.left-float{
+    float: left;
+}
+.right-float{
+    float: right;
 }
 .right-buttons button {
     border: none;
@@ -280,21 +325,36 @@
      color: #191e21;
      transition: .3s;
  }
-.my-bets {
-    border: none;
-    outline: none;
-    cursor: pointer;
+.my-bets,
+.buttons-tabs.active-btn{
     background: #e2c45e;
-    border-radius: 5px;
-    color: #191e21;
-    text-align: center;
-    font-size: 17px;
-    font-family: 'robotomedium', Arial, sans-serif;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
 }
-.my-bets:hover{
-     background: #33383c;
-     color: #e2c45e;
+.buttons-tabs{
+    width: 167px;
+    padding: 25px 0 26px;
+    background-color: #595c5e;
+    text-align: center;
+    color: #1c2125;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Circular Std Medium', Arial, sans-serif;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(77,79,84,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(77,79,84,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(77,79,84,1);
+}
+.buttons-tabs:nth-child(2){
+    margin-left: 10px;
+}
+.buttons-tabs:hover{
+     background: #e2c45e;
      transition: .3s;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
  }
 .my-bets,
 .right-buttons button{
@@ -911,7 +971,566 @@
     display: flex;
     justify-content: space-between;
 }
+.wrapper-games-roulette{
+    max-width: 954px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin: 45px;
+}
+.sidebar-left{
+    max-width: 188px;
+    width: 100%;
+    margin-right: 42px;
+}
+.list-sidebar{
+    background-color: #181d21;
+}
+.variant-sidebar{
+    border: 2px solid #262a2e;
+    border-top: none;
+    max-width: 188px;
+    width: 100%;
+}
+.variant-sidebar:first-child{
+    border-top: 2px solid #262a2e;
+}
+.link-sidebar{
+    font-family: 'robotomedium', Arial, sans-serif;
+    font-size: 17px;
+    color: #626668;
+    padding: 30px 5px 30px 35px;
+    display: flex;
+    cursor: pointer;
+}
+.link-sidebar:hover{
+    color: #ffffff;
+    transition: .3s;
+}
+.active-link-sidebar{
+    color: #ffffff;
+}
+.game-title,
+.title-info-game{
+    font-family: "robotomedium", Arial, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.content-roulette-game{
+    max-width: 676px;
+    width: 100%;
+}
+.container-input-game{
+    border: 2px solid #262a2e;
+    background-color: #181d21;
+    padding: 35px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.container-input-game span{
+    font-family: "robotomedium", Arial, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+}
+.container-input-game:last-child{
+    margin-bottom: 0;
+}
+.input-game{
+    background: transparent;
+    border: none;
+    font-family: "robotomedium", Arial, sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    width: 85%;
+}
+input.input-game:focus{
+    outline: none;
+}
+.input-game::placeholder{
+    font-family: "robotomedium", Arial, sans-serif;
+    font-size: 17px;
+    color: #7b7e80;
+    text-align: right;
+}
+.info-game-block{
+    margin-top: 30px;
+    width: 100%;
+}
+.info-game-block p,
+.previous-hover span{
+    font-family: "robotomedium", Arial, sans-serif;
+    font-size: 13px;
+    color: #7b7e80;
+    text-align: justify;
+}
+.game-header,
+.container-game-header{
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+}
+.container-game-header{
 
+}
+.footer-game-header{
+    height: 32px;
+    width: 100%;
+     position: absolute;
+    bottom: 0;
+}
+.wrapper-games-roulette-content{
+    max-width: 1090px;
+    width: 100%;
+}
+.container-games-roulette-content{
+    display: flex;
+    align-items: center;
+}
+.list-game-rouletta{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.list-game-rouletta:last-child{
+    margin-bottom: 0;
+    padding-bottom: 47px;
+}
+.indicator{
+    width: 6px;
+    height: 18px;
+    background-color: #333a40;
+    margin-right: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.long-indicators{
+    background-color: #8ac53c;
+    height: 39px;
+    position: relative;
+}
+.indicator:last-child{
+    margin-right: 0;
+}
+.rouse-color{
+    background-color: #ea6375;
+}
+.green-color{
+    background-color: #8ac53c;
+}
+.title-game-header{
+    font-size: 30px;
+    font-family: "robotomedium", Arial, sans-serif;
+    color: #ffffff;
+    margin-right: 54px;
+}
+.game-header{
+    max-width: 1370px;
+    padding: 47px 0;
+    border-bottom: 2px solid  #272b2f;
+    padding-bottom: 0
+}
+.previous-hover{
+    position: absolute;
+    z-index: 10;
+    left: -50px;
+    top: 52px;
+    display: none;
+}
+.container-previous{
+    background-color: #333a40;
+    width: 100px;
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    z-index: 3;
+}
+.container-previous:before{
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: #333a40;
+    transform: rotate(45deg);
+    top: -4px;
+    left: 40%;
+    border-radius: 5px;
+    z-index: -1;
+}
+.long-indicators:hover .previous-hover{
+    display: block;
+    transition: .3s;
+}
+.wheel-roulette-container{
+    position: relative;
+    max-width: 458px;
+    width: 100%;
+    display: flex;
+}
+.wrapper-spiner{
+    max-width: 430px;
+    width: 100%;
+    margin-top: 25px;
+}
+.wrapper-spiner img{
+    max-width: 430px;
+}
+
+.wrapper-games-roulette-content{
+    margin-top: 37px;
+}
+.pie-title-center {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.pie-value {
+    display: block;
+    position: absolute;
+    font-size: 17px;
+    font-family: "robotomedium", Arial, sans-serif;
+    color: #ffffff;
+    height: 40px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -20px;
+    line-height: 40px;
+}
+.wrapper-progress{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wrapper-title-input{
+    display: flex;
+    align-items: center;
+}
+.wrapper-title-input input{
+    font-size: 30px;
+    font-family: "robotoregular", Arial, sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+    background: transparent;
+    max-width: 120px;
+    border: none;
+}
+.wrapper-title-input span{
+     font-size: 30px;
+    font-family: "robotoregular", Arial, sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+}
+.betting-title p,
+.title-provably h3,
+.title-provably p{
+    font-size: 15px;
+    font-family: "robotomedium", Arial, sans-serif;
+    color: #7b7e80;
+    margin-top: 10px;
+}
+.title-provably h3{
+    text-transform: uppercase;
+}
+.title-provably p{
+    color: #a0a5a8;
+}
+.withdraw-list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.withdraw-li{
+    border: 3px solid #43484b;
+    max-width: 85px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.withdraw-li:last-child{
+    margin-right: 0;
+}
+.withdraw-li a,
+.text-info-indicators{
+    padding: 16px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-family: "robotomedium", Arial, sans-serif;
+    font-size: 17px;
+    color: #919496;
+}
+.text-info-indicators{
+    color: #7b7e80;
+}
+.betting-options{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.wrapper-betting{
+    background-color: #23282c;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 530px;
+    width: 100%;
+}
+.container-betting-options{
+    margin-left: 40px;
+    width: 100%;
+}
+.withdraw-list-container{
+    max-width: 293px;
+    width: 100%;
+}
+.betting-btn{
+    font-size: 15px;
+    font-family: 'robotomedium', Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 163px;
+    padding: 16px 0;
+    border: none;
+    cursor: pointer;
+}
+.red-btn{
+    background-color: #ea6375;
+}
+.red-btn:hover{
+    background-color: #e74b60;
+    transition: .3s;
+}
+.green-btn{
+    background-color: #8ac53c;
+}
+.green-btn:hover{
+    background-color: #79bc20;
+    transition: .3s;
+}
+.black-btn{
+    background-color: #333a40;
+}
+.black-btn:hover{
+    background-color: #2b343b;
+    transition: .3s;
+}
+.betting-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.provably-btn{
+    background: transparent;
+    font-size: 15px;
+    font-family: 'robotomedium', Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px 0;
+    width: 189px;
+    border-radius: 50px;
+    border: 3px solid #43484b;
+    cursor: pointer;
+}
+.provably-btn:hover{
+    transition: .3s;
+    background-color: #43484b;
+}
+.provably-fair{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.container-statistics{
+    max-width: 345px;
+    width: 100%;
+    margin-right: 24px;
+}
+.container-statistics:last-child{
+    margin-right: 0;
+}
+.header-statistics{
+    padding: 10px;
+    padding-right: 22px;
+    background-color: #23282c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-name,
+.green-fon,
+.black-fon{
+    background: url("../../images/red-fon.png") no-repeat;
+    width: 104px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.green-fon{
+    background: url("../../images/green-fon.png") no-repeat;
+}
+.black-fon{
+    background: url("../../images/black-fon.png") no-repeat;
+}
+.title-name h3,
+.number-players,
+.number-level,
+.title-bet,
+.text-bet,
+.title-total-bet,
+.text-total-bet,
+.title-total-bet-user,
+.text-total-bet-user{
+    color: #ffffff;
+    font-family: 'robotomedium', Arial, sans-serif;
+    font-size: 15px;
+}
+.number-players,
+.title-total-bet,
+.text-total-bet,
+.title-total-bet-user,
+.text-total-bet-user{
+    color: #7b7e80;
+}
+.number-level{
+    font-size: 30px;
+}
+.your-bet,
+.total-bet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.total-bet:last-child{
+    margin-top: 15px;
+}
+.statistics-list li{
+    border-bottom: 1px solid #303438;
+    padding: 25px 5px 10px;
+}
+.wrapper-list-statistics{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.wrapper-list{
+    max-height: 225px;
+    overflow-y: auto;
+}
+.indicators-big{
+    margin-right: 35px;
+    max-width: 113px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.indicators-big .indicator{
+    position: relative;
+    height: 40px;
+}
+.indicators-big:last-child{
+    margin-right: 0;
+}
+.info-indicators{
+    position: absolute;
+    bottom: -51px;
+    max-width: 113px;
+    width: 100%;
+}
+.width-roulette-indicators{
+    max-width: 1360px;
+    width: 100%;
+}
+.title-text-provably-fair p,
+.fairness-code-list li,
+.container-fairness-code p,
+.code-text-info{
+    font-size: 17px;
+    color: #7b7e80;
+    font-family: 'robotomedium', Arial, sans-serif;
+}
+.fairness-code-list li,
+.container-fairness-code p{
+    line-height: 20px;
+}
+.container-fairness-code p,
+.code-text-info{
+    margin: 30px 0;
+}
+.container-fairness-code p:first-child{
+    margin-top: 0;
+}
+.provably-fair-header{
+    width: 100%;
+    align-items: flex-end;
+    padding-bottom: 47px;
+}
+.fairness-code-list li{
+    list-style-type: decimal;
+}
+.fairness-code-list{
+    margin-left: 20px;
+}
+.container-code{
+    padding: 30px;
+    max-width: 865px;
+    background-color: #181d21;
+    border: 1px solid #24292c;
+
+}
+.container-code code{
+    color: #d55a5a;
+    font-family: 'robotomedium', Arial, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+}
+.code-text-info a{
+    color: #e2c45e;
+}
+.container-rectangle{
+    padding: 34px 40px;
+    padding-bottom: 0;
+    background-color: #181d21;
+    border: 1px solid #24292c;
+}
+.rectangle-title th{
+    font-size: 17px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'robotomedium', Arial, sans-serif;
+    padding-bottom: 40px;
+    border-bottom: 2px solid white;
+}
+.rectangle-table{
+    width: 100%;
+}
+.rectangle-container-info td{
+    padding: 38px 0;
+}
+.rectangle-container-info td p{
+    font-size: 17px;
+    font-family: 'robotomedium', Arial, sans-serif;
+}
+.server-seed {
+    color: #d55a5a;
+    max-width: 492px;
+}
+.rolls-rectangle{
+    color: #e2c45e;
+}
 /*---------------------------crash----------------------*/
 
 .crash-input{

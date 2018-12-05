@@ -1384,7 +1384,7 @@ i.click-hide:hover {
   max-width: 1128px;
   width: 100%;
   margin-top: 33px;
-  margin-bottom: 141px;
+  margin-bottom: 36px;
   position: relative;
 }
 
@@ -2804,7 +2804,6 @@ input.placeholder-color::placeholder {
 .history-dice {
   width: 100%;
   border-collapse: separate;
-  border-spacing: 0 28px;
 }
 .history-dice th {
   width: 25%;
@@ -3090,6 +3089,23 @@ circle {
 .content-section{
   padding: 70px 0;
   background-color: #161b1f;
+}
+
+.tabs__content {
+  display: none;
+}
+.tabs__content.active-btn {
+  display: block;
+}
+.container-block-tabs{
+  width: 100%;
+  border-top: 1px solid #303539;
+}
+.content-tab-table{
+  max-width: 1128px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 .wrapper-account-landing {
   background: #161b1f;
