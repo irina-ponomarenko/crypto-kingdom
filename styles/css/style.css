@@ -1775,8 +1775,8 @@ i.click-hide:hover {
 }
 
 .img-clone {
-  width: 21px;
-  height: 21px;
+  width: 23px;
+  height: 23px;
   background-image: url("../../images/clone.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -2455,8 +2455,14 @@ input.placeholder-color::placeholder {
 .pop-up-block li:last-child{
   margin-bottom: 0;
 }
+.pop-up-block li h3{
+  color: #78787a;
+  font-size: 16px;
+  font-family: "Circular Std Medium", Arial;
+}
 .pop-up-block li p {
   color: #fff;
+  font-size: 16px;
 }
 .pop-up-block li:last-child {
   border: none;
@@ -2467,8 +2473,8 @@ input.placeholder-color::placeholder {
   cursor: pointer;
 }
 .margin-none:hover {
-  width: 21px;
-  height: 21px;
+  width: 23px;
+  height: 23px;
   background-image: url("../../images/clone-white.png");
   background-repeat: no-repeat;
 }
@@ -2490,11 +2496,10 @@ input.placeholder-color::placeholder {
 }
 
 .status {
-  color: #1abe66;
-  margin-right: 20px;
+  color: #8ac53c;
+  margin-left: 13px;
   font-size: 14px !important;
 }
-
 .create-account {
   display: none;
   max-width: 492px;
@@ -2510,7 +2515,49 @@ input.placeholder-color::placeholder {
 .account-block label {
   color: #fff;
 }
-
+.result-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 30px 17px !important;
+}
+.result-block h2{
+  font-size: 36px;
+  color: #c53c3c;
+  font-family: "Circular Std Bold", Arial;
+  margin-bottom: 14px;
+}
+li.result-block p{
+  font-size: 18px;
+  color: #7b7e80;
+  font-family: "Circular Std Bold", Arial;
+}
+.message-btn{
+  margin: 0 auto;
+  background: #e2c45e;
+  color: #1c2125;
+  font-family: "Circular Std Bold",Arial;
+  font-size: 17px;
+  padding: 24px 0 26px;
+  cursor: pointer;
+  max-width: 342px;
+ justify-content: center;
+  width: 100%;
+  border: none;
+  display: flex;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+  -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+  box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+  margin-top: 28px;
+}
+.message-btn:hover{
+  transition: .3s;
+  background-color: #efeef1;
+  -webkit-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+  -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+  box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+}
 .account-create p {
   text-align: center;
   margin-bottom: 20px;

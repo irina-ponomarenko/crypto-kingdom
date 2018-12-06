@@ -234,9 +234,8 @@
     .width-deposit{
         max-width: 695px !important;
     }
-    .popup_content{
-        max-width: 442px;
-        padding: 24px 0 0;
+    .container-form-change .wrapper-form-copy {
+        max-width: 525px;
     }
     .confirmed {
         width: 110px;
