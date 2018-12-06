@@ -2649,10 +2649,6 @@ input.placeholder-color::placeholder {
   position: relative;
 }
 
-.margin-top-none {
-  margin-top: 0;
-}
-
 .text-left {
   text-align: left !important;
 }
@@ -3157,9 +3153,12 @@ circle {
 
 .tabs__content {
   display: none;
+  overflow-y: auto;
+  max-height: 439px;
 }
 .tabs__content.active-btn {
   display: block;
+  overflow-y: auto;
 }
 .container-block-tabs{
   width: 100%;
@@ -3170,6 +3169,8 @@ circle {
   width: 100%;
   margin: 0 auto;
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
 }
 .wrapper-account-landing {
   background: #161b1f;
@@ -3201,6 +3202,9 @@ circle {
 }
 .background-light{
   background-color: #181d21;
+}
+.shadow-container{
+  box-shadow: 0px -20px 86px -26px rgba(0,0,0,0.5) inset;
 }
 .max-width-1345{
   max-width: 1345px;
@@ -3308,4 +3312,10 @@ circle {
 }
 .wrapper-game-img img{
   width: 433px;
+}
+.tabs-no-border{
+  border-top: none;
+}
+.margin-top-none {
+  margin-top: 0;
 }
