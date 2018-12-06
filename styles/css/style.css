@@ -2113,11 +2113,49 @@ i.click-hide:hover {
   line-height: 23px;
 }
 
-.change-input-width-password {
+.change-input-width-password,
+.change-input-width-form{
   max-width: 885px;
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.change-input-width-form{
+    max-width: 100%;
+}
+.container-form-change .wrapper-form-copy{
+    max-width: 882px;
+    align-items: center;
+}
+.change-btn{
+    font-family: "Circular Std Bold", Arial;
+    font-size: 17px;
+    color: #1c2125;
+    border: none;
+    background-color: #e2c45e;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    border-radius: 8px;
+    padding: 26px 0 30px;
+    width: 217px;
+    margin-bottom: 22px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.green-btn{
+    background-color: #8ac53c;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+}
+.change-btn:hover,
+.green-btn:hover{
+    transition: .3s;
+    background-color: #efeef1 !important;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
 }
 .wrapper-form-copy{
     display: flex;
@@ -2127,6 +2165,9 @@ i.click-hide:hover {
     padding: 29px 0;
     border-radius: 5px;
     margin-bottom: 22px;
+}
+.change-padding-form{
+    padding: 21px 0 22px;
 }
 .wrapper-form-copy label{
     margin-left: 30px;
@@ -2184,10 +2225,33 @@ i.click-hide:hover {
 
 .padding-form {
   padding: 0 30px;
-  text-align: left !important;
   color: #fff !important;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-family: "Circular Std Medium", Arial;
+  width: 60%;
+  text-align: right !important;
+  outline: none;
 }
-
+.bitcoin-bgr{
+    padding-right: 78px;
+    background-image: url(../../images/bitcoin.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+   background-size: 33px 33px;
+    height: 33px;
+    background-position: 95%;
+}
+.bitcoin-bgr::placeholder{
+    color: #ffffff;
+    font-size: 17px;
+}
+.container-form-change{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
 .padding-form-none {
   padding: 0;
 }
