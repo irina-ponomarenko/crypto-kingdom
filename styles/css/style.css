@@ -123,9 +123,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 .overflow {
-  filter: blur(5px);
+ position: relative !important;
 }
-
+.overflow:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(22,25,29,0.8);
+  z-index: 100;
+}
 .wrapper-account {
   background: #161a1e;
   width: 100%;
@@ -2347,12 +2356,12 @@ input.placeholder-color::placeholder {
 }
 
 .pop_up {
-  max-width: 500px;
+  max-width: 447px;
   width: 100%;
   background: #1c2125;
   position: relative;
-  border-radius: 5px;
-  padding: 34px 0 0;
+  border-radius: 15px;
+  padding: 50px 0 34px;
   z-index: 1100;
   margin: 20px auto;
   font-family: "Circular Std Medium", Arial, sans-serif;
@@ -2379,13 +2388,23 @@ input.placeholder-color::placeholder {
 
 .title-pop-up {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #2e3337;
+  padding-bottom: 40px;
 }
-
+.title-pop-up h2{
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Circular Std Bold", Arial;
+  margin-bottom: 18px;
+}
+.title-pop-up p{
+  font-size: 18px;
+  color: #7b7e80;
+  font-family: "Circular Std Medium", Arial;
+}
 .confirmed {
   width: 117px;
   height: 117px;
@@ -2414,20 +2433,27 @@ input.placeholder-color::placeholder {
 }
 
 .popup_content {
-  max-width: 492px;
+  max-width: 447px;
   width: 100%;
 }
-
+.pop-up-block{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .pop-up-block li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 30px;
-  border-top: 1px solid #2e3337;
-  border-bottom: 1px solid #2e3337;
+  padding: 27px 30px 25px;
+  background-color: #24292d;
+  max-width: 287px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 19px;
 }
-.pop-up-block li:first-child {
-  margin-top: 33px;
+.pop-up-block li:last-child{
+  margin-bottom: 0;
 }
 .pop-up-block li p {
   color: #fff;
