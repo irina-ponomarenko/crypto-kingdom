@@ -604,19 +604,13 @@
     .blackjack-input input{
         max-width: 232px;
     }
-    .buttons-blackjack{
-        margin-top: 15px;
-    }
     .blackjack-buttons{
         max-width: 272px;
-        padding: 16px 0;
-        font-size: 14px;
-        margin-top: 55px;
+        padding: 20px 0;
     }
     .blackjack-clear{
         width: 128px;
         height: 51px;
-        font-size: 14px;
     }
     .blackjack-input-amount{
         padding: 16px 20px;
@@ -627,13 +621,15 @@
     }
     .play{
         max-width: 250px;
-        padding: 15px 0;
     }
     .play p{
-        font-size: 12px;
+        font-size: 20px;
+    }
+    .no-background p{
+        font-size: 16px;
     }
     .play-wrapper{
-        top: -31px
+        top: -88px;
     }
     .img-cards-small{
         padding: 10px 12px;
@@ -643,6 +639,9 @@
     }
     .img-cards-small h2{
         font-size: 28px;
+    }
+    .blackjack-input{
+        margin-top: 20px;
     }
     .heart-options{
         width: 34px;
@@ -654,11 +653,15 @@
         left: 60px;
     }
     .player-2{
-        right: 15px;
-        top: 17px;
+        right: 155px;
+        top: -15px;
     }
     .dealer{
-        bottom: 41px;
+        bottom: 105px;
+    }
+    .player-1 {
+        left: 75px;
+        top: -15px;
     }
     .number{
         width: 40px;
@@ -672,8 +675,8 @@
         left: 60px;
     }
     .desk{
-        right: -148px;
-        bottom: 240px;
+        left: -260px;
+        bottom: 306px;
     }
     .card-desk{
         width: 129px;
