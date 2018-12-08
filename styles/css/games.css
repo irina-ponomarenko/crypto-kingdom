@@ -403,7 +403,7 @@
 .cards-small{
     max-width: 73px;
     width: 100%;
-    height: 149px;
+    height: 151px;
     background: white;
     border-radius: 10px;
     background-image: url(../../images/fon-cards.png);
@@ -1755,7 +1755,7 @@ input.input-game:focus{
 }
 .dealer{
     position: absolute;
-    bottom: 52px;
+    bottom: -35px;
     right: 20px;
 }
 .img-logo-small{
@@ -1791,26 +1791,34 @@ input.input-game:focus{
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: -35px;
+    top: 52px;
 }
 .game-play{
     position: relative;
 }
 .play{
-    color: #7b7e80;
-    background: #21262a;
     border-radius: 5px;
     max-width: 380px;
     width: 100%;
-    padding: 25px 0;
-    font-size: 17px;
+    padding: 11px 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.play p{
+    color: #7b7e80;
+    font-size: 24px;
+    opacity: 0.5;
+    font-family: "Circular Std Medium",Arial;
+}
 .no-background{
     background: transparent;
     opacity: 0.3;
+    padding: 0;
+}
+.no-background p{
+    color: #7b7e80;
+    font-size: 18px;
 }
 .play-outs{
     opacity: 0.3;
@@ -1822,14 +1830,14 @@ input.input-game:focus{
 }
 .player-2{
     position: absolute;
-    right: 20px;
-    top: 30px;
+    right: 195px;
+    top: 70px;
 }
 .border-cards{
     border: 3px solid #7fe05d;
 }
 .card-desk{
-    width: 169px;
+    width: 170px;
     height: 151px;
     background: #1f2326;
     background-image: url("../../images/fon-cards.png");
@@ -1855,8 +1863,8 @@ input.input-game:focus{
 }
 .desk{
     position: absolute;
-    right: -200px;
-    bottom: 256px;
+    left: -350px;
+    bottom: 192px;
 }
 .top-1{
     bottom: -146px;
@@ -1903,16 +1911,77 @@ input.input-game:focus{
     width: 100000000px;
 }
 .slider-list li{
-    width: 97px;
-    border: 2px solid #1abe66;
-    text-align: center;
-    padding: 14px 0;
-    margin-right: 13px;
+    width: 80px;
+    margin-right: 17px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-history-block{
+    background: url("../../images/bg-history.png") repeat-x;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-size: 17px;
+    position: relative;
+    width: 68px;
+    cursor: pointer;
+}
+.rose-history{
+    background: url("../../images/bg-rose-history.png") repeat-x;
+}
+.container-history-block:before{
+    content: '';
+    position: absolute;
+    left: -6px;
+    height: 46px;
+    top: 0;
+    width: 6px;
+    background-image: url("../../images/before-history.png");
+    background-repeat: no-repeat;
+}
+.rose-history:before{
+    background-image: url("../../images/histori-rose.png");
+}
+.container-history-block:after{
+    content: '';
+    position: absolute;
+    right: -6px;
+    height: 46px;
+    top: 0;
+    width: 6px;
+    background-image: url("../../images/after-history.png");
+    background-repeat: no-repeat;
+}
+.rose-history:after{
+    background-image: url("../../images/history-rose-after.png");
 }
 .slider-list li:last-child{
     margin-right: 0;
+}
+.container-slider{
+    max-width: 1192px;
+    overflow-x: hidden;
+    width: 100%;
+}
+.shadow-right{
+    position: relative;
+    z-index: 1000;
+}
+.shadow-right:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 495px;
+    top: 0;
+    bottom: 0;
+    -webkit-box-shadow: inset -490px 0px 132px -85px rgba(24,29,33,0.5);
+    -moz-box-shadow: inset -490px 0px 132px -85px rgba(24,29,33,0.5);
+    box-shadow: inset -490px 0px 132px -85px rgba(24,29,33,0.5);
 }
 .slider-wrapper{
     display: flex;
