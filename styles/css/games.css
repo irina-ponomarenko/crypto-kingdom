@@ -1857,12 +1857,12 @@ input.input-game:focus{
 .player-2{
     position: absolute;
     right: 207px;
-    top: 35px;
+    top: 45px;
 }
 .player-1{
     position: absolute;
     left: 120px;
-    top: 35px;
+    top: 45px;
 }
 .border-cards{
     border: 3px solid #7fe05d;
@@ -1931,6 +1931,22 @@ input.input-game:focus{
 }
 .left-click i:hover{
     color: #ffffff;
+}
+.position-player-winning{
+    right: 17px;
+}
+.green-active .back-active{
+    background-color: #70a22f;
+}
+.position-rotate-90{
+    transform: rotate(90deg);
+    left: 175px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.16);
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.16);
+}
+.position-number-rotate{
+    left: 217px;
 }
 .desk{
     position: absolute;

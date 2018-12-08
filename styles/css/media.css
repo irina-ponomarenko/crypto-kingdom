@@ -685,6 +685,9 @@
         top: 5px;
         font-size: 14px;
     }
+    .position-player-winning{
+        right: 17px;
+    }
     .dark-cards-small{
         top: 15px;
         left: 60px;

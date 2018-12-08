@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BlackJack winning hand</title>
+    <title>BlackJack double example</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="./styles/css/style.css" rel="stylesheet"/>
     <link href="./styles/css/games.css" rel="stylesheet"/>
@@ -331,7 +331,7 @@
                                     </div>
                                 </div>
                                 <div class="game-play">
-                                    <div class="dealer disabled-btn">
+                                    <div class="dealer">
                                         <div class="cards-hearts">
                                             <div class="number">5</div>
                                             <div class="cards-small">
@@ -344,23 +344,17 @@
                                         </div>
                                     </div>
                                     <div class="player-2 position-player-winning">
-                                        <div class="card-back-active green-active">
-                                            <div class="back-active"></div>
-                                            <div class="back-active opacity-50"></div>
-                                            <div class="back-active opacity-20"></div>
-                                        </div>
                                         <div class="cards-hearts">
-                                            <div class="number">20</div>
+                                            <div class="number position-number-rotate">20</div>
                                             <div class="cards-small">
                                                 <h2>K</h2>
                                                 <div class="cadr-img-heart-small"></div>
                                             </div>
-                                            <div class="card-back-active position-top-card green-active">
-                                                <div class="back-active"></div>
-                                                <div class="back-active opacity-50"></div>
-                                                <div class="back-active opacity-20"></div>
-                                            </div>
                                             <div class="cards-small position-cards ">
+                                                <h2>10</h2>
+                                                <div class="cadr-img-heart-small"></div>
+                                            </div>
+                                            <div class="cards-small position-cards position-rotate-90">
                                                 <h2>10</h2>
                                                 <div class="cadr-img-heart-small"></div>
                                             </div>
@@ -403,11 +397,11 @@
                         </div>
                         <div class="wrapper-blackjack-variables">
                             <div class="variables blackjack-position">
-                                <div class="buttons-blackjack disabled-btn">
+                                <div class="buttons-blackjack">
                                     <button type="button" class="blackjack-clear hit">Hit</button>
                                     <button type="button" class="blackjack-clear stand">Stand</button>
                                 </div>
-                                <div class="buttons-blackjack disabled-btn">
+                                <div class="buttons-blackjack">
                                     <button type="button" class="blackjack-clear split">Split</button>
                                     <button type="button" class="blackjack-clear double">Double</button>
                                 </div>
