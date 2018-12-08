@@ -1892,6 +1892,46 @@ input.input-game:focus{
     position: absolute;
     top: -15px;
 }
+.back-active{
+    background-color: #e2c45e;
+    border-radius: 10px;
+    width: 105px;
+    height: 177px;
+    position: absolute;
+    bottom: -5px;
+}
+.opacity-50{
+    opacity: 0.5;
+    bottom: -10px;
+    width: 95px;
+    left: 5px;
+}
+.opacity-20{
+    opacity: 0.2;
+    bottom: -15px;
+    width: 85px;
+    left: 10px;
+}
+.position-top-card{
+    position: absolute;
+    bottom: -20px;
+    right: 4px;
+}
+.left-click{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    left: -37px;
+    top: 50%;
+    cursor: pointer;
+}
+.left-click i{
+    color: #e2c45e;
+    font-size: 23px;
+}
+.left-click i:hover{
+    color: #ffffff;
+}
 .desk{
     position: absolute;
     left: -404px;

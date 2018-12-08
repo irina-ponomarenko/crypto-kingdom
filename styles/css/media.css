@@ -619,6 +619,21 @@
     .blackjack-position{
         margin-top: 10px;
     }
+    .back-active{
+        width: 80px;
+        height: 129px;
+    }
+    .position-top-card {
+        position: absolute;
+        bottom: -15px;
+        right: -2px;
+    }
+    .opacity-50{
+        width: 70px;
+    }
+    .opacity-20{
+        width: 60px;
+    }
     .play{
         max-width: 250px;
     }
