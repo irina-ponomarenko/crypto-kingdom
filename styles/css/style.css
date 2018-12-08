@@ -3392,3 +3392,6 @@ circle {
 .margin-top-none {
   margin-top: 0;
 }
+.green-text-popup{
+  color: #8ac53c !important;
+}

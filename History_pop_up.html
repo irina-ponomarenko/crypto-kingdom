@@ -91,7 +91,7 @@
                     <ul class="nav-left">
                         <li class="buttons">
                             <button type="button" class="withdraw fade_open">Withdraw</button>
-                            <button type="button" class="active-top-header-btn">Deposit</button>
+                            <button type="button" class="active-top-header-btn fade_deposit_open">Deposit</button>
                         </li>
                     </ul>
                     <div class="profile-left-wrapper">
@@ -571,12 +571,45 @@
             <p>Confirmed<i class="fa fa-circle status" aria-hidden="true"></i></p>
         </li>
         <li class="result-block">
-            <h2>-$7,902.79</h2>
+            <h2><span>-</span>$7,902.79</h2>
             <p>- 1.23 <span>BTC</span></p>
         </li>
     </ul>
     <button type="button" class="message-btn">Dismiss Message</button>
 </div>
+
+
+<div class="pop_up" id="fade_deposit">
+    <div class="title-pop-up">
+        <h2>BTC Deposit</h2>
+        <p>Keep track of your most recent deposit.</p>
+        <button type="button" class="img-dismiss-pop-up fade_deposit_close"></button>
+    </div>
+    <ul class="pop-up-block">
+        <li>
+            <h3>Sent to</h3>
+            <div class="wrapper-input">
+                <input type="hidden" id="send1" value="1KdjVUxcBL5TM2QqVx2S"/>
+                <div class="send-to-value">1KdjVUxcBL5TM2QqVx2S</div>
+                <div class="img-clone margin-none"></div>
+            </div>
+        </li>
+        <li>
+            <h3>Date</h3>
+            <p>Tue 6th Nov, 13:00</p>
+        </li>
+        <li>
+            <h3>Confirmations</h3>
+            <p>2/3<i class="fa fa-circle status" aria-hidden="true"></i></p>
+        </li>
+        <li class="result-block">
+            <h2 class="green-text-popup"><span>+</span>$7,902.79</h2>
+            <p>1.23 <span>BTC</span></p>
+        </li>
+    </ul>
+    <button type="button" class="message-btn">Dismiss Message</button>
+</div>
+
 
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/jquery-ui.min.js"></script>

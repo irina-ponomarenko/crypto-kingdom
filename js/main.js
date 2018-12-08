@@ -68,6 +68,16 @@ $(document).ready(function () {
             }
         });
     });
+    $('.fade_deposit_open').on('click', function() {
+        $(".wrapper-account").addClass("overflow");
+        $('#fade_deposit').popup({
+            transition: 'all 0.3s',
+            scrolllock: true,
+            onclose: function () {
+                $(".wrapper-account").removeClass("overflow");
+            }
+        });
+    });
 
 
     $("#click_down_1").on("click", function(){
