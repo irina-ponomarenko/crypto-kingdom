@@ -3035,6 +3035,9 @@ circle {
   font-size: 45px;
   line-height: 41px;
 }
+.wrapper-content-left-block h2{
+  margin-bottom: 10px;
+}
 .wrapper-content-left-block span{
   color: #7b7e80;
   font-weight: 300;
@@ -3049,7 +3052,7 @@ circle {
   line-height: 41px;
   position: relative;
   margin-bottom: 60px;
-  max-width: 545px;
+  max-width: 598px;
 }
 .wrapper-content-left-block p:before{
   content: '';
@@ -3094,7 +3097,7 @@ circle {
   text-align: left;
 }
 .right-content-block{
-  max-width: 475px;
+  max-width: 470px;
   width: 100%;
 }
 .right-content-block-landing{
@@ -3169,32 +3172,34 @@ circle {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  margin-bottom: 48px;
+  margin-bottom: 116px;
 }
 .header-landing-section h2,
 .header-landing-section p{
-  font-family: 'Roboto Th';
+  font-family: "Circular Std Medium", Arial;
   font-size: 45px;
   text-align: center;
   display: inline-block;
-  line-height: 59px;
+  line-height: 40px;
   color: #ffffff;
 }
 .header-landing-section p{
-  font-size: 35px;
+  font-size: 24px;
+  line-height: 40px;
+  margin-top: 10px;
 }
 .header-landing-section h2 span{
   color: #e2c45e;
 }
 .list-game-info-title{
-  font-family: 'Roboto Th';
-  font-size: 34px;
+  font-family: "Circular Std Medium", Arial;
+  font-size: 33px;
   text-align: center;
   display: inline-block;
   line-height: 36px;
   color: #ffffff;
   margin: 0 auto;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 .list-games-landing li a:hover .list-game-info-title{
   transition: .3s;
@@ -3304,12 +3309,15 @@ circle {
 .container-block-crypto-info h2{
   color: #ffffff;
   font-size: 45px;
-  font-family: 'Roboto Th';
+  font-family: "Circular Std Bold", Arial;
   line-height: 59px;
   position: relative;
   padding-bottom: 45px;
   margin-bottom: 34px;
   white-space: pre-line;
+}
+.container-block-crypto-info h2 span{
+  font-family: "Circular Std Medium", Arial;
 }
 .container-block-crypto-info h2:before{
   content: '';
@@ -3345,7 +3353,7 @@ circle {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 .text-align-right-block h2,
 .text-align-right-block p{
