@@ -1340,6 +1340,96 @@ input.input-game:focus{
     border: 3px solid #43484b;
     cursor: pointer;
 }
+.provably-fair-btn{
+    font-size: 17px;
+    font-family: "Circular Std Bold", Arial, sans-serif;
+    color: #1c2125;
+    text-align: center;
+    padding: 24px 0;
+    width: 284px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #efeef1;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+.wrapper-img-graphic{
+    width: 793px;
+    height: 448px;
+}
+.wrapper-img-graphic img{
+    max-width: 793px;
+    width: 100%;
+}
+.provably-fair-btn:hover{
+    background: #e2c45e !important;
+    color: #1c2125 !important;
+    transition: .3s;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1) !important;
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1) !important;
+    box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1) !important;
+}
+.container-crash-graphic{
+    position: relative;
+}
+.game-crash-btn-content{
+    position: absolute;
+    top: 110px;
+    left: 254px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-crash-content{
+    text-align: center;
+}
+.title-crash-content h2{
+    font-family: "Circular Std Bold", Arial;
+    color: #8ac53c;
+    font-size: 60px;
+}
+.crash-btn{
+    font-size: 17px;
+    font-family: "Circular Std Bold", Arial, sans-serif;
+    color: #1c2125;
+    text-align: center;
+    padding: 24px 0;
+    width: 255px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #8ac53c;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+    position: relative;
+}
+.crash-btn:hover .button-title-container{
+    display: block;
+}
+.crash-btn .button-title-container .button-title:before{
+    top: 4px;
+}
+.crash-btn:hover{
+    transition: .3s;
+    padding: 24px 0;
+    background-color: #efeef1;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+}
+.title-crash-content p{
+    font-family: "Circular Std Bold", Arial;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 31px;
+}
 .provably-btn:hover{
     transition: .3s;
     background-color: #43484b;
@@ -1534,30 +1624,61 @@ input.input-game:focus{
 /*---------------------------crash----------------------*/
 
 .crash-input{
-    width: 100%;
-    background-color: #191e21;
+    background-color: #292e33;
     display: flex;
     align-items: center;
+    flex-direction: column;
     border-radius: 5px;
+    padding: 10px;
 }
-
-.crash-input:first-child{
+.crash-input-block{
+    width: 82px;
+    height: 52px;
+    background-color: #1c2023;
+    color: #78787a;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Circular Std Medium", Arial;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+.crash-input-block-long{
+    width: 100%;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.input-block-long{
+    max-width: 226px;
+    width: 100%;
+    color: #78787a;
+    font-size: 16px;
+    text-align: left;
+    font-family: "Circular Std Medium", Arial;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #292e33;
+    padding: 28px 30px;
+}
+.big-block{
+    width: 174px;
+}
+.crash-input-block:nth-child(3){
+    margin-right: 0;
+}
+.crash-input-block:last-child{
+    margin-right: 0;
+}
+.crash-input-container{
+    display: flex;
     margin-bottom: 10px;
 }
-.crash-input input{
-    padding: 18px;
-    max-width: 192px;
-    width: 100%;
-    text-align: right;
-    font-size: 20px;
+.crash-input-container:last-child{
+    margin-bottom: 0;
 }
-.crash-input span{
-    margin-left: 15px;
-    color: #fff;
-}
-.crash-input span img{
-    width: 40px;
-}
+
 .crash-buttons{
     max-width: 236px;
     width: 100%;
@@ -1582,26 +1703,22 @@ input.input-game:focus{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    max-width: 236px;
+    max-width: 286px;
     width: 100%;
 }
 .crash-position{
     flex-direction: column;
     margin-bottom: 0;
 }
-.crash-graphic img{
-    max-width: 580px;
-    width: 100%;
-}
 .crash-graphic{
     margin: 0;
-    margin-left: 30px;
+    margin-top: 12px;
+    margin-right: 48px;
 }
 .crash-game{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 530px;
 }
 /*------------------blackjack--------------------*/
 
@@ -1651,6 +1768,7 @@ input.input-game:focus{
     font-size: 18px;
     font-family: "Circular Std Bold", Arial;
     border-radius: 8px;
+    position: relative;
 }
 .buttons-blackjack {
     position: relative;
@@ -1763,6 +1881,9 @@ input.input-game:focus{
     max-width: 811px;
     width: 100%;
     position: relative;
+    min-height: 530px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 .dark-cards-small{
     background: #1f2326;
@@ -1818,7 +1939,7 @@ input.input-game:focus{
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: -35px;
+    top: 235px;
 }
 .game-play{
     position: relative;
@@ -1983,7 +2104,7 @@ input.input-game:focus{
 }
 .overflow-block{
     overflow-y: hidden;
-    overflow-x: inherit;
+    overflow-x: visible;
 }
 .display-none{
     display: none;
@@ -1991,27 +2112,95 @@ input.input-game:focus{
 .opacity-30{
     opacity: 0.33;
 }
-
-.button-title {
-    position: relative;
-    display: flex;
-    cursor: pointer;
-}
-.button-title:hover::after {
-    content: attr(data-text);
+.button-title-container{
     position: absolute;
-    left: 0%;
-    right: 0%;
-    bottom: 0%;
+    right: -162px;
+    top: 0;
     z-index: 1;
     background: #ffffff;
-    font-family: "Circular Std Medium", Arial;
-    font-size: 18px;
-    padding: 23px 27px;
-    color: #39393d;
+    padding: 20px;
     border-radius: 8px;
-    max-width: 180px;
+    max-width: 121px;
     width: 100%;
+    display: none;
+}
+.left-btn-container{
+    right: 136px;
+}
+.button-title-container p{
+    position: relative;
+}
+.button-title-container p:before{
+    content:'';
+    display:block;
+    width:0;
+    height:0;
+    position:absolute;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right:10px solid white;
+    left:-30px;
+    top: -3px;
+}
+.left-btn-container p:before{
+    content:'';
+    display:block;
+    width:0;
+    height:0;
+    position:absolute;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left:10px solid white;
+    border-right: none;
+    left: 141px;
+    top: -3px;
+}
+.button-title {
+    font-family: "Circular Std Medium", Arial;
+    font-size: 16px;
+    color: #39393d;
+    text-align: left;
+}
+.blackjack-clear:hover .button-title-container{
+    display: block;
+}
+.container-slider-crash{
+    max-width: 1253px;
+    overflow-x: hidden;
+    width: 100%;
+}
+.slider-list-crash{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.slider-list-crash li{
+    margin-right: 10px;
+    border-radius: 8px;
+    height: 46px;
+    font-size: 17px;
+    color: #ffffff;
+}
+.slider-list-crash li:last-child{
+    margin-right: 0;
+}
+.container-history-block-crash{
+    width: 89px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #8ac53c;
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(112,162,47,1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(112,162,47,1);
+    box-shadow: 0px 5px 0px 0px rgba(112,162,47,1);
+    border-radius: 8px;
+}
+.rose-history-crash{
+    background-color: #ea6375;
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(193,69,85,1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(193,69,85,1);
+    box-shadow: 0px 5px 0px 0px rgba(193,69,85,1);
 }
 /*-----------------jackpot--------------*/
 

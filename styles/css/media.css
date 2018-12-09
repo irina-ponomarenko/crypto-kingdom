@@ -644,7 +644,7 @@
         font-size: 16px;
     }
     .play-wrapper{
-        top: -88px;
+        top: 174px;
     }
     .img-cards-small{
         padding: 10px 12px;
@@ -657,6 +657,23 @@
     }
     .blackjack-input{
         margin-top: 20px;
+    }
+    .button-title {
+        font-size: 14px;
+    }
+    .button-title-container {
+        right: -110px;
+        padding: 15px 17px;
+        max-width: 74px;
+    }
+    .left-btn-container{
+        right: 130px;
+    }
+    .button-title-container p:before{
+        left: -27px;
+    }
+    .left-btn-container p:before{
+        left: 91px;
     }
     .heart-options{
         width: 34px;
