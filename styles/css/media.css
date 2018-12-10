@@ -585,9 +585,6 @@
     .wrapper-crash-variables{
         max-width: 217px;
     }
-    .crash-input input{
-        max-width: 178px;
-    }
     .crash-buttons{
         font-size: 14px;
         padding: 18px 20px;
@@ -603,6 +600,16 @@
     }
     .blackjack-input input{
         max-width: 232px;
+    }
+    .crash-input-block {
+        width: 62px;
+        height: 42px;
+    }
+    .crash-input{
+        padding: 6px;
+    }
+    .big-block {
+        width: 134px;
     }
     .blackjack-buttons{
         max-width: 272px;
@@ -829,9 +836,52 @@
     .sidebar{
         max-height: 202px;
     }
-
-
-
+    .wrapper-img-graphic img {
+        max-width: 635px;
+        width: 100%;
+    }
+    .start-crash-btn, .crash-btn, .crash-busted{
+        padding: 20px 0;
+        width: 200px;
+    }
+    .title-crash-content h2, .waiting-title{
+        font-size: 50px;
+    }
+    .start-crash-btn:hover, .crash-btn:hover{
+        padding: 20px 0;
+    }
+    .title-crash-content p{
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .game-crash-btn-content {
+        top: 89px;
+        left: 228px;
+    }
+    .provably-fair-btn{
+        padding: 20px 0;
+        width: 235px;
+    }
+    .buttons-tabs {
+        width: 150px;
+        padding: 20px 0 21px;
+    }
+    .container-slider-crash {
+        max-width: 953px;
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .wrapper-img-graphic {
+        width: 635px;
+        height: 348px;
+    }
+    .input-block-long{
+        padding: 18px 20px;
+        max-width: 178px;
+    }
+    .crash-wrapper{
+        max-width: 995px;
+    }
     .cards-small{
         padding: 10px 12px;
         max-width: 55px;

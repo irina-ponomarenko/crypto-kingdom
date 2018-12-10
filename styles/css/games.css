@@ -1389,12 +1389,18 @@ input.input-game:focus{
 .title-crash-content{
     text-align: center;
 }
-.title-crash-content h2{
+.title-crash-content h2,
+.waiting-title{
     font-family: "Circular Std Bold", Arial;
     color: #8ac53c;
     font-size: 60px;
 }
-.crash-btn{
+.waiting-title{
+    color: #7b7e80 !important;
+}
+.start-crash-btn,
+.crash-btn,
+.crash-busted{
     font-size: 17px;
     font-family: "Circular Std Bold", Arial, sans-serif;
     color: #1c2125;
@@ -1404,18 +1410,35 @@ input.input-game:focus{
     border: none;
     cursor: pointer;
     border-radius: 8px;
+    position: relative;
+    background-color: #e2c45e;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+}
+.crash-busted{
+    background-color: #ea6375;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(193,69,85,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(193,69,85,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(193,69,85,1);
+}
+.crash-btn{
     background-color: #8ac53c;
     -webkit-box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
     -moz-box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
     box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
-    position: relative;
 }
+.busted-title{
+    color: #ea6375 !important;
+}
+.start-crash-btn:hover .button-title-container,
 .crash-btn:hover .button-title-container{
     display: block;
 }
 .crash-btn .button-title-container .button-title:before{
     top: 4px;
 }
+.start-crash-btn:hover,
 .crash-btn:hover{
     transition: .3s;
     padding: 24px 0;
@@ -1429,6 +1452,7 @@ input.input-game:focus{
     color: #ffffff;
     font-size: 18px;
     line-height: 31px;
+    margin-bottom: 28px;
 }
 .provably-btn:hover{
     transition: .3s;
