@@ -1225,7 +1225,6 @@ input.input-game:focus{
 }
 .list-game-rouletta:last-child{
     margin-bottom: 0;
-    padding-bottom: 47px;
 }
 .indicator{
     width: 6px;
@@ -1471,7 +1470,7 @@ input.input-game:focus{
 .provably-fair-dice-btn{
     font-size: 17px;
     font-family: "Circular Std Bold", Arial, sans-serif;
-    color: #1c2125;
+    color: #1c2125 !important;
     text-align: center;
     padding: 24px 0;
     width: 284px;
@@ -1490,6 +1489,70 @@ input.input-game:focus{
     position: relative;
     top: 0;
     margin-top: 22px;
+}
+.roulette-margin{
+    margin-top: 25px !important;
+}
+.roulette-position{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 285px;
+    width: 100%;
+}
+.roulette-play-btn{
+    width: 100%;
+    padding: 19px 0 23px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Circular Std Bold", Arial;
+    border: none;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.roulette-play-btn:first-child{
+    margin-top: 0;
+}
+.roulette-top{
+    align-self: flex-start;
+    margin-top: 35px !important;
+}
+.roulette-play-btn:hover{
+    transition: .3s;
+    background-color: #efeef1;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    color: #1c2125;
+}
+.red-btn-roulette{
+    background-color: #ea6375;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(193,69,85,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(193,69,85,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(193,69,85,1);
+}
+.black-btn-roulette{
+    background-color: #333a40;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(46,52,58,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(46,52,58,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(46,52,58,1);
+}
+.green-btn-roulette{
+    background-color: #8ac53c;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+}
+.place-bet-roulette{
+    background-color: #e2c45e;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    color: #1c2125;
+    margin-top: 30px;
 }
 .wrapper-img-graphic{
     width: 793px;
