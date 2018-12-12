@@ -2710,6 +2710,7 @@ a.active-jackpot:before{
     font-family: "Circular Std Medium", Arial;
     font-size: 16px;
     color: #ffffff;
+    text-align: right;
 }
 .input-jackpot p span{
     color: #78787a;
@@ -2815,6 +2816,19 @@ a.active-jackpot:before{
 }
 .jackpot-bet .title-pop-up{
     padding-bottom: 0;
+}
+.wrapper-spiner-jacpot{
+    position: relative;
+    padding-right: 64px;
+}
+.container-selector-spinner{
+    background-image: url("../../images/spinning-selector.png");
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 46%;
 }
 /*-----------scroll-bar-----------*/
 

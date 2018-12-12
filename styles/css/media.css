@@ -1176,7 +1176,7 @@
         font-size: 12px;
     }
     .jackpot-game-wrapper{
-        max-width: 795px;
+        max-width: 895px;
     }
     .scroll-history-list {
         max-height: 450px;
@@ -1204,6 +1204,24 @@
         border: 3px solid #43484b;
         width: 35px;
         height: 35px;
+    }
+    .history-list{
+        max-width: 362px;
+    }
+    .nav-account{
+        margin-left: 85px;
+    }
+    .header-btn-jackpot:last-child{
+        margin-right: 85px;
+    }
+    .rollers-btn{
+        width: 285px;
+    }
+    .max-jackpot-btn {
+        width: 248px;
+    }
+    .header-btn-jackpot{
+        font-size: 15px;
     }
     .dropdown-language {
         width: 70px;
