@@ -2750,6 +2750,72 @@ a.active-jackpot:before{
     box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
     transition: .3s;
 }
+.jackpot-bet{
+    max-width: 448px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.wrapper-place-input{
+    background-color: #24292d;
+    border-radius: 5px;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.place-bet{
+    max-width: 345px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper-place-input{
+    margin-bottom: 15px;
+}
+.wrapper-place-input:last-child{
+    margin-bottom: 0;
+}
+.wrapper-place-input input{
+    background-color: transparent;
+    border: none;
+    text-align: right;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Circular Std Medium", Arial;
+    outline: none;
+    width: 70%;
+}
+.wrapper-place-input label{
+    color: #78787a;
+    font-size: 16px;
+    font-family: "Circular Std Medium", Arial;
+}
+.bet-info{
+    margin: 0 auto;
+    max-width: 343px;
+    text-align: center;
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+    font-size: 18px;
+    font-family: "Circular Std Medium", Arial;
+    color: #7b7e80;
+}
+.header-title-jackpot{
+    background-color: #e2c45e;
+    padding: 7px 0;
+    border-radius: 3px;
+    width: 136px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.header-title-jackpot p{
+    margin: 0;
+    font-size: 13.68px;
+    color: #1c2125;
+    line-height: 12px;
+}
+.jackpot-bet .title-pop-up{
+    padding-bottom: 0;
+}
 /*-----------scroll-bar-----------*/
 
 ::-webkit-scrollbar-button {

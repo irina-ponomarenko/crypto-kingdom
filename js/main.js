@@ -78,7 +78,16 @@ $(document).ready(function () {
             }
         });
     });
-
+    $('.fade_jackpot_open').on('click', function() {
+        $(".wrapper-account").addClass("overflow");
+        $('#fade_jackpot').popup({
+            transition: 'all 0.3s',
+            scrolllock: true,
+            onclose: function () {
+                $(".wrapper-account").removeClass("overflow");
+            }
+        });
+    });
 
     $("#click_down_1").on("click", function(){
         $("#info_block_1").css('display', 'block');
