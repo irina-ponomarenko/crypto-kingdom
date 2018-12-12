@@ -2406,6 +2406,53 @@ input.input-game:focus{
     justify-content: center;
 
 }
+.header-btn-jackpot{
+    border-radius: 8px;
+    padding: 12px 0 13px;
+    font-family: "Circular Std Bold", Arial;
+    font-size: 17px;
+    color: #1c2125;
+    border: none;
+    cursor: pointer;
+}
+.jackpot-fair{
+    width: 170px;
+    background-color: #efeef1;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+}
+.header-btn-jackpot:last-child{
+    margin-right: 100px;
+}
+.rollers-btn{
+    background-color: #e2c45e;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    width: 328px;
+    margin-right: 10px;
+}
+.rollers-btn:hover{
+    background-color: #efeef1;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    transition: .3s;
+}
+.max-jackpot-btn{
+    width: 284px;
+    background-color: #efeef1;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+}
+.header-container-jackpot{
+    width: 90%;
+    margin-left: 17px;
+    display: flex;
+    justify-content: space-between;
+}
 .container-history-block{
     background: url("../../images/bg-history.png") repeat-x;
     height: 46px;
@@ -2586,7 +2633,7 @@ a.active-jackpot:before{
 }
 .spiner{
     position: relative;
-    max-width: 495px;
+    max-width: 457px;
 }
 .wrapper-info-spiner{
     position: absolute;
@@ -2604,20 +2651,15 @@ a.active-jackpot:before{
     text-align: center;
 }
 .info-spiner h2{
-    font-size: 25px;
-    color: #fff;
-    margin-bottom: 15px;
-    font-family: 'robotoregular';
-}
-.info-spiner h2 span{
-    font-size: 15px;
+    font-size: 36px;
     color: #e2c45e;
-    font-family: 'robotoregular';
+    margin-bottom: 15px;
+    font-family: "Circular Std Bold", Arial;
 }
-.info-spiner  .price-span{
-    font-size: 20px;
-    padding-bottom: 30px;
-    border-bottom: 2px solid #e2c45e;
+.info-spiner  .text-spiner-info{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Circular Std Bold", Arial;
 }
 .user-position{
     display: flex;
@@ -2635,339 +2677,79 @@ a.active-jackpot:before{
     font-size: 20px;
 }
 .jackpot-game-wrapper{
-    max-width: 1240px;
+    max-width: 1128px;
     width: 100%;
-    align-items: flex-start;
-    display: flex;
-    justify-content: space-between;
-}
-.user-information-game li img{
-    max-width: 52px;
-    border-radius: 5px;
-}
-.user-account{
-    max-width: 150px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 43px;
 }
 .history-list{
-    max-width: 590px;
+    max-width: 487px;
     width: 100%;
+    margin: 0 44px;
 }
-.user-information-game {
-    max-height: 374px;
+.wrapper-input-jackpot{
+    background-color: #22272b;
+    padding: 24px 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
-.user-information-game:last-child {
+.last-winner-input{
+    padding: 15px 30px;
+}
+.title-input-jackpot{
+    font-family: "Circular Std Medium", Arial;
+    font-size: 16px;
+    color: #78787a;
+}
+.input-jackpot p{
+    font-family: "Circular Std Medium", Arial;
+    font-size: 16px;
+    color: #ffffff;
+}
+.input-jackpot p span{
+    color: #78787a;
+}
+.green-span{
+    color: #8ac53c !important;
+}
+.wrapper-input-jackpot .chat-block{
+    flex-direction: row-reverse;
+    padding: 0;
+}
+.wrapper-input-jackpot .chat-block .avatar{
+    margin-left: 18px;
+    margin-right: 0;
+}
+.wrapper-input-jackpot .chat-block .profile-info .profile-header .wrapper-title-avatar{
     margin-bottom: 0;
 }
-.user-information-game li{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 490px;
-    width: 100%;
-    padding: 15px;
-    border: 2px solid #23282c;
-    margin-top: 10px;
-}
-.user-information-game li:first-child{
-    margin-top: 0;
-}
-li.border-color-green{
-    border-left: 3px solid #1abe66;
-}
-li.border-color-blue{
-    border-left: 3px solid #1a95be;
-}
-li.border-color-yellow{
-    border-left: 3px solid #bead1a;
-}
-li.border-color-rouse{
-    border-left: 3px solid #b01abe;
-}
-.title-name-user h3{
-    font-size: 15px;
-    color: #e2c45e;
-    margin-bottom: 5px;
-}
-.title-name-user span{
-    font-size: 15px;
-    color: #fff;
-}
-.title-name-user{
-    display: flex;
-    flex-direction: column;
-}
-.title-result {
-    display: flex;
-}
-.title-result span {
-    margin-right: 10px;
-}
-.title-result h3{
-    position: relative;
-    padding-left: 30px;
-    color: #fff;
-    font-size: 15px;
-    margin-bottom: 5px;
-}
-.title-result h3:before{
-    content: '';
-    position: absolute;
-    background-image: url('../../images/bet.png');
-    background-repeat: no-repeat;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 20px;
-    background-size: contain;
-}
-.result-winner{
-    max-width: 250px;
-    width: 100%;
-}
-.result-user span{
-    font-size: 15px;
-}
-.progress-bar{
-    position: relative;
-}
-.progress-line{
-    background-color: #23282c;
-    border-radius: 5px;
-    max-width: 130px;
-    width: 100%;
-    height: 5px;
-}
-.progress{
-    background-color: #e2c45e;
-    height: 5px;
-    position: absolute;
-    border-radius: 5px;
-    top: 0;
-    left: 0;
-    right: 77%;
-    bottom: 0;
-}
-.status-position-user p{
-    margin-top: 10px;
-    font-size: 15px;
-}
-.active-pot{
-    font-size: 25px;
-    color: #fff;
-    margin-bottom: 25px;
-}
-.previous{
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.last-winner{
-    color: #fff;
-    font-size: 15px;
-}
-.winner{
-    display: flex;
-    align-items: center;
-}
-.last-winner{
-    margin-left: 14px;
-}
-.active-winner{
-    background-color: #23282c;
-}
-.start-game,
-.waiting-game{
-    border: none;
-    background-color: #e2c45e;
-    outline: none;
-    font-size: 17px;
-    max-width: 340px;
-    width: 100%;
-    padding: 30px 0;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 30px 0;
-}
-.waiting-game{
-    background-color: #43484b;
-    color: #fff;
-    position: relative;
-}
-.progress-border{
-    width: 40%;
-    height: 2px;
-    display: flex;
-    background-color: #7c7f81;
-    position: absolute;
-    bottom: 0;
-}
-.start-game:hover{
-    transition: .3s;
-    background-color: #c4a331;
-}
-.scale-spiner p{
-    font-size: 22px;
-    display: flex;
-}
-.scale-spiner p span{
-    margin: 0 10px;
-}
-.infinity{
-    font-size: 32px;
-}
-.wrapper-spiner-jacpot{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-right: 30px;
-}
-.jackpot-start{
-    text-align: center;
-}
-.width-percent{
-    margin-left: 10px;
-}
-.scroll-history-list{
-    max-height: 725px;
-    overflow: auto;
-}
-.content-start{
-    justify-content: flex-start;
-}
-
-.beasty{
-    color: #e2c45e;
-    font-size: 30px;
-    padding-bottom: 30px;
-    border-bottom: 2px solid #e2c45e;
-}
-.user-result{
-    margin-top: 70px;
-    font-size: 25px;
-    color: #fff;
-    font-family: 'robotoregular';
-    position: relative;
-    padding-left: 50px;
-}
-.user-result:before{
-    content: '';
-    position: absolute;
-    background-image: url('../../images/bet.png');
-    background-repeat: no-repeat;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 38px;
-    background-size: contain;
-}
-.bet-info{
-    font-size: 17px;
-    max-width: 335px;
-    margin: 0 auto;
-}
-.place-bet{
-    background-color: #161b1f;
-    max-width: 370px;
-    width: 100%;
-    padding: 25px 20px;
-    border-radius: 5px;
-    margin: 0 auto;
-}
-.crowns-input{
-    border: none;
-    outline: none;
-    background: transparent;
-    color: #fff;
-    font-size: 25px;
-    text-align: right;
-    width: 66%;
-    padding-left: 50px;
-}
-.corona-img-input{
-    position: relative;
-}
-.crown-span{
-    margin-left: 1px;
-}
-.corona-img-input:before{
-    content: '';
-    position: absolute;
-    background-image: url('../../images/bet.png');
-    background-repeat: no-repeat;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 44px;
-    background-size: contain;
-}
-.bet-pop-up h3{
-    text-align: center;
-    font-size: 17px;
-    padding: 30px 0;
-    border-top: 1px solid #282c30;
-    margin-top: 30px;
-}
-
-
-.slider-progress {
-    width: 390px;
-    height: 11px;
-    background: #161b1f;
-    position: relative;
-    margin: 0 auto;
-    padding: 0 10px;
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.slider-progress .ui-slider-handle {
-    width: 18px;
-    height: 18px;
-    position: absolute;
-    top: -4px;
-    margin-left: -12px;
-    z-index: 200;
-    background: #fff;
-    background-image: none;
-    transform: rotate(45deg);
-}
-
-.ui-widget-header {
-    background: #e2c45e;
-    height: 8px;
-    left: 1px;
-    top: 1px;
-    position: absolute;
-    border-radius: 5px;
-}
 .place-bet-btn{
-    max-width: 410px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: #e2c45e;
-    padding: 20px 0;
-    font-size: 15px;
+    border-radius: 8px;
+    padding: 22px 0;
+    font-family: "Circular Std Bold", Arial;
+    font-size: 17px;
+    color: #1c2125;
     border: none;
-    outline: none;
-    margin: 0 auto;
-    font-family: 'robotoregular';
-    display: flex;
-    justify-content: center;
     cursor: pointer;
-    margin-bottom: 30px;
+    background-color: #e2c45e;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    width: 100%;
+    margin-top: 13px;
 }
 .place-bet-btn:hover{
-    background: #c4a331;
+    background-color: #efeef1;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
     transition: .3s;
 }
-
 /*-----------scroll-bar-----------*/
 
 ::-webkit-scrollbar-button {

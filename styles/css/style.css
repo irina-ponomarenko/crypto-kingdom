@@ -1241,7 +1241,6 @@ input:checked + .slider:before {
 }
 
 .profile-info {
-  width: 85%;
   display: flex;
   justify-content: space-between;
 }
