@@ -866,6 +866,59 @@
         width: 150px;
         padding: 20px 0 21px;
     }
+    .dice-block-rhombus{
+        width: 240px;
+        height: 275px;
+        margin-right: 37px;
+    }
+    .title-rhombus h2{
+        font-size: 45px;
+    }
+    .title-rhombus p {
+        font-size: 14px;
+    }
+    .title-rhombus {
+        top: 104px;
+        left: 68px;
+    }
+    .container-content-dice {
+        max-width: 740px;
+        width: 100%;
+        margin-right: 25px;
+        margin-left: 20px;
+    }
+    .container-control-dice {
+        max-width: 450px;
+    }
+    .provably-fair-dice-btn{
+        padding: 18px 0;
+        width: 220px;
+    }
+    .container-slider-dice{
+        max-width: 845px;
+    }
+    .container-input-dice{
+        max-width: 400px;
+        padding: 18px 25px;
+    }
+    .input-dice{
+        width: 73%;
+    }
+    .roll-over-container {
+        padding: 12px 25px 11px;
+    }
+    .poligon-wrapper img{
+        max-width: 240px;
+    }
+    .spin-dice{
+        padding: 19px 0;
+    }
+    .dice-longe-input {
+        margin-top: 30px !important;
+    }
+    .wrapper-gamemode{
+        justify-content: center;
+    }
     .container-slider-crash {
         max-width: 953px;
         overflow-x: hidden;

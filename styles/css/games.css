@@ -49,8 +49,12 @@
     background-size: contain;
 }
 .wrapper-gamemode {
-    padding: 30px;
+    padding: 35px 0 74px;
     position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 1128px;
+    width: 100%;
 }
 
 .header-games {
@@ -185,29 +189,30 @@
 
 .dice-change-block {
     background: #1c2125;
-    padding: 19px 30px;
-    padding-top: 0;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    padding: 23px 30px;
+    border-radius: 8px;
 }
 
 .scale {
     position: relative;
-    bottom: 7px;
+    bottom: 0;
 }
 
 .scale-block {
     width: 100%;
     display: flex;
-    height: 10px;
+    height: 15px;
     position: relative;
-    background: #c75353;
-    border-radius: 10px;
+    background: #ea6375;
+    webkit-box-shadow: inset 0px -5px 0px 0px rgba(193,69,85,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(193,69,85,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(193,69,85,1);
 }
-
 .normal {
-    background: #72ca54;
-    border-radius: 5px 0 0  5px;
+    background: #8ac53c;
+    webkit-box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
     width: 50%;
 }
 
@@ -215,33 +220,40 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 5px;
+    margin-top: 16px;
+    position: absolute;
+    width: 100%;
 }
 .scale-numbers li {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
-    font-size: 14px;
+    font-size: 19px;
+    font-family: "Circular Std Medium", Arial;
 }
-
+.scale-numbers li span{
+    margin-bottom: 13px;
+    height: 13px;
+    font-size: 14px !important;
+}
 .central {
     margin-left: 16px;
 }
-
+.dice-longe-input{
+    margin-top: 40px !important;
+}
 .ui-slider .ui-slider-handle {
-    background-image: url("../../images/smart-cub.png");
+    background-image: url("../../images/selector.png");
     background-repeat: no-repeat;
-    width: 31px;
-    height: 31px;
+    width: 19px;
+    height: 36px;
     position: absolute;
     right: 0;
-    left: 48%;
-    top: 20px;
-    margin-left: -16px;
+    top: -10px;
+    margin-left: -9px;
     cursor: pointer;
     outline: none;
 }
-
 .history-dice {
     width: 100%;
     border-collapse: separate;
@@ -297,6 +309,121 @@
     color: #8ac53c;
 }
 
+.dice-game-block{
+    display: flex;
+}
+.container-content-dice{
+    max-width: 816px;
+    width: 100%;
+    margin-right: 30px;
+}
+.dice-block-rhombus{
+    width:280px;
+    height:315px;
+    position: relative;
+    margin-right: 47px;
+}
+.title-rhombus{
+    position: absolute;
+    top: 125px;
+    left: 75px;
+    text-align: center;
+}
+.title-rhombus h2{
+    color: #8ac53c;
+    font-size: 55px;
+    font-family: "Circular Std Bold", Arial;
+}
+.title-rhombus p{
+    font-size: 17px;
+    font-family: "Circular Std Medium", Arial;
+    color: #ffffff;
+}
+.container-control-dice{
+    width: 100%;
+}
+.container-input-dice{
+    background-color: #21262b;
+    border-radius: 8px;
+    padding: 23px 30px;
+    max-width: 427px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.container-input-dice:last-child{
+    margin-bottom: 22px;
+}
+.spin-dice{
+    font-size: 17px;
+    font-family: "Circular Std Bold", Arial, sans-serif;
+    color: #1c2125;
+    text-align: center;
+    padding: 23px 0;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #e2c45e;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(196,166,65,1);
+}
+.spin-dice:hover{
+    transition: .3s;
+    background-color: #efeef1;
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(204,202,208,1);
+}
+.input-dice{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Circular Std Medium",Arial;
+    text-align: right;
+    width: 77%;
+}
+.arrow-down-up{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.arrow-down-up button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.roll-over-container{
+    padding: 17px 30px 17px;;
+}
+.arrow-down-up button i{
+    color: #8ac53c;
+}
+.arrow-down-up button i:hover{
+    color: #ffffff;
+    transition: .3s;
+}
+.block-scroll{
+    display: flex;
+    align-items: center;
+}
+.number-scroll{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Circular Std Medium", Arial;
+    text-align: right;
+    border: none;
+    padding-right: 10px;
+}
 /*----------------------------buttons--------------------------*/
 
 .buttons-dice {
@@ -1340,7 +1467,8 @@ input.input-game:focus{
     border: 3px solid #43484b;
     cursor: pointer;
 }
-.provably-fair-btn{
+.provably-fair-btn,
+.provably-fair-dice-btn{
     font-size: 17px;
     font-family: "Circular Std Bold", Arial, sans-serif;
     color: #1c2125;
@@ -1357,6 +1485,11 @@ input.input-game:focus{
     position: absolute;
     top: 12px;
     left: 0;
+}
+.provably-fair-dice-btn{
+    position: relative;
+    top: 0;
+    margin-top: 22px;
 }
 .wrapper-img-graphic{
     width: 793px;
@@ -1730,9 +1863,13 @@ input.input-game:focus{
     max-width: 286px;
     width: 100%;
 }
-.crash-position{
+.crash-position,
+.dice-position{
     flex-direction: column;
     margin-bottom: 0;
+}
+.dice-position{
+    margin-top: 0;
 }
 .crash-graphic{
     margin: 0;
@@ -2188,43 +2325,70 @@ input.input-game:focus{
 .blackjack-clear:hover .button-title-container{
     display: block;
 }
-.container-slider-crash{
+.container-slider-crash,
+.container-slider-dice{
     max-width: 1253px;
     overflow-x: hidden;
     width: 100%;
 }
-.slider-list-crash{
+.slider-list-crash,
+.slider-list-dice{
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-.slider-list-crash li{
+.slider-list-crash li,
+.slider-list-dice li{
     margin-right: 10px;
     border-radius: 8px;
     height: 46px;
     font-size: 17px;
     color: #ffffff;
 }
-.slider-list-crash li:last-child{
+.slider-list-crash li:last-child,
+.slider-list-dice li:last-child{
     margin-right: 0;
 }
-.container-history-block-crash{
+.container-history-block-crash,
+.container-history-block-dice{
     width: 89px;
     display: flex;
-    height: 40px;
+    height: 46px;
     align-items: center;
     justify-content: center;
     background-color: #8ac53c;
-    -webkit-box-shadow: 0px 5px 0px 0px rgba(112,162,47,1);
-    -moz-box-shadow: 0px 5px 0px 0px rgba(112,162,47,1);
-    box-shadow: 0px 5px 0px 0px rgba(112,162,47,1);
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(112,162,47,1);
+    box-shadow:inset 0px -5px 0px 0px rgba(112,162,47,1);
     border-radius: 8px;
 }
-.rose-history-crash{
+.container-history-block-dice{
+   width: 114px;
+}
+.rose-history-crash,
+.rose-history-dice{
     background-color: #ea6375;
-    -webkit-box-shadow: 0px 5px 0px 0px rgba(193,69,85,1);
-    -moz-box-shadow: 0px 5px 0px 0px rgba(193,69,85,1);
-    box-shadow: 0px 5px 0px 0px rgba(193,69,85,1);
+    -webkit-box-shadow: inset 0px -5px 0px 0px rgba(193,69,85,1);
+    -moz-box-shadow: inset 0px -5px 0px 0px rgba(193,69,85,1);
+    box-shadow: inset 0px -5px 0px 0px rgba(193,69,85,1);
+}
+.dice-slider-span{
+    padding-left: 30px;
+    position: relative;
+}
+.dice-slider-span:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+.down-arrow-dice:before{
+    background-image: url("../../images/arrow-down.png");
+}
+.up-arrow-dice:before{
+    background-image: url("../../images/arrow-up.png");
 }
 /*-----------------jackpot--------------*/
 
