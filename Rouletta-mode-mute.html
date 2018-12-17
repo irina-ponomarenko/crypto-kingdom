@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Roulette landing</title>
+    <title>Roulette mode mute</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="./styles/css/style.css" rel="stylesheet"/>
     <link href="./styles/css/games.css" rel="stylesheet"/>
@@ -600,18 +600,22 @@
 <div class="pop_up user-pop-up" id="fade">
     <div class="title-pop-up header-admin">
         <div class="block-pop-header">
-            <div class="block-avatar-role role-red">
-                <span>admin</span>
+            <div class="block-avatar-role role-orange">
+                <span>MOD</span>
             </div>
         </div>
-        <h2>Ban, Beasty</h2>
+        <h2>Mute, Beasty</h2>
         <button type="button" class="img-dismiss-pop-up fade_close rules-button"></button>
         <p>This is a non reversable action.</p>
     </div>
     <form class="account-create">
         <ul class="pop-up-block-admin">
+            <li class="input-check-li">
+                <input type="text"  class="input-check" value="10">
+                <input type="text"  class="input-check" value="Minutes">
+            </li>
             <li>
-                <input type="radio" id="test1" name="radio-group" class="radio-check position-1">
+                <input type="radio" id="test1" name="radio-group" class="radio-check position-1" checked>
                 <label for="test1" class="admin-span">Spamming</label>
             </li>
             <li>
@@ -627,7 +631,7 @@
                 <label for="test4" class="admin-span">Other</label>
             </li>
         </ul>
-        <button type="button" class="admin-btn">Ban User</button>
+        <button type="button" class="admin-btn">Mute User</button>
     </form>
 </div>
 

@@ -460,31 +460,29 @@
     </section>
 </div>
 
-<div class="pop_up create-account chat-rules-pop-up" id="fade">
+<div class="pop_up" id="fade">
     <div class="title-pop-up">
-        <h2>FAUCET</h2>
+        <h2>Faucet</h2>
+        <p>You have claimed your faucet.</p>
         <button type="button" class="img-dismiss-pop-up fade_close rules-button"></button>
     </div>
 
     <form class="account-create">
         <ul class="faucet-list">
-            <li class="ellipsis-wrapper congratulation">
-                <div class="item html">
-                    <h5>0</h5>
-                    <svg width="123" height="123" xmlns="http://www.w3.org/2000/svg">
-                        <g>
-                            <title>Layer 1</title>
-                            <circle id="circle" class="circle_animation" r="49.85699" cy="81" cx="81" stroke-width="4" stroke="#6fdb6f" fill="none"/>
-                        </g>
-                    </svg>
-                </div>
-                <p class="congratulation-info">Seconds left until the Faucet
-                    is available again. Please be patient.</p>
+            <li class="ellipsis-wrapper waiting-text">
+                <h2>WAITING...</h2>
+            </li>
+            <li class="block-claim-info">
+                <p class="congratulation-info">You have recently claimed your faucet,
+                    and is currenty unavailable.</p>
+            </li>
+            <li>
+                <button type="button" class="claim-dismiss">Dismiss Message</button>
             </li>
         </ul>
     </form>
     <div class="footer-pop-up">
-        <p>Disclaimer: Faucet abuse will result in a ban.</p>
+        <p>Abuse to the facet, can result in a ban.</p>
     </div>
 </div>
 <script src="js/jquery-3.2.1.js"></script>
