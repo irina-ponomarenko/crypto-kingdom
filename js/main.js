@@ -214,4 +214,10 @@ $(document).ready(function () {
         });
 
     });
+    setTimeout(function () {
+        $(".update-tools").toggleClass("open-update");
+    }, 3000);
+    setTimeout(function () {
+        $(".error-tools").toggleClass("open-update");
+    }, 5000);
 });

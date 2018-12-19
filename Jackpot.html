@@ -558,25 +558,72 @@
     </section>
 </div>
 
-<div class="pop_up create-account chat-rules-pop-up bet-pop-up" id="fade">
+<div class="pop_up provably-popup" id="fade">
+    <div class="popup-top-block">
+        <span>PROVABLY FAIR</span>
+    </div>
     <div class="title-pop-up">
-        <h2>JACKPOT DEPOSIT</h2>
+        <h2>Jackpot</h2>
+        <p class="provably-text-info">Our Provably Fair system ensures all users
+            that we are not able to manipulate the
+            outcome of any result. This gives you the
+            power to determine the outcome of your
+            own bets and furthermore verify these
+            results were truly fair. Fairness information
+            can be found below. Happy Betting.</p>
         <button type="button" class="img-dismiss-pop-up fade_close rules-button"></button>
     </div>
-    <p class="bet-info">In order to join this current Jackpot,
-        Please enter your desired deposit value
-        below by using the slider, or fill in the box.</p>
-    <h3>Deposit Value</h3>
-    <form class="place-bet">
-        <span class="corona-img-input"></span>
-        <input type="text" class="crowns-input" value="1,034" />
-        <span class="crown-span">CROWNS</span>
+    <form class="account-create">
+        <ul class="list-provably">
+            <li>
+                <button type="button" class="provably-btn-popup change-btn">Change Seeds</button>
+            </li>
+            <li class="client-item">
+                <input type="text" id="provably_1" class="provably-input" placeholder="New client seed..."/>
+                <label for="provably_1" class="provably-label">Client Seed</label>
+                <button type="button" class="copy-btn"></button>
+            </li>
+            <li>
+                <button type="button" class="provably-btn-popup rotate-btn">Rotate Server Seeds</button>
+            </li>
+        </ul>
+        <button type="button" class="claim-dismiss provably-dismiss">Dismiss</button>
     </form>
-    <div class="slider-progress">
-        <a class="ui-slider-handle" href="#"></a>
-        <input id="place" name="place" type="hidden" />
+</div>
+
+<div class="pop_up provably-popup" id="fade_fair">
+    <div class="popup-top-block">
+        <span>PROVABLY FAIR</span>
     </div>
-    <button type="button" class="place-bet-btn">PLACE BET</button>
+    <div class="title-pop-up">
+        <h2>Jackpot</h2>
+        <p class="provably-text-info">Our Provably Fair system ensures all users
+            that we are not able to manipulate the
+            outcome of any result. This gives you the
+            power to determine the outcome of your
+            own bets and furthermore verify these
+            results were truly fair. Fairness information
+            can be found below. Happy Betting.</p>
+        <button type="button" class="img-dismiss-pop-up fade_fair_close rules-button"></button>
+    </div>
+    <form class="account-create">
+        <ul class="list-provably">
+            <li>
+                <button type="button" class="provably-btn-popup change-btn disabled-btn">Change Seeds</button>
+            </li>
+            <li class="client-item client-seed">
+                <input type="text" id="provably_2" class="provably-input" placeholder="New client seed..." value="9407b5bc2af57329407b5bc2af5732"/>
+                <label for="provably_2" class="provably-label">Client Seed</label>
+                <button type="button" class="copy-btn"></button>
+            </li>
+            <li class="client-item server-seed">
+                <input type="text" id="provably_3" class="provably-input" placeholder="New client seed..." value="9407b5bc2af57329407b5bc2af5732"/>
+                <label for="provably_3" class="provably-label">Server Seed</label>
+                <button type="button" class="copy-btn"></button>
+            </li>
+        </ul>
+        <button type="button" class="claim-dismiss provably-dismiss">Verify Game Seeds</button>
+    </form>
 </div>
 
 <script src="js/jquery-3.2.1.js"></script>

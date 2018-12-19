@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Term of service</title>
+    <title>Provably fair</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="./styles/css/style.css" rel="stylesheet"/>
     <link href="./styles/css/games.css" rel="stylesheet"/>
@@ -18,7 +18,7 @@
         <div class="top-navigation">
             <ul class="navigation-top-left">
                 <li>
-                    <a href="">Faucet</a>
+                    <a href="" class="active-nav">Faucet</a>
                 </li>
                 <li>
                     <a href="">Fairness</a>
@@ -31,9 +31,6 @@
                 </li>
                 <li>
                     <a href="">F.A.Q</a>
-                </li>
-                <li>
-                    <a href="" class="active-nav">Terms of Service</a>
                 </li>
             </ul>
             <div class="navigation-top-right">
@@ -310,50 +307,42 @@
             <div class="header-account">
                 <ul class="nav-account">
                     <li>
-                        <a href="" class="active">Terms of Service</a>
-                    </li>
-                    <li>
-                        <a href="">F.A.Q</a>
+                        <a href="" class="active">Provably Fair</a>
                     </li>
                 </ul>
-                <button type="button" class="last-update-btn">Last Updated, Wed 7th Nov, 00:10</button>
             </div>
             <div class="container-info-content">
                 <div class="wrapper-account-info">
                     <ul class="faq-list">
                         <li class="faq-item">
-                            <h2 class="faq-title">Terms of Service</h2>
-                            <p class="faq-text">These terms of service are entered into by and between You and OT Holdings LTD.
-                                By using csgoempire.com, you are agreeing with those Terms of Service and you are responsible for compliance with any applicable local laws.
-                                We reserve the right to ban or limit any users who break the Terms of Services. If you don't agree with these Terms of Service, you are not allowed
-                                to use csgoempire.com. You must be at least 18 years old to play on <a href="">csgoempire.com</a>.</p>
+                            <h2 class="faq-title">Our System</h2>
+                            <p class="faq-text">Our Provably Fair system ensures all users that we are not able to manipulate the outcome of any result. This gives you the
+                                power to determine the outcome of your own bets and furthermore verify these results were truly fair. Fairness information
+                                can be found below. Happy Betting.</p>
                         </li>
                         <li class="faq-item">
-                            <h2 class="faq-title">Your Account</h2>
-                            <p class="faq-text">Your account is automatically created the first time you log in to csgoempire.com through Steam.
-                                Your "coins" are linked to your Steam account and if your Steam account is stolen and "coins" are lost, we will not be held responsible.
-                                You are not allowed to bet on csgoempire.com with more than 1 account at a time.</p>
+                            <h2 class="faq-title">Verify Your Games</h2>
+                            <p class="faq-text">Please enter your client and server seed in the fields below and click “Verify Game” to make sure the outcomes of all your
+                                games are 100% accurate and have not been manipulated in any way. Any issues, please contact our support team directly.</p>
                         </li>
-                        <li class="faq-item">
-                            <h2 class="faq-title">Item Prices</h2>
-                            <p class="faq-text">Item values are constantly fluctuating and they may be updated at any time without any warning or notice.
-                            </p>
-                        </li>
-                        <li class="faq-item">
-                            <h2 class="faq-title">Terms of Service</h2>
-                            <p class="faq-text">These terms of service are entered into by and between You and OT Holdings LTD.
-                                By using csgoempire.com, you are agreeing with those Terms of Service and you are responsible for compliance with any applicable local laws.
-                                We reserve the right to ban or limit any users who break the Terms of Services. If you don't agree with these Terms of Service, you are not allowed
-                                to use csgoempire.com. You must be at least 18 years old to play on csgoempire.com.</p>
-                        </li>
-                        <li class="faq-item">
-                            <h2 class="faq-title">Your Account</h2>
-                            <p class="faq-text">Your account is automatically created the first time you log in to csgoempire.com through Steam.
-                                Your "coins" are linked to your Steam account and if your Steam account is stolen and "coins" are lost, we will not be held responsible.
-                                You are not allowed to bet on csgoempire.com with more than 1 account at a time.</p>
-                        </li>
-
                     </ul>
+                    <form class="container-list-item-provably">
+                        <ul class="provably-list">
+                            <li class="provably-item">
+                                <label for="fair_1">Client Seed</label>
+                                <input type="text" id="fair_1" placeholder="" value="29eu9su92js09w890w10s01s1s1s1s"/>
+                            </li>
+                            <li class="provably-item">
+                                <label for="fair_2">Server Seed</label>
+                                <input type="text" id="fair_2" placeholder="" value="9jsj0s20s9220e28ye7g348rj9d83h7dg"/>
+                            </li>
+                            <li class="provably-item">
+                                <label for="fair_3">Result</label>
+                                <input type="text" id="fair_3" placeholder="" value="TBD"/>
+                            </li>
+                        </ul>
+                        <button type="button" class="claim-dismiss provably-dismiss verify-seeds">Verify Seeds</button>
+                    </form>
                 </div>
             </div>
         </div>

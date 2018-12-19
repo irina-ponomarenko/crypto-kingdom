@@ -588,41 +588,72 @@
     </section>
 </div>
 
-<div class="pop_up create-account chat-rules-pop-up" id="fade">
+<div class="pop_up provably-popup" id="fade">
+    <div class="popup-top-block">
+        <span>PROVABLY FAIR</span>
+    </div>
     <div class="title-pop-up">
-        <h2>CHAT RULES</h2>
+        <h2>Crash</h2>
+        <p class="provably-text-info">Our Provably Fair system ensures all users
+            that we are not able to manipulate the
+            outcome of any result. This gives you the
+            power to determine the outcome of your
+            own bets and furthermore verify these
+            results were truly fair. Fairness information
+            can be found below. Happy Betting.</p>
         <button type="button" class="img-dismiss-pop-up fade_close rules-button"></button>
     </div>
-    <p>By clicking below, you agree to our TOS</p>
     <form class="account-create">
-        <button type="submit" class="submit submit-rules">CLICK HERE TO AGREE</button>
-        <button type="submit" class="submit accept">ACCEPTED CHAT RULES</button>
-        <ul class="pop-up-block account-block rules-list">
+        <ul class="list-provably">
             <li>
-                <input type="text" id="rule_1" placeholder="Rule 1"/>
-                <label for="rule_1">First chat rule goes here</label>
+                <button type="button" class="provably-btn-popup change-btn">Change Seeds</button>
+            </li>
+            <li class="client-item">
+                <input type="text" id="provably_1" class="provably-input" placeholder="New client seed..."/>
+                <label for="provably_1" class="provably-label">Client Seed</label>
+                <button type="button" class="copy-btn"></button>
             </li>
             <li>
-                <input type="text" id="rule_2" placeholder="Rule 2"/>
-                <label for="rule_2">Second chat rule goes here</label>
-            </li>
-            <li>
-                <input type="text" id="rule_3" placeholder="Rule 3"/>
-                <label for="rule_3">Third chat rule goes hered</label>
-            </li>
-            <li>
-                <input type="text" id="rule_4" placeholder="Rule 4"/>
-                <label for="rule_4">Forth chat rule goes here</label>
-            </li>
-            <li>
-                <input type="text" id="rule_5" placeholder="Rule 5"/>
-                <label for="rule_5">Fifth chat rule goes here</label>
+                <button type="button" class="provably-btn-popup rotate-btn">Rotate Server Seeds</button>
             </li>
         </ul>
+        <button type="button" class="claim-dismiss provably-dismiss">Dismiss</button>
     </form>
-    <p class="rules-info">If you do NOT abide by the following rules, we will
-        take action where needed. Sometimes resulting in
-        a permanent mute / ban.</p>
+</div>
+
+<div class="pop_up provably-popup" id="fade_fair">
+    <div class="popup-top-block">
+        <span>PROVABLY FAIR</span>
+    </div>
+    <div class="title-pop-up">
+        <h2>Crash</h2>
+        <p class="provably-text-info">Our Provably Fair system ensures all users
+            that we are not able to manipulate the
+            outcome of any result. This gives you the
+            power to determine the outcome of your
+            own bets and furthermore verify these
+            results were truly fair. Fairness information
+            can be found below. Happy Betting.</p>
+        <button type="button" class="img-dismiss-pop-up fade_fair_close rules-button"></button>
+    </div>
+    <form class="account-create">
+        <ul class="list-provably">
+            <li>
+                <button type="button" class="provably-btn-popup change-btn disabled-btn">Change Seeds</button>
+            </li>
+            <li class="client-item client-seed">
+                <input type="text" id="provably_2" class="provably-input" placeholder="New client seed..." value="9407b5bc2af57329407b5bc2af5732"/>
+                <label for="provably_2" class="provably-label">Client Seed</label>
+                <button type="button" class="copy-btn"></button>
+            </li>
+            <li class="client-item server-seed">
+                <input type="text" id="provably_3" class="provably-input" placeholder="New client seed..." value="9407b5bc2af57329407b5bc2af5732"/>
+                <label for="provably_3" class="provably-label">Server Seed</label>
+                <button type="button" class="copy-btn"></button>
+            </li>
+        </ul>
+        <button type="button" class="claim-dismiss provably-dismiss">Verify Game Seeds</button>
+    </form>
 </div>
 
 <script src="js/jquery-3.2.1.js"></script>

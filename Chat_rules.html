@@ -32,9 +32,6 @@
                 <li>
                     <a href="">F.A.Q</a>
                 </li>
-                <li>
-                    <a href="">Terms of Service</a>
-                </li>
             </ul>
             <div class="navigation-top-right">
                 <ul class="social-navigation">
@@ -69,7 +66,7 @@
                     </div>
                     <ul class="nav-bottom">
                         <li class="roulette">
-                            <a href="">
+                            <a href="" class="active-roulette">
                                 ROULETTE
                             </a>
                         </li>
@@ -88,30 +85,35 @@
                                 BLACKJACK
                             </a>
                         </li>
+                        <li class="jackpot">
+                            <a href="">
+                                JACKPOT
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="nav-bottom-left">
                     <ul class="nav-left">
                         <li class="buttons">
                             <button type="button" class="withdraw">Withdraw</button>
-                            <button type="button">Deposit</button>
+                            <button type="button" class="active-top-header-btn">Deposit</button>
                         </li>
                     </ul>
                     <div class="profile-left-wrapper">
                         <div class="profile-left">
-                            <p>Long Username (BTC)</p>
-                            <span>32.3432000</span>
+                            <p>Long Username</p>
+                            <span>32.3432000 <span>BTC</span></span>
                         </div>
                         <i class="fa fa-chevron-down" id="click_dropdown" aria-hidden="true"></i>
+                        <ul class="dropdown-profile">
+                            <li class="info-profile">
+                                <a href="">Your information</a>
+                            </li>
+                            <li class="info-profile">
+                                <a href="">Your information</a>
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="dropdown-profile">
-                        <li class="info-profile">
-                            <a href="">Your information</a>
-                        </li>
-                        <li class="info-profile">
-                            <a href="">Your information</a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -125,41 +127,130 @@
                 </div>
                 <i class="fa fa-chevron-left click-menu" aria-hidden="true"></i>
             </div>
-            <div class="chat-block first-chat">
-                <div class="avatar">
-                    <img src="images/avatar-1.png" alt="avatar-profile"/>
-                </div>
-                <div class="profile-info">
-                    <div class="profile-header">
-                        <h2>Beasty</h2>
-                        <p>User message will be shown.</p>
+            <div class="wrapper-chat-block">
+                <div class="chat-block first-chat">
+                    <div class="avatar">
+                        <img src="images/avatar-1.png"  alt="avatar-profile"/>
                     </div>
-                    <span>16:47</span>
-                </div>
-            </div>
-            <div class="chat-block">
-                <div class="avatar color-avatar-green">
-                    <h2>R</h2>
-                </div>
-                <div class="profile-info">
-                    <div class="profile-header">
-                        <h2>Reepzey</h2>
-                        <p>User message will be shown.</p>
+                    <div class="profile-info">
+                        <div class="profile-header">
+                            <div class="wrapper-title-avatar">
+                                <div class="block-avatar-role role-red">
+                                    <span>admin</span>
+                                </div>
+                                <h2>Reepzey</h2>
+                            </div>
+                            <p>Fresh new layout, by yours truly :)</p>
+                        </div>
                     </div>
-                    <span>16:45</span>
                 </div>
-            </div>
-            <div class="chat-block">
-                <div class="avatar color-avatar-violet">
-                    <h2>SE</h2>
-                </div>
-                <div class="profile-info">
-                    <div class="profile-header">
-                        <h2>StunEmpire</h2>
-                        <p>User message will be shown here
-                            across multiple lines.</p>
+                <div class="chat-block">
+                    <div class="avatar">
+                        <img src="images/avatar-1.png"  alt="avatar-profile"/>
                     </div>
-                    <span>16:45</span>
+                    <div class="profile-info">
+                        <div class="profile-header">
+                            <div class="wrapper-title-avatar">
+                                <h2>Beasty</h2>
+                            </div>
+                            <p>I’m not here a lot, hence why I
+                                have no level or rank.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-block">
+                    <div class="avatar">
+                        <img src="images/avatar-1.png"  alt="avatar-profile"/>
+                    </div>
+                    <div class="profile-info">
+                        <div class="profile-header">
+                            <div class="wrapper-title-avatar">
+                                <div class="block-avatar-role role-orange">
+                                    <span>MOD</span>
+                                </div>
+                                <h2>Bas_vg</h2>
+                            </div>
+                            <p>Don’t spam kids</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-block">
+                    <div class="avatar">
+                        <img src="images/avatar-1.png"  alt="avatar-profile"/>
+                    </div>
+                    <div class="profile-info">
+                        <div class="profile-header">
+                            <div class="wrapper-title-avatar">
+                                <div class="block-avatar-role role-blue">
+                                    <span>51</span>
+                                </div>
+                                <h2>Gilad</h2>
+                            </div>
+                            <p>Big pots bois!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-block">
+                    <div class="avatar">
+                        <img src="images/avatar-1.png"  alt="avatar-profile"/>
+                    </div>
+                    <div class="profile-info">
+                        <div class="profile-header">
+                            <div class="wrapper-title-avatar">
+                                <div class="block-avatar-role role-red">
+                                    <span>admin</span>
+                                </div>
+                                <h2>Reepzey</h2>
+                            </div>
+                            <p>Fresh new layout, by yours truly :)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-block">
+                    <div class="avatar">
+                        <img src="images/avatar-1.png"  alt="avatar-profile"/>
+                    </div>
+                    <div class="profile-info">
+                        <div class="profile-header">
+                            <div class="wrapper-title-avatar">
+                                <h2>Beasty</h2>
+                            </div>
+                            <p>I’m not here a lot, hence why I
+                                have no level or rank.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-block">
+                    <div class="avatar">
+                        <img src="images/avatar-1.png"  alt="avatar-profile"/>
+                    </div>
+                    <div class="profile-info">
+                        <div class="profile-header">
+                            <div class="wrapper-title-avatar">
+                                <div class="block-avatar-role role-orange">
+                                    <span>MOD</span>
+                                </div>
+                                <h2>Bas_vg</h2>
+                            </div>
+                            <p>Don’t spam kids</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-block">
+                    <div class="avatar">
+                        <img src="images/avatar-1.png"  alt="avatar-profile"/>
+                    </div>
+                    <div class="profile-info">
+                        <div class="profile-header">
+                            <div class="wrapper-title-avatar">
+                                <div class="block-avatar-role role-blue">
+                                    <span>51</span>
+                                </div>
+                                <h2>Gilad</h2>
+                            </div>
+                            <p>Big pots bois!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="wrapper-left-block left-block-bottom">
@@ -168,8 +259,8 @@
                     <button type="button">Send</button>
                 </div>
                 <div class="left-block last-child">
-                    <a class="fade_open">Chat Rules</a>
-                    <a class="accept_open">All Rights Reserved.</a>
+                    <a>Chat Rules</a>
+                    <a>All Rights Reserved.</a>
                 </div>
             </div>
         </div>
@@ -178,134 +269,327 @@
                 <i class="fa fa-chevron-right click-hide" aria-hidden="true"></i>
             </div>
         </div>
-        <div class="account">
-            <div class="wrapper-account-info width-deposit">
+        <div class="account account-position">
+            <div class="header-account shadow-right">
                 <ul class="nav-account">
                     <li>
-                        <a href="">DEPOSIT</a>
-                    </li>
-                    <li>
-                        <a href="" class="active">WITHDRAWAL</a>
-                    </li>
-                    <li>
-                        <a href="">HISTORY</a>
+                        <a href="" class="active">Roulette</a>
                     </li>
                 </ul>
-                <div class="wrapper-notifications">
-                    <div class="category">
-                        <div class="bitcoin-wrapper">
-                            <div class="bitcoin-block">
-                                <div class="img-bitcoin"></div>
-                                <div class="dropdown-bitcoin">
-                                    <p>BTC</p>
-                                    <i class="fa fa-chevron-down click-bitcoin"></i>
-                                </div>
-                                <div class="dropdown-bitcoin-block">
-                                    <p>Your information</p>
-                                </div>
+                <div class="container-game-header">
+                    <div class="container-list-game">
+                        <ul class="list-game-rouletta">
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator long-indicators"></li>
+                            <li class="indicator long-indicators"></li>
+                            <li class="indicator long-indicators"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator long-indicators"></li>
+                            <li class="indicator long-indicators"></li>
+                            <li class="indicator long-indicators"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator rouse-color"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                            <li class="indicator"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-info-content">
+                <div class="wrapper-games jackpot-game-wrapper">
+                    <div class="wheel-roulette-container">
+                        <div class="wrapper-progress">
+                            <div id="demo-pie-1" class="pie-title-center" data-percent="15.89"> <span class="pie-value"></span></div>
+                        </div>
+                        <div class="wrapper-spiner">
+                            <img src="images/spinner-roulette.png" alt="rouletta"/>
+                        </div>
+                    </div>
+                    <div class="variables dice-position roulette-top">
+                        <div class="crash-input">
+                            <div class="crash-input-container">
+                                <input type="text" class="crash-input-block" value="+5"/>
+                                <input type="text" class="crash-input-block" value="+105"/>
+                                <input type="text" class="crash-input-block" value="+25"/>
                             </div>
-                            <div class="right-bitcoin-info">
-                                <h2>BTC DEPOSIT / WITHDRAW HISTORY</h2>
-                                <p>All records shown below are the times in which you have either
-                                    deposited or deposited to CryptoKingdom using the currency of
-                                    Bitcoin (BTC). For alternative currency deposits, please change the
-                                    selected currency to the left.</p>
+                            <div class="crash-input-container">
+                                <input type="text" class="crash-input-block" value="+50"/>
+                                <input type="text" class="crash-input-block" value="+100"/>
+                                <input type="text" class="crash-input-block" value="+250"/>
+                            </div>
+                            <div class="crash-input-container">
+                                <input type="text" class="crash-input-block" value="+1k"/>
+                                <input type="text" class="crash-input-block big-block" value="Clear Bet"/>
                             </div>
                         </div>
-                        <div class="wrapper-history-info">
-                            <div class="history-info">
-                                <div class="history">
-                                    <div class="course">
-                                        <div class="img-history"></div>
-                                        <h2 class="bitcoin-title">32.3432000 (BTC)</h2>
-                                    </div>
-                                    <div class="info-course">
-                                        <p>01:21, Sunday 6th May 2018</p>
-                                        <div class="type-deposit">
-                                            <p>Type: <span>Deposit</span></p>
-                                            <a href="">
-                                                <i class="fa fa-external-link" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="history">
-                                    <div class="course">
-                                        <div class="img-history"></div>
-                                        <h2 class="bitcoin-title">32.3432000 (BTC)</h2>
-                                    </div>
-                                    <div class="info-course">
-                                        <p>01:21, Sunday 6th May 2018</p>
-                                        <div class="type-deposit">
-                                            <p>Type: <span>Deposit</span></p>
-                                            <a href="">
-                                                <i class="fa fa-external-link" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="history">
-                                    <div class="course">
-                                        <div class="img-history"></div>
-                                        <h2 class="bitcoin-title">32.3432000 (BTC)</h2>
-                                    </div>
-                                    <div class="info-course">
-                                        <p>01:21, Sunday 6th May 2018</p>
-                                        <div class="type-deposit">
-                                            <p>Type: <span>Deposit</span></p>
-                                            <a href="">
-                                                <i class="fa fa-external-link" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="history">
-                                    <div class="course">
-                                        <div class="img-history"></div>
-                                        <h2 class="bitcoin-title">32.3432000 (BTC)</h2>
-                                    </div>
-                                    <div class="info-course">
-                                        <p>01:21, Sunday 6th May 2018</p>
-                                        <div class="type-deposit">
-                                            <p>Type: <span>Deposit</span></p>
-                                            <a href="">
-                                                <i class="fa fa-external-link" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="history">
-                                    <div class="course">
-                                        <div class="img-history"></div>
-                                        <h2 class="bitcoin-title">32.3432000 (BTC)</h2>
-                                    </div>
-                                    <div class="info-course">
-                                        <p>01:21, Sunday 6th May 2018</p>
-                                        <div class="type-deposit">
-                                            <p>Type: <span>Deposit</span></p>
-                                            <a href="">
-                                                <i class="fa fa-external-link" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="history">
-                                    <div class="course">
-                                        <div class="img-history"></div>
-                                        <h2 class="bitcoin-title">32.3432000 (BTC)</h2>
-                                    </div>
-                                    <div class="info-course">
-                                        <p>01:21, Sunday 6th May 2018</p>
-                                        <div class="type-deposit">
-                                            <p>Type: <span>Deposit</span></p>
-                                            <a href="">
-                                                <i class="fa fa-external-link" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="crash-input-block-long dice-longe-input roulette-margin">
+                            <input type="text" class="input-block-long" placeholder="Enter bet amount..."/>
                         </div>
+                    </div>
+                    <div class="variables roulette-position">
+                        <button type="button" class="roulette-play-btn red-btn-roulette">Red 2x</button>
+                        <button type="button" class="roulette-play-btn black-btn-roulette">Black 2x</button>
+                        <button type="button" class="roulette-play-btn green-btn-roulette">Green 14x</button>
+                        <button type="button" class="roulette-play-btn place-bet-roulette">Place Bet</button>
+                        <button type="button" class="roulette-play-btn provably-fair-dice-btn  disabled-btn">Provably Fair</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-block-tabs shadow-container">
+                <div class="content-tab-table tabs">
+                    <ul class="tabs__caption buttons-dice">
+                        <li class="buttons-tabs active-btn left-float">Personal Bets</li>
+                        <li class="buttons-tabs right-float">High Rollers</li>
+                        <li class="buttons-tabs right-float">All Bets</li>
+                    </ul>
+                    <div class="tabs__content active-btn">
+                        <table class="history-dice">
+                            <thead>
+                            <tr>
+                                <th class="title-history">Gamemode</th>
+                                <th class="title-history">Time</th>
+                                <th class="title-history">Bet</th>
+                                <th class="title-history">Payout</th>
+                                <th class="title-history">Profit</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th class="content-history">
+                                    <div class="result result-title-dice">
+                                        <p class="title-game-table dice-title">Dice</p>
+                                    </div>
+                                </th>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">Mon, 01:59</p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">2.4329990 <span>BTC</span></p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">14.54 <span>x</span></p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table green-text">35.37580546 <span>BTC</span></p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="content-history">
+                                    <div class="result result-title-dice">
+                                        <p class="title-game-table roulette-title">Roulette</p>
+                                    </div>
+                                </th>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">Mon, 01:59</p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">2.4329990 <span>BTC</span></p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">14.54 <span>x</span></p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table green-text">35.37580546 <span>BTC</span></p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="content-history">
+                                    <div class="result result-title-dice">
+                                        <p class="title-game-table crash-title">Crash</p>
+                                    </div>
+                                </th>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">Mon, 01:59</p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">2.4329990 <span>BTC</span></p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">14.54 <span>x</span></p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table green-text">35.37580546 <span>BTC</span></p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="content-history">
+                                    <div class="result result-title-dice">
+                                        <p class="title-game-table blackjack-title">Blackjack</p>
+                                    </div>
+                                </th>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">Mon, 01:59</p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">2.4329990 <span>BTC</span></p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">14.54 <span>x</span></p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table green-text">35.37580546 <span>BTC</span></p>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tabs__content">
+                        <table class="history-dice">
+                            <thead>
+                            <tr>
+                                <th class="title-history">Gamemode</th>
+                                <th class="title-history">Time</th>
+                                <th class="title-history">Bet</th>
+                                <th class="title-history">Payout</th>
+                                <th class="title-history">Profit</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th class="content-history">
+                                    <div class="result result-title-dice">
+                                        <p class="title-game-table dice-title">Dice</p>
+                                    </div>
+                                </th>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">Mon, 01:59</p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">2.4329990 <span>BTC</span></p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">14.54 <span>x</span></p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table green-text">35.37580546 <span>BTC</span></p>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tabs__content">
+                        <table class="history-dice">
+                            <thead>
+                            <tr>
+                                <th class="title-history">Gamemode</th>
+                                <th class="title-history">Time</th>
+                                <th class="title-history">Bet</th>
+                                <th class="title-history">Payout</th>
+                                <th class="title-history">Profit</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th class="content-history">
+                                    <div class="result result-title-dice">
+                                        <p class="title-game-table dice-title">Dice</p>
+                                    </div>
+                                </th>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">Mon, 01:59</p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">2.4329990 <span>BTC</span></p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table">14.54 <span>x</span></p>
+                                    </div>
+                                </td>
+                                <td class="content-history">
+                                    <div class="result">
+                                        <p class="title-game-table green-text">35.37580546 <span>BTC</span></p>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -313,41 +597,39 @@
     </section>
 </div>
 
-<div class="pop_up create-account chat-rules-pop-up" id="fade">
+<div class="pop_up " id="fade">
     <div class="title-pop-up">
-        <h2>CHAT RULES</h2>
+        <h2>Chat Rules</h2>
+        <p class="rules-info-text">By playing on CryptoKingdom, you
+            automatically agree to the following
+            rules which are listed below;</p>
         <button type="button" class="img-dismiss-pop-up fade_close rules-button"></button>
     </div>
-    <p>By clicking below, you agree to our TOS</p>
     <form class="account-create">
-        <button type="submit" class="submit submit-rules">CLICK HERE TO AGREE</button>
-        <button type="submit" class="submit accept">ACCEPTED CHAT RULES</button>
         <ul class="pop-up-block account-block rules-list">
             <li>
-                <input type="text" id="rule_1" placeholder="Rule 1"/>
-                <label for="rule_1">First chat rule goes here</label>
+                <input type="text" id="rule_1" placeholder="Rule 1" disabled/>
+                <label for="rule_1">No Swearing</label>
             </li>
             <li>
-                <input type="text" id="rule_2" placeholder="Rule 2"/>
-                <label for="rule_2">Second chat rule goes here</label>
+                <input type="text" id="rule_2" placeholder="Rule 2" disabled/>
+                <label for="rule_2">No Begging</label>
             </li>
             <li>
-                <input type="text" id="rule_3" placeholder="Rule 3"/>
-                <label for="rule_3">Third chat rule goes hered</label>
+                <input type="text" id="rule_3" placeholder="Rule 3" disabled/>
+                <label for="rule_3">Hot girls, send nudes</label>
             </li>
             <li>
-                <input type="text" id="rule_4" placeholder="Rule 4"/>
-                <label for="rule_4">Forth chat rule goes here</label>
+                <input type="text" id="rule_4" placeholder="Rule 4" disabled/>
+                <label for="rule_4">Lupo is high all the time</label>
             </li>
             <li>
-                <input type="text" id="rule_5" placeholder="Rule 5"/>
+                <input type="text" id="rule_5" placeholder="Rule 5" disabled/>
                 <label for="rule_5">Fifth chat rule goes here</label>
             </li>
         </ul>
+        <button type="button" class="claim-dismiss">Dismiss Message</button>
     </form>
-    <p class="rules-info">If you do NOT abide by the following rules, we will
-        take action where needed. Sometimes resulting in
-        a permanent mute / ban.</p>
 </div>
 
 <script src="js/jquery-3.2.1.js"></script>
@@ -358,6 +640,7 @@
 <script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
 <script src="js/jcarousel.responsive.js"></script>
 <script src="js/jquery.jcarousel.min.js"></script>
-<script src="js/main.js"></script>>
+<script src="js/pie-chart.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
