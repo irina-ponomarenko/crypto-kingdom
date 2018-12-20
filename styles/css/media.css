@@ -386,7 +386,6 @@
     }
     .account-create p{
         font-size: 14px;
-        margin-bottom: 15px;
     }
     .games-start ul li h2{
         font-size: 14px;
@@ -400,11 +399,6 @@
     .chat-rules-pop-up p{
         padding: 10px 20px;
         margin: 0;
-        font-size: 14px;
-    }
-    .title-pop-up p {
-        margin-top: 10px;
-        margin-bottom: 10px;
         font-size: 14px;
     }
     .rules-list{
@@ -764,12 +758,6 @@
     .setting-width-change{
         max-width: 635px;
     }
-    .ellipsis-wrapper h2{
-        font-size: 18px;
-    }
-    .ellipsis-wrapper p{
-        max-width: 200px;
-    }
     .g-recaptcha{
         transform:scale(1.00);
         -webkit-transform:scale(1.00);
@@ -782,9 +770,6 @@
         max-width: 302px;
         font-size: 14px;
         margin-bottom: 20px;
-    }
-    .footer-pop-up{
-        padding: 20px 0;
     }
     .footer-pop-up p{
         padding: 0;
@@ -921,7 +906,7 @@
         justify-content: center;
     }
     .container-slider-crash {
-        max-width: 953px;
+        max-width: 753px;
         overflow-x: hidden;
         width: 100%;
     }
