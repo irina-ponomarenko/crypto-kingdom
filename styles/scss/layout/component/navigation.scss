@@ -85,6 +85,7 @@
   img{
     max-width: 226px;
     height: 65px;
+    margin-top: 10px;
   }
 }
 .nav-bottom{
@@ -102,6 +103,9 @@
   a{
     position: relative;
     padding-left: 43px;
+    &:hover{
+      color: $select-color;
+    }
   }
 }
 .roulette a:before{

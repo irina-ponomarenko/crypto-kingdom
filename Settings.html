@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Account</title>
+    <title>Settings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="./styles/css/style.css" rel="stylesheet"/>
     <link href="fonts/roboto%20medium/stylesheet.css" rel="stylesheet"/>
     <link href="fonts/roboto%20regular/stylesheet.css" rel="stylesheet"/>
@@ -54,9 +55,9 @@
             <div class="left-nav-bottom">
                 <div class="nav-right">
                     <div class="logo">
-                        <a href="">
-                            <img src="images/full%20(stroke).png" alt="logo"/>
-                        </a>
+                       <a href="">
+                           <img src="images/full%20(stroke).png" alt="logo"/>
+                       </a>
                     </div>
                     <div class="nav-bottom">
                         <li class="roulette">
@@ -85,7 +86,7 @@
                     <ul class="nav-left">
                         <li class="buttons">
                             <button type="button" class="withdraw">Withdraw</button>
-                            <button type="button" class="deposit">Deposit</button>
+                            <button type="button">Deposit</button>
                         </li>
                     </ul>
                     <div class="profile-left-wrapper">
@@ -151,8 +152,8 @@
                     <button type="button">Send</button>
                 </div>
                 <div class="left-block last-child">
-                        <span>Chat Rules</span>
-                        <p>All Rights Reserved.</p>
+                    <span>Chat Rules</span>
+                    <p>All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -162,120 +163,95 @@
             </div>
         </div>
         <div class="account">
-            <div class="wrapper-account-info">
+            <div class="wrapper-account-info change-width-games">
                 <ul class="nav-account">
                     <li>
-                        <a href="" class="active">ACCOUNT</a>
+                        <a href="">ACCOUNT</a>
                     </li>
                     <li>
-                        <a href="">STATISTICS</a>
+                        <a href="" class="active">STATISTICS</a>
                     </li>
                     <li>
                         <a href="">SETTINGS</a>
                     </li>
                 </ul>
-                <div class="avatar-user">
-                    <div class="img-user"></div>
-                    <div class="info-user">
-                        <h2>Lil Uzi Vert</h2>
-                        <span>Level 24</span>
-                        <div class="wrapper-line-user">
-                            <hr class="line-user"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="email-adress">
-                    <input type="email" placeholder="contact@taylorcara.com"/>
-                    <button type="submit" class="save-change">SAVE CHANGES</button>
-                </div>
-                <div class="wrapper-notifications">
-                    <ul class="category">
-                        <h2>NOTIFICATIONS</h2>
+                <div class="game-wrapper">
+                    <ul class="title-wrapper">
                         <li>
-                            <p>Achievements</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
+                            <h2>TOTAL WAGERED (BTC)</h2>
+                            <p>120.0002000</p>
                         </li>
                         <li>
-                            <p>High Rollers</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
+                            <h2>TOTAL PROFIT (BTC)</h2>
+                            <p>32.32000000</p>
                         </li>
                         <li>
-                            <p>Announcements</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
-                        </li>
-                        <li>
-                            <p>Wager Outcomes</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
-                        </li>
-                        <li>
-                            <p>Sent / Recieved Tips</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
+                            <h2>TOTAL BETS</h2>
+                            <p>1,092</p>
                         </li>
                     </ul>
-                    <ul class="category">
-                        <h2>PRIVACY</h2>
-                        <li>
-                            <p>Hide total profit from public</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
-                        </li>
-                        <li>
-                            <p>Ghost Mode (Make my bets anonymous)</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="balance">
-                    <div class="wrapper-balance-info">
-                        <div class="icon-balance"></div>
-                        <h2>32.3432000 (BTC)</h2>
+                    <div class="games">
+                        <ul>
+                            <li class="dice">
+                                <h2>DICE</h2>
+                                <div class="title-bottom">
+                                    <ul class="stats">
+                                        <li>32</li>
+                                        <li>2</li>
+                                        <li>49</li>
+                                    </ul>
+                                    <p>3.002000000 BTC</p>
+                                </div>
+                            </li>
+                            <li class="roulette-game">
+                                <h2>ROULETTE</h2>
+                                <div class="title-bottom">
+                                    <ul class="stats">
+                                        <li>32</li>
+                                        <li>2</li>
+                                        <li>49</li>
+                                    </ul>
+                                    <p>3.002000000 BTC</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="blackjack-game">
+                                <h2>BLACKJACK</h2>
+                                <div class="title-bottom">
+                                    <ul class="stats">
+                                        <li>32</li>
+                                        <li>2</li>
+                                        <li>49</li>
+                                    </ul>
+                                    <p>3.002000000 BTC</p>
+                                </div>
+                            </li>
+                            <li class="crash-game">
+                                <h2>CRASH</h2>
+                                <div class="title-bottom">
+                                    <ul class="stats">
+                                        <li>32</li>
+                                        <li>2</li>
+                                        <li>49</li>
+                                    </ul>
+                                    <p>3.002000000 BTC</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+
             </div>
             <div class="alert success">
                 <div class="img-block success-img"></div>
                 <p>You have successfully added
-                    32 BTC’s to your Wallet.</p>
+                    32 <b>BTC’s</b> to your <b>Wallet.</b></p>
                 <button type="button" class="img-dismiss success-click"></button>
             </div>
             <div class="alert error">
                 <div class="img-block error-img"></div>
-                <p>You have successfully added
-                    32 BTC’s to your Wallet.</p>
+                <p>Withdraw Error.</p>
                 <button type="button" class="img-dismiss error-click"></button>
             </div>
         </div>

@@ -1,13 +1,15 @@
+.overflow{
+  filter: blur(5px);
+}
 .wrapper-account{
   background: $color-wrapper;
-  max-width: 1920px;
   width: 100%;
-  min-height: 1080px;
   height: auto;
   margin: 0 auto;
   background-image: url("../../images/background-image.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .content{
   display: flex;

@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Account</title>
+    <title>Settings Information</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="./styles/css/style.css" rel="stylesheet"/>
     <link href="fonts/roboto%20medium/stylesheet.css" rel="stylesheet"/>
     <link href="fonts/roboto%20regular/stylesheet.css" rel="stylesheet"/>
@@ -54,9 +55,9 @@
             <div class="left-nav-bottom">
                 <div class="nav-right">
                     <div class="logo">
-                        <a href="">
-                            <img src="images/full%20(stroke).png" alt="logo"/>
-                        </a>
+                       <a href="">
+                           <img src="images/full%20(stroke).png" alt="logo"/>
+                       </a>
                     </div>
                     <div class="nav-bottom">
                         <li class="roulette">
@@ -85,7 +86,7 @@
                     <ul class="nav-left">
                         <li class="buttons">
                             <button type="button" class="withdraw">Withdraw</button>
-                            <button type="button" class="deposit">Deposit</button>
+                            <button type="button">Deposit</button>
                         </li>
                     </ul>
                     <div class="profile-left-wrapper">
@@ -151,8 +152,8 @@
                     <button type="button">Send</button>
                 </div>
                 <div class="left-block last-child">
-                        <span>Chat Rules</span>
-                        <p>All Rights Reserved.</p>
+                    <span>Chat Rules</span>
+                    <p>All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -162,120 +163,88 @@
             </div>
         </div>
         <div class="account">
-            <div class="wrapper-account-info">
+            <div class="wrapper-account-info change-width">
                 <ul class="nav-account">
                     <li>
-                        <a href="" class="active">ACCOUNT</a>
+                        <a href="">ACCOUNT</a>
                     </li>
                     <li>
                         <a href="">STATISTICS</a>
                     </li>
                     <li>
-                        <a href="">SETTINGS</a>
+                        <a href="" class="active">SETTINGS</a>
                     </li>
                 </ul>
-                <div class="avatar-user">
-                    <div class="img-user"></div>
-                    <div class="info-user">
-                        <h2>Lil Uzi Vert</h2>
-                        <span>Level 24</span>
-                        <div class="wrapper-line-user">
-                            <hr class="line-user"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="email-adress">
-                    <input type="email" placeholder="contact@taylorcara.com"/>
-                    <button type="submit" class="save-change">SAVE CHANGES</button>
-                </div>
-                <div class="wrapper-notifications">
-                    <ul class="category">
-                        <h2>NOTIFICATIONS</h2>
+                <form class="wrapper-notifications">
+                    <ul class="category new-margin">
+                        <h2>PUBLIC INFO</h2>
                         <li>
-                            <p>Achievements</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
-                        </li>
-                        <li>
-                            <p>High Rollers</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
-                        </li>
-                        <li>
-                            <p>Announcements</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
-                        </li>
-                        <li>
-                            <p>Wager Outcomes</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
-                            </div>
-                        </li>
-                        <li>
-                            <p>Sent / Recieved Tips</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
+                            <div class="form-setting">
+                                    <label for="username" class="options-info">Username</label>
+                                <input type="text" id="username" value="beastyreacts"/>
+                                <div class="copy-address">
+                                    <div class="img-clone"></div>
+                                    <a href="">COPY ADDRESS</a>
+                                </div>
                             </div>
                         </li>
                     </ul>
-                    <ul class="category">
-                        <h2>PRIVACY</h2>
+                    <ul class="category new-margin">
+                        <h2>PRIVATE INFO</h2>
                         <li>
-                            <p>Hide total profit from public</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
+                            <div class="form-setting">
+                                <label for="name"  class="options-info">Name</label>
+                                <input type="text" id="name" class="btn-js" value="Optional"/>
+                                <div class="copy-address adress-active">
+                                    <div class="img-clone"></div>
+                                    <a href="">COPY ADDRESS</a>
+                                </div>
                             </div>
                         </li>
                         <li>
-                            <p>Ghost Mode (Make my bets anonymous)</p>
-                            <div class="status-notifications">
-                                <label class="switch">
-                                    <input type="checkbox"/>
-                                    <span class="slider round"></span>
-                                </label>
+                            <div class="form-setting">
+                                <label for="skype"  class="options-info">Skype</label>
+                                <input type="text" id="skype" class="btn-js" value="Optional"/>
+                                <div class="copy-address">
+                                    <div class="img-clone"></div>
+                                    <a href="">COPY ADDRESS</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-setting">
+                                <label for="telegram"  class="options-info">Telegram</label>
+                                <input type="text" id="telegram" class="btn-js" value="Optional"/>
+                                <div class="copy-address">
+                                    <div class="img-clone"></div>
+                                    <a href="">COPY ADDRESS</a>
+                                </div>
                             </div>
                         </li>
                     </ul>
-                </div>
-                <div class="balance">
-                    <div class="wrapper-balance-info">
-                        <div class="icon-balance"></div>
-                        <h2>32.3432000 (BTC)</h2>
-                    </div>
-                </div>
+                </form>
+                <button type="submit" class="save" id="error-save">SAVE CHANGES</button>
             </div>
+            <ul class="sidebar">
+                <li>
+                    <a href="">PASSWORD</a>
+                </li>
+                <li>
+                    <a href="">TWO FACTOR</a>
+                </li>
+                <li>
+                    <a href="" class="active">INFORMATION</a>
+                </li>
+            </ul>
             <div class="alert success">
                 <div class="img-block success-img"></div>
                 <p>You have successfully added
-                    32 BTC’s to your Wallet.</p>
-                <button type="button" class="img-dismiss success-click"></button>
+                    32 <b>BTC’s</b> to your <b>Wallet.</b></p>
+                <button type="button" class="img-dismiss"></button>
             </div>
             <div class="alert error">
-                <div class="img-block error-img"></div>
-                <p>You have successfully added
-                    32 BTC’s to your Wallet.</p>
+                <div class="img-block error-img success-click"></div>
+                <p>Withdraw Error.</p>
                 <button type="button" class="img-dismiss error-click"></button>
             </div>
         </div>

@@ -1,8 +1,8 @@
 .alert{
   background: $select-color;
   border-radius: 5px;
-  position: absolute;
-  right: 20px;
+  position: fixed;
+  right: -430px;
   top: 20px;
   display: flex;
   align-items: center;
@@ -10,10 +10,12 @@
   padding: 23px 31px;
   max-width: 360px;
   width: 100%;
+
   p{
     max-width: 230px;
     width: 100%;
     line-height: 20px;
+    color: black;
   }
 }
 .success{
@@ -21,7 +23,8 @@
 }
 .error{
   border-bottom: 7px solid $background-off;
-  top: 130px;
+  top: 20px;
+  right: -430px;
 }
 .img-block.success-img{
   background-image: url("../../images/success.png");
@@ -53,6 +56,7 @@
   left: 0;
   right: 0;
   top: 377px;
+  display: none;
   h2{
     color: $select-color;
     font-size: 20px;
@@ -69,4 +73,21 @@
   width: 32px;
   height: 32px;
   margin-right: 23px;
+}
+.copy-address{
+  background: $background-nav;
+  display: none;
+  padding: 32px;
+  position: absolute;
+  right: -215px;
+}
+.adress-active{
+  display: flex;
+}
+.img-clone{
+  width: 21px;
+  height: 21px;
+  background-image: url("../../images/clone.png");
+  background-repeat: no-repeat;
+  margin-right: 30px;
 }
